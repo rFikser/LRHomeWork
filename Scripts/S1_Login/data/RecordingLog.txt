@@ -1,0 +1,244 @@
+[API Trapper      (1bac: b7c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( a30:1c18)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (287c:3d24)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (287c:3354)] ------------------------------------------------------------------------------------------
+[Network Analyzer (287c:3354)] Load Network Traffic Analyzers:
+[Network Analyzer (287c:3354)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (287c:3354)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (287c:3354)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (287c:3354)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (287c:3354)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (287c:3354)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (287c:3354)] ------------------------------------------------------------------------------------------
+[Network Analyzer (287c:27b4)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 64.233.165.84:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 87.236.16.9:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 173.194.73.95:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (287c:3e08)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (287c:3e08)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (287c:27a8)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (287c:27a8)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (287c:2678)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (287c:2678)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (287c:27b4)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=90"   
+[Network Analyzer (287c:27b4)]   (Sid:  1) Client -> Server @ : 449 bytes (SSL)(Service=HTTP)
+[Web Request      (287c:27b4)] "POST /styles/?v=4&sv={%22main%22:%22189%22,%22about%22:%221%22,%22data-protection%22:%221%22,%22ads%22:%2212%22,%22jobs%22:%221%22,%22support%22:%221%22,%22biz%22:%221%22,%22apps%22:%225%22,%22bugs%22:%223%22,%22dev%22:%222%22}&adr=4&t=1621693323410&r=582024857496"   
+[Network Analyzer (287c:27b4)]   (Sid:  3) Client -> Server @ : 839 bytes (SSL)(Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid:  1) Server -> Client : 327 bytes (SSL) (Service=HTTP)
+[Network Analyzer (287c:2c7c)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (287c:27b4)]   (Sid:  3) Server -> Client : 437 bytes (SSL) (Service=HTTP)
+[API Trapper      (1a28:421c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      (1168:43ac)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (287c:2c7c)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 64.233.163.188:5228   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (287c:25b0)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 64.233.161.139:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 64.233.162.94:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 64.233.165.94:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:  94)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 64.233.161.194:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 173.194.221.138:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:25b0)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (287c:27b4)] "GET /WebTours/"   
+[Network Analyzer (287c:4154)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (287c:27b4)]   (Sid:  6) Client -> Server @ : 639 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid:  6) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid:  5) Client -> Server @ : 154 bytes (SSL)
+[Network Analyzer (287c:  94)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (287c:4154)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (287c:27b4)]   (Sid:  5) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (287c:27b4)]   (Sid:  5) Server -> Client : 66 bytes (SSL)
+[Web Request      (287c:27b4)] "GET /WebTours/header.html"   
+[Network Analyzer (287c:27b4)]   (Sid:  6) Client -> Server @ : 676 bytes (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (287c:27b4)]   (Sid: 12) Client -> Server @ : 687 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid:  5) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (287c:27b4)]   (Sid:  6) Server -> Client : 1007 bytes  (Service=HTTP)
+[Network Analyzer (287c:266c)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (287c:27b4)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (287c:27b4)]   (Sid:  6) Client -> Server @ : 592 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid:  6) Server -> Client : 898 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 12) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 12) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (287c:422c)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (287c:3848)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (287c:27b4)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (287c:27b4)]   (Sid: 12) Connection Terminated (by Server)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (287c:266c)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (287c:422c)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (287c:3848)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (287c:27b4)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (287c:27b4)]   (Sid: 13) Client -> Server @ : 728 bytes (Service=HTTP)
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (287c:27b4)]   (Sid: 13) Server -> Client : 1747 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /WebTours/home.html"   
+[Network Analyzer (287c:27b4)]   (Sid: 14) Client -> Server @ : 724 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 14) Server -> Client : 1660 bytes  (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (287c:27b4)]   (Sid: 13) Client -> Server @ : 593 bytes (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (287c:27b4)]   (Sid: 14) Client -> Server @ : 624 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 13) Server -> Client : 4486 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 14) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /favicon.ico"   
+[Network Analyzer (287c:27b4)]   (Sid: 14) Client -> Server @ : 593 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 14) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (287c:27b4)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (287c:27b4)]   (Sid: 14) Connection Terminated (by Server)
+[Web Request      (287c:27b4)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (287c:27b4)]   (Sid: 15) Client -> Server @ : 978 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 15) Server -> Client : 859 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (287c:27b4)]   (Sid: 15) Client -> Server @ : 845 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 15) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (287c:27b4)]   (Sid: 15) Connection Terminated (by Server)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (287c:27b4)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (287c:27b4)]   (Sid: 16) Client -> Server @ : 840 bytes (Service=HTTP)
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:27b4)]   (Sid: 16) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 64.233.162.94:443   (Service=)  (Sid= 20)  PROXIED!
+[Web Request      (287c:27b4)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (287c:27b4)]   (Sid: 17) Client -> Server @ : 756 bytes (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (287c:27b4)]   (Sid: 18) Client -> Server @ : 754 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 17) Server -> Client : 1031 bytes  (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (287c:27b4)]   (Sid: 19) Client -> Server @ : 754 bytes (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (287c:27b4)]   (Sid: 16) Client -> Server @ : 754 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 18) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 16) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 19) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (287c: cc0)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (287c: cc0)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (287c:27b4)]   (Sid: 20) Client -> Server @ : 1237 bytes (SSL)(Service=HTTP)
+[Web Request      (287c:27b4)] "POST /service/update2/json?cup2key=10:3757701402&cup2hreq=cbf62e2256dc381c0ec706f538638d7f3091580d2e66f6f666cb1cc86c3db8ea"   
+[Network Analyzer (287c:27b4)]   (Sid: 20) Client -> Server @ : 7147 bytes (SSL)(Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 20) Server -> Client : 1266 bytes (SSL) (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 20) Server -> Client : 1243 bytes (SSL) (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 20) Server -> Client : 233 bytes (SSL) (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 20) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid:  3) Connection Terminated (by Server)
+[Web Request      (287c:27b4)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (287c:27b4)]   (Sid: 19) Client -> Server @ : 879 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 19) Server -> Client : 838 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (287c:27b4)]   (Sid: 19) Client -> Server @ : 862 bytes (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (287c:27b4)]   (Sid: 16) Client -> Server @ : 863 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 19) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (287c:27b4)]   (Sid: 19) Client -> Server @ : 760 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 16) Server -> Client : 4515 bytes  (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (287c:27b4)]   (Sid: 18) Client -> Server @ : 754 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 18) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 19) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (287c:27b4)]   (Sid: 19) Client -> Server @ : 762 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 19) Server -> Client : 1055 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (287c:27b4)]   (Sid: 20) Client -> Server @ : 381 bytes (SSL)(Service=HTTP)
+[Web Request      (287c:27b4)] "POST /service/update2/json"   
+[Network Analyzer (287c:27b4)]   (Sid: 20) Client -> Server @ : 1065 bytes (SSL)(Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 20) Server -> Client : 822 bytes (SSL) (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 20) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 20) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (287c:27b4)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (287c:27b4)]   (Sid: 16) Connection Terminated (by Server)
+[Web Request      (287c:27b4)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (287c:27b4)]   (Sid: 21) Client -> Server @ : 880 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 21) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (287c:27b4)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (287c:27b4)]   (Sid: 21) Client -> Server @ : 725 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 21) Server -> Client : 1751 bytes  (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (287c:27b4)]   (Sid: 21) Connection Terminated (by Server)
+[Net An. Warning  (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (287c:3354)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (287c:3354)] Address lookup for DESKTOP-PLKD6T7 = 192.168.1.13
+[Network Analyzer (287c:3354)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (287c:27b4)] "GET /WebTours/home.html"   
+[Network Analyzer (287c:27b4)]   (Sid: 22) Client -> Server @ : 821 bytes (Service=HTTP)
+[Network Analyzer (287c:27b4)]   (Sid: 22) Server -> Client : 194 bytes  (Service=HTTP)
