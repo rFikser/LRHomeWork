@@ -1,6 +1,6 @@
 Action()
 {
-	lr_start_transaction("T1_Go_to_flights");
+	lr_start_transaction("S1_Go_to_flights");
 
 		web_set_sockets_option("SSL_VERSION", "2&3");
 		
@@ -32,7 +32,8 @@ Action()
 		lr_end_transaction("Sign_off", LR_AUTO);
 	
 		
-		lr_end_transaction("T1_Go_to_flights", LR_AUTO);
+		lr_end_transaction("S1_Go_to_flights", LR_AUTO);
+lr_end_transaction("", LR_AUTO);
 	return 0;
 	
 

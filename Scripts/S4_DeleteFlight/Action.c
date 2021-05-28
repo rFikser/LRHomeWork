@@ -20,6 +20,7 @@ Action()
 
 	web_add_auto_header("sec-ch-ua-mobile", 
 		"?0");
+
 	web_add_auto_header("Sec-Fetch-Site", 
 		"none");
 
@@ -35,7 +36,7 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	lr_think_time(12);
+	lr_think_time(6);
 	
 	web_reg_save_param_ex("ParamName=userSession", 
 			        "LB=name\=\"userSession\" value\=\"",
@@ -45,14 +46,14 @@ Action()
 				    SEARCH_FILTERS,
 				        "Scope=body",
 					LAST);
-	
+
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
-		"Snapshot=t14.inf", 
+		"Snapshot=t20.inf", 
 		"Mode=HTML", 
 		LAST);
 
@@ -69,23 +70,34 @@ Action()
 	web_add_auto_header("Sec-Fetch-Site", 
 		"same-origin");
 
-	lr_think_time(5);
+	lr_think_time(18);
 
-	web_submit_data("login.pl", 
-		"Action=http://localhost:1080/cgi-bin/login.pl", 
-		"Method=POST", 
-		"TargetFrame=body", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home", 
-		"Snapshot=t15.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=userSession", "Value={userSession}", ENDITEM, 
-		"Name=username", "Value=ivan", ENDITEM, 
-		"Name=password", "Value=ivan", ENDITEM, 
-		"Name=login.x", "Value=0", ENDITEM, 
-		"Name=login.y", "Value=0", ENDITEM, 
-		"Name=JSFormSubmit", "Value=off", ENDITEM, 
+/*Correlation comment - Do not change!  Original value='itinerary' Name ='page' Type ='ResponseBased'*/
+	web_reg_save_param_regexp(
+		"ParamName=page",
+		"RegExp=page=(.*?)\"\\ TARGET",
+		"Ordinal=2",
+		SEARCH_FILTERS,
+		"Scope=Body",
+		"IgnoreRedirections=No",
+		"RequestUrl=*/nav.pl*",
+		LAST);
+
+	web_submit_data("login.pl",
+		"Action=http://localhost:1080/cgi-bin/login.pl",
+		"Method=POST",
+		"TargetFrame=body",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home",
+		"Snapshot=t21.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=userSession", "Value={userSession}", ENDITEM,
+		"Name=username", "Value=ivan", ENDITEM,
+		"Name=password", "Value=ivan", ENDITEM,
+		"Name=login.x", "Value=0", ENDITEM,
+		"Name=login.y", "Value=0", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
 		LAST);
 
 	web_add_auto_header("Sec-Fetch-User", 
@@ -94,58 +106,51 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	lr_think_time(4);
-	
-	web_reg_save_param_ex(
-    "ParamName=flightID", 
-    "LB=name\=\"flightID\" value\=\"",
-    "RB=\"",
-	LAST);
-	
-	web_url("Itinerary Button",
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary",
-		"TargetFrame=body",
-		"Resource=0",
-		"RecContentType=text/html",
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home",
-		"Snapshot=t16.inf",
-		"Mode=HTML",
+//	web_reg_save_param_ex("ParamName=flightID",
+//                      "LB=name=\"flightID\" value=\"",
+//                      "RB=\"",
+//                      "Ordinal=all",
+//                      LAST);
+
+//	web_url("Itinerary Button",
+//		"URL=http://localhost:1080/cgi-bin/welcome.pl?page={page}",
+//		"TargetFrame=body",
+//		"Resource=0",
+//		"RecContentType=text/html",
+//		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home",
+//		"Snapshot=t22.inf",
+//		"Mode=HTML",
+//		LAST);
+		
+
+	web_image("Itinerary Button", 
+		"Alt=Itinerary Button", 
+		"Snapshot=t10.inf", 
 		LAST);
-	
-	
-	
+
 	web_add_header("Origin", 
 		"http://localhost:1080");
 
-	lr_think_time(27);
-	web_submit_data("itinerary.pl",
-		"Action=http://localhost:1080/cgi-bin/itinerary.pl",
-		"Method=POST",
-		"TargetFrame=",
-		"RecContentType=text/html",
-		"Referer=http://localhost:1080/cgi-bin/itinerary.pl",
-		"Snapshot=t17.inf",
-		"Mode=HTML",
-		ITEMDATA,
+	web_submit_form("itinerary.pl", 
+		"Snapshot=t11.inf", 
+		ITEMDATA, 
 		"Name=1", "Value=on", ENDITEM,
-		"Name=flightID", "Value={flightID}", ENDITEM,
-		"Name=removeFlights.x", "Value=58", ENDITEM,
-		"Name=removeFlights.y", "Value=5", ENDITEM,
-		"Name=.cgifields", "Value=1", ENDITEM,
 		LAST);
-	
+
 	web_revert_auto_header("Sec-Fetch-User");
 
 	web_add_header("Sec-Fetch-User", 
 		"?1");
+
+	lr_think_time(18);
 
 	web_url("SignOff Button",
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1",
 		"TargetFrame=body",
 		"Resource=0",
 		"RecContentType=text/html",
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary",
-		"Snapshot=t18.inf",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in={page}",
+		"Snapshot=t24.inf",
 		"Mode=HTML",
 		LAST);
 

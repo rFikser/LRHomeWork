@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="S3_UserRegistration__*delimiter*__welcome_page__*delimiter*__fill_sign_up_values__*delimiter*__sign_off__*delimiter*__go_to_sign_up_page__*delimiter*__welcome_page"
+Order="S3_UserRegistration__*delimiter*__Welcome_page__*delimiter*__Go_to_sign_up_page__*delimiter*__Fill_sign_up_values__*delimiter*__Welcome_page__*delimiter*__Sign_off"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -59,7 +59,7 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 S3_UserRegistration=
-welcome_page=
-fill_sign_up_values=
-sign_off=
-go_to_sign_up_page=
+Welcome_page=
+Go_to_sign_up_page=
+Fill_sign_up_values=
+Sign_off=

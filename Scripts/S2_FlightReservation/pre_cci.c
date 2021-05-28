@@ -1,4 +1,4 @@
-# 1 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s2_flightreservation\\\\combined_S2_FlightReservation.c"
+# 1 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s2_flightreservation\\\\combined_FlightReservation.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s2_flightreservation\\\\combined_S2_FlightReservation.c" 2
+# 1 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s2_flightreservation\\\\combined_FlightReservation.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s2_flightreservation\\\\combined_S2_FlightReservation.c" 2
+# 2 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s2_flightreservation\\\\combined_FlightReservation.c" 2
 
 # 1 "globals.h" 1
 
@@ -2570,9 +2570,8 @@ void
 
 # 7 "globals.h" 2
 
-# 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrw_custom_body.h" 1
+# 1 "lrw_custom_body.h" 1
  
-
 
 
 
@@ -2698,12 +2697,28 @@ void go_to_flights_page() {
 
 void find_flight() {
 	
-	lr_think_time(19);
 	web_add_auto_header("Origin", 
 		"http://localhost:1080");
-	
+
+	web_add_auto_header("Sec-Fetch-User", 
+		"?1");
+
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+
+	lr_think_time(4);
+
+ 
+	web_reg_save_param_attrib(
+		"ParamName=outboundFlight",
+		"TagName=input",
+		"Extract=value",
+		"Name=outboundFlight",
+		"Type=radio",
+		"SEARCH_FILTERS",
+		"IgnoreRedirections=No",
+		"LAST");
 	web_reg_find("Text=Find Flight","LAST");
-	
 	web_submit_data("reservations.pl",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",
 		"Method=POST",
@@ -2719,37 +2734,20 @@ void find_flight() {
 		"Name=arrive", "Value={arriveCity}", "ENDITEM",
 		"Name=returnDate", "Value={returnDate}", "ENDITEM",
 		"Name=numPassengers", "Value=1", "ENDITEM",
-		"Name=seatPref", "Value={seatType}", "ENDITEM",
-		"Name=seatType", "Value={seatPreference}", "ENDITEM",
-		"Name=findFlights.x", "Value=51", "ENDITEM",
-		"Name=findFlights.y", "Value=16", "ENDITEM",
+		"Name=seatPref", "Value={seatPreference}", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
+		"Name=findFlights.x", "Value=31", "ENDITEM",
+		"Name=findFlights.y", "Value=5", "ENDITEM",
 		"Name=.cgifields", "Value=roundtrip", "ENDITEM",
 		"Name=.cgifields", "Value=seatType", "ENDITEM",
 		"Name=.cgifields", "Value=seatPref", "ENDITEM",
+		"Name=departCity", "Value=", "ENDITEM",
+		"Name=departCity", "Value=Zurich", "ENDITEM",
 		"LAST");
 }
 
 void reserve_flight() {
-	web_reg_find("Text=Payment Details","LAST");
-	
-	web_submit_data("reservations.pl_2", 
-		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Snapshot=t6.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=outboundFlight", "Value=020;338;05/25/2021", "ENDITEM", 
-		"Name=numPassengers", "Value=1", "ENDITEM", 
-		"Name=advanceDiscount", "Value=0", "ENDITEM", 
-		"Name=seatType", "Value={seatType}", "ENDITEM", 
-		"Name=seatPref", "Value={seatPreference}", "ENDITEM", 
-		"Name=reserveFlights.x", "Value=42", "ENDITEM", 
-		"Name=reserveFlights.y", "Value=11", "ENDITEM", 
-		"LAST");
-
+	web_reg_find("Text=hank you for booking through Web Tours","LAST");
 	(web_remove_auto_header("Origin", "ImplicitGen=Yes", "LAST"));
 
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
@@ -2759,37 +2757,42 @@ void reserve_flight() {
 	web_add_header("Origin", 
 		"http://localhost:1080");
 
+	web_add_auto_header("Sec-Fetch-User", 
+		"?1");
+
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+
 	lr_think_time(7);
 
-	web_submit_data("reservations.pl_3", 
-		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Snapshot=t7.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=firstName", "Value={firstName}", "ENDITEM", 
-		"Name=lastName", "Value={lastName}", "ENDITEM", 
-		"Name=address1", "Value={adress}", "ENDITEM", 
-		"Name=address2", "Value={adress}", "ENDITEM", 
-		"Name=pass1", "Value={firstName} {lastName}", "ENDITEM", 
-		"Name=creditCard", "Value={creditCard}", "ENDITEM", 
-		"Name=expDate", "Value={expDate}", "ENDITEM", 
-		"Name=oldCCOption", "Value=", "ENDITEM", 
-		"Name=numPassengers", "Value=1", "ENDITEM", 
-		"Name=seatType", "Value={seatType}", "ENDITEM", 
-		"Name=seatPref", "Value={seatPreference}", "ENDITEM", 
-		"Name=outboundFlight", "Value=020;338;05/25/2021", "ENDITEM", 
-		"Name=advanceDiscount", "Value=0", "ENDITEM", 
-		"Name=returnFlight", "Value=", "ENDITEM", 
-		"Name=JSFormSubmit", "Value=off", "ENDITEM", 
-		"Name=buyFlights.x", "Value=27", "ENDITEM", 
-		"Name=buyFlights.y", "Value=10", "ENDITEM", 
-		"Name=.cgifields", "Value=saveCC", "ENDITEM", 
+	web_submit_data("reservations.pl_3",
+		"Action=http://localhost:1080/cgi-bin/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl",
+		"Snapshot=t7.inf",
+		"Mode=HTML",
+		"ITEMDATA",
+		"Name=firstName", "Value={firstName}", "ENDITEM",
+		"Name=lastName", "Value={lastName}", "ENDITEM",
+		"Name=address1", "Value={adress}", "ENDITEM",
+		"Name=address2", "Value={adress}", "ENDITEM",
+		"Name=pass1", "Value={lastName} {lastName}", "ENDITEM",
+		"Name=creditCard", "Value={creditCard}", "ENDITEM",
+		"Name=expDate", "Value={expDate}", "ENDITEM",
+		"Name=oldCCOption", "Value=", "ENDITEM",
+		"Name=numPassengers", "Value=1", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
+		"Name=seatPref", "Value={seatPreference}", "ENDITEM",
+		"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM",
+		"Name=advanceDiscount", "Value=0", "ENDITEM",
+		"Name=returnFlight", "Value=", "ENDITEM",
+		"Name=JSFormSubmit", "Value=off", "ENDITEM",
+		"Name=buyFlights.x", "Value=30", "ENDITEM",
+		"Name=buyFlights.y", "Value=12", "ENDITEM",
+		"Name=.cgifields", "Value=saveCC", "ENDITEM",
 		"LAST");
-		
 		
 }
 
@@ -2867,6 +2870,29 @@ void fill_sign_up() {
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 }
+
+
+void go_to_itinerary_page() {
+	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+
+	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
+	web_reg_find("Text=Flights List","LAST");
+	web_url("Itinerary Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+		"Snapshot=t8.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	web_add_header("Sec-Fetch-User", 
+		"?1");
+
+	web_add_header("Upgrade-Insecure-Requests", 
+		"1");
+}
 # 9 "globals.h" 2
 
 
@@ -2874,163 +2900,69 @@ void fill_sign_up() {
  
 
 
-# 3 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s2_flightreservation\\\\combined_S2_FlightReservation.c" 2
+# 3 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s2_flightreservation\\\\combined_FlightReservation.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s2_flightreservation\\\\combined_S2_FlightReservation.c" 2
+# 4 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s2_flightreservation\\\\combined_FlightReservation.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
+	
 	lr_start_transaction("S2_FlightReservation");
-
-	lr_start_transaction("welcome_page");
-
-	welcome_page();
-	
-	lr_end_transaction("welcome_page", 2);
 	
 	
-	lr_start_transaction("login");
-
-	login();
-
-	lr_end_transaction("login", 2);
-
+		lr_start_transaction("Welcome_page");
 	
-	lr_start_transaction("go_to_flights");
+			welcome_page();
 	
-	web_add_auto_header("Sec-Fetch-User", 
-		"?1");
-
-	web_add_auto_header("Upgrade-Insecure-Requests", 
-		"1");
-	
-	web_reg_find("Text=Flight Selections","LAST");
-
-	web_url("Search Flights Button", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
-		"TargetFrame=body", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
-		"Snapshot=t5.inf", 
-		"Mode=HTML", 
-		"LAST");
-	
-	lr_end_transaction("go_to_flights", 2);
-
-	
-	lr_start_transaction("find_flight");
-	
-	lr_think_time(19);
-	web_add_auto_header("Origin", 
-		"http://localhost:1080");
-	
-	web_reg_find("Text=Find Flight","LAST");
-	
-	web_submit_data("reservations.pl",
-		"Action=http://localhost:1080/cgi-bin/reservations.pl",
-		"Method=POST",
-		"TargetFrame=",
-		"RecContentType=text/html",
-		"Referer=http://localhost:1080/cgi-bin/reservations.pl?page=welcome",
-		"Snapshot=t5.inf",
-		"Mode=HTML",
-		"ITEMDATA",
-		"Name=advanceDiscount", "Value=0", "ENDITEM",
-		"Name=depart", "Value={departCity}", "ENDITEM",
-		"Name=departDate", "Value={departDate}", "ENDITEM",
-		"Name=arrive", "Value={arriveCity}", "ENDITEM",
-		"Name=returnDate", "Value={returnDate}", "ENDITEM",
-		"Name=numPassengers", "Value=1", "ENDITEM",
-		"Name=seatPref", "Value={seatType}", "ENDITEM",
-		"Name=seatType", "Value={seatPreference}", "ENDITEM",
-		"Name=findFlights.x", "Value=51", "ENDITEM",
-		"Name=findFlights.y", "Value=16", "ENDITEM",
-		"Name=.cgifields", "Value=roundtrip", "ENDITEM",
-		"Name=.cgifields", "Value=seatType", "ENDITEM",
-		"Name=.cgifields", "Value=seatPref", "ENDITEM",
-		"LAST");
-	
-	lr_end_transaction("find_flight", 2);
-
-	
-	lr_start_transaction("reserve_flight");
-	
-	web_reg_find("Text=Payment Details","LAST");
-	
-	web_submit_data("reservations.pl_2", 
-		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Snapshot=t6.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=outboundFlight", "Value=020;338;{departDate}", "ENDITEM", 
-		"Name=numPassengers", "Value=1", "ENDITEM", 
-		"Name=advanceDiscount", "Value=0", "ENDITEM", 
-		"Name=seatType", "Value={seatType}", "ENDITEM", 
-		"Name=seatPref", "Value={seatPreference}", "ENDITEM", 
-		"Name=reserveFlights.x", "Value=42", "ENDITEM", 
-		"Name=reserveFlights.y", "Value=11", "ENDITEM", 
-		"LAST");
-
-	(web_remove_auto_header("Origin", "ImplicitGen=Yes", "LAST"));
-
-	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
-
-	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
-
-	web_add_header("Origin", 
-		"http://localhost:1080");
-
-	lr_think_time(7);
-
-	web_submit_data("reservations.pl_3",
-		"Action=http://localhost:1080/cgi-bin/reservations.pl",
-		"Method=POST",
-		"TargetFrame=",
-		"RecContentType=text/html",
-		"Referer=http://localhost:1080/cgi-bin/reservations.pl",
-		"Snapshot=t7.inf",
-		"Mode=HTML",
-		"ITEMDATA",
-		"Name=firstName", "Value={firstName}", "ENDITEM",
-		"Name=lastName", "Value={lastName}", "ENDITEM",
-		"Name=address1", "Value={adress}", "ENDITEM",
-		"Name=address2", "Value={adress}", "ENDITEM",
-		"Name=pass1", "Value={firstName} {lastName}", "ENDITEM",
-		"Name=creditCard", "Value={creditCard}", "ENDITEM",
-		"Name=expDate", "Value={expDate}", "ENDITEM",
-		"Name=oldCCOption", "Value=", "ENDITEM",
-		"Name=numPassengers", "Value=1", "ENDITEM",
-		"Name=seatType", "Value={seatType}", "ENDITEM",
-		"Name=seatPref", "Value={seatPreference}", "ENDITEM",
-		"Name=outboundFlight", "Value=020;338;{departDate}", "ENDITEM",
-		"Name=advanceDiscount", "Value=0", "ENDITEM",
-		"Name=returnFlight", "Value=", "ENDITEM",
-		"Name=JSFormSubmit", "Value=off", "ENDITEM",
-		"Name=buyFlights.x", "Value=27", "ENDITEM",
-		"Name=buyFlights.y", "Value=10", "ENDITEM",
-		"Name=.cgifields", "Value=saveCC", "ENDITEM",
-		"LAST");
+		lr_end_transaction("Welcome_page", 2);
 		
+		
+		lr_start_transaction("Login");
 	
-	lr_end_transaction("reserve_flight", 2);
+			login();
 	
-
-	lr_start_transaction("sign_off");
-
-	sign_off();
-
-	lr_end_transaction("sign_off", 2);
+		lr_end_transaction("Login", 2);
+	
+	
+		lr_start_transaction("Go_to_flights");
+	
+			go_to_flights_page();
+	
+		lr_end_transaction("Go_to_flights", 2);
+	
+		
+		lr_start_transaction("Find_flight");
+	
+			find_flight();
+	
+		lr_end_transaction("Find_flight", 2);
+	
+	
+		lr_start_transaction("Reserve_flight");
+	
+			reserve_flight();
+	
+		lr_end_transaction("Reserve_flight", 2);
+	
+	
+		lr_start_transaction("Go_to_itinerary");
+	
+			go_to_itinerary_page();
+	
+		lr_end_transaction("Go_to_itinerary", 2);
+	
+	
+		lr_start_transaction("Sign_off");
+	
+			sign_off();
+	
+		lr_end_transaction("Sign_off", 2);
 
 
 
@@ -3038,12 +2970,12 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s2_flightreservation\\\\combined_S2_FlightReservation.c" 2
+# 5 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s2_flightreservation\\\\combined_FlightReservation.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s2_flightreservation\\\\combined_S2_FlightReservation.c" 2
+# 6 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s2_flightreservation\\\\combined_FlightReservation.c" 2
 

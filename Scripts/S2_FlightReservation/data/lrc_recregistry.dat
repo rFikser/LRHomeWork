@@ -166,7 +166,7 @@ Registry settings:
 		default	false
 	TestDir
 		(Default)	
-		default	C:\Users\fikser\Desktop\HomeWork_IBS\S2_FlightReservation\data\
+		default	C:\Users\fikser\Desktop\HomeWork_IBS\Scripts\FlightReservation\data\
 	TrapOnClient
 		default	true
 	TrapOnMainThreadOnly

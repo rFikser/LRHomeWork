@@ -1,2 +1,3 @@
-"outboundFlight=020%3B338%3B05%2F28%2F21&numPassengers=1&advanceDiscount=0&seatType=Coach&seatP"
-"ref=None&reserveFlights.x=42&reserveFlights.y=11"
+"advanceDiscount=0&depart=Zurich&departDate=05%2F30%2F2021&arrive=Denver&returnDate=07%2F27%2F2"
+"021&numPassengers=1&seatPref=Window&seatType=Business&findFlights.x=31&findFlights.y=5&.cgifie"
+"lds=roundtrip&.cgifields=seatType&.cgifields=seatPref&departCity=&departCity=Zurich"

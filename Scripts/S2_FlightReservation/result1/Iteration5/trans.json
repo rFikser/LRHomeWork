@@ -1,0 +1,42 @@
+[
+    {
+        "transactionName": "Welcome_page",
+        "rawStartTime": 1622224597025,
+        "rawEndTime": 1622224597291
+    },
+    {
+        "transactionName": "Login",
+        "rawStartTime": 1622224597308,
+        "rawEndTime": 1622224597545
+    },
+    {
+        "transactionName": "Go_to_flights",
+        "rawStartTime": 1622224597562,
+        "rawEndTime": 1622224597799
+    },
+    {
+        "transactionName": "Find_flight",
+        "rawStartTime": 1622224597815,
+        "rawEndTime": 1622224598023
+    },
+    {
+        "transactionName": "Reserve_flight",
+        "rawStartTime": 1622224598040,
+        "rawEndTime": 1622224598271
+    },
+    {
+        "transactionName": "Go_to_itinerary",
+        "rawStartTime": 1622224598286,
+        "rawEndTime": 1622224598571
+    },
+    {
+        "transactionName": "Sign_off",
+        "rawStartTime": 1622224598587,
+        "rawEndTime": 1622224598792
+    },
+    {
+        "transactionName": "S2_FlightReservation",
+        "rawStartTime": 1622224597010,
+        "rawEndTime": 1622224598808
+    }
+]

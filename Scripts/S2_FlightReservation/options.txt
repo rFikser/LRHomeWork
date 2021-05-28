@@ -5,5 +5,5 @@
 -IC:\Users\fikser\Desktop\HomeWork_IBS\Scripts\S2_FlightReservation
 -IC:\Program Files (x86)\HPE\LoadRunner\include
 -ec:\users\fikser\desktop\homework_ibs\scripts\s2_flightreservation\\logfile.log
-c:\users\fikser\desktop\homework_ibs\scripts\s2_flightreservation\\combined_S2_FlightReservation.c
+c:\users\fikser\desktop\homework_ibs\scripts\s2_flightreservation\\combined_FlightReservation.c
 c:\users\fikser\desktop\homework_ibs\scripts\s2_flightreservation\\pre_cci.c

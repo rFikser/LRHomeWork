@@ -2697,12 +2697,28 @@ void go_to_flights_page() {
 
 void find_flight() {
 	
-	lr_think_time(19);
 	web_add_auto_header("Origin", 
 		"http://localhost:1080");
-	
+
+	web_add_auto_header("Sec-Fetch-User", 
+		"?1");
+
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+
+	lr_think_time(4);
+
+ 
+	web_reg_save_param_attrib(
+		"ParamName=outboundFlight",
+		"TagName=input",
+		"Extract=value",
+		"Name=outboundFlight",
+		"Type=radio",
+		"SEARCH_FILTERS",
+		"IgnoreRedirections=No",
+		"LAST");
 	web_reg_find("Text=Find Flight","LAST");
-	
 	web_submit_data("reservations.pl",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",
 		"Method=POST",
@@ -2718,37 +2734,20 @@ void find_flight() {
 		"Name=arrive", "Value={arriveCity}", "ENDITEM",
 		"Name=returnDate", "Value={returnDate}", "ENDITEM",
 		"Name=numPassengers", "Value=1", "ENDITEM",
-		"Name=seatPref", "Value={seatType}", "ENDITEM",
-		"Name=seatType", "Value={seatPreference}", "ENDITEM",
-		"Name=findFlights.x", "Value=51", "ENDITEM",
-		"Name=findFlights.y", "Value=16", "ENDITEM",
+		"Name=seatPref", "Value={seatPreference}", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
+		"Name=findFlights.x", "Value=31", "ENDITEM",
+		"Name=findFlights.y", "Value=5", "ENDITEM",
 		"Name=.cgifields", "Value=roundtrip", "ENDITEM",
 		"Name=.cgifields", "Value=seatType", "ENDITEM",
 		"Name=.cgifields", "Value=seatPref", "ENDITEM",
+		"Name=departCity", "Value=", "ENDITEM",
+		"Name=departCity", "Value=Zurich", "ENDITEM",
 		"LAST");
 }
 
 void reserve_flight() {
-	web_reg_find("Text=Payment Details","LAST");
-	
-	web_submit_data("reservations.pl_2", 
-		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Snapshot=t6.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=outboundFlight", "Value=020;338;05/25/2021", "ENDITEM", 
-		"Name=numPassengers", "Value=1", "ENDITEM", 
-		"Name=advanceDiscount", "Value=0", "ENDITEM", 
-		"Name=seatType", "Value=Coach", "ENDITEM", 
-		"Name=seatPref", "Value=None", "ENDITEM", 
-		"Name=reserveFlights.x", "Value=42", "ENDITEM", 
-		"Name=reserveFlights.y", "Value=11", "ENDITEM", 
-		"LAST");
-
+	web_reg_find("Text=hank you for booking through Web Tours","LAST");
 	(web_remove_auto_header("Origin", "ImplicitGen=Yes", "LAST"));
 
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
@@ -2758,37 +2757,42 @@ void reserve_flight() {
 	web_add_header("Origin", 
 		"http://localhost:1080");
 
+	web_add_auto_header("Sec-Fetch-User", 
+		"?1");
+
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+
 	lr_think_time(7);
 
-	web_submit_data("reservations.pl_3", 
-		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Snapshot=t7.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=firstName", "Value={firstName}", "ENDITEM", 
-		"Name=lastName", "Value={lastName}", "ENDITEM", 
-		"Name=address1", "Value={adress}", "ENDITEM", 
-		"Name=address2", "Value={adress}", "ENDITEM", 
-		"Name=pass1", "Value={firstName} {lastName}", "ENDITEM", 
-		"Name=creditCard", "Value={creditCard}", "ENDITEM", 
-		"Name=expDate", "Value={expDate}", "ENDITEM", 
-		"Name=oldCCOption", "Value=", "ENDITEM", 
-		"Name=numPassengers", "Value=1", "ENDITEM", 
-		"Name=seatType", "Value={seatType}", "ENDITEM", 
-		"Name=seatPref", "Value={seatPreference}", "ENDITEM", 
-		"Name=outboundFlight", "Value=020;338;05/25/2021", "ENDITEM", 
-		"Name=advanceDiscount", "Value=0", "ENDITEM", 
-		"Name=returnFlight", "Value=", "ENDITEM", 
-		"Name=JSFormSubmit", "Value=off", "ENDITEM", 
-		"Name=buyFlights.x", "Value=27", "ENDITEM", 
-		"Name=buyFlights.y", "Value=10", "ENDITEM", 
-		"Name=.cgifields", "Value=saveCC", "ENDITEM", 
+	web_submit_data("reservations.pl_3",
+		"Action=http://localhost:1080/cgi-bin/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl",
+		"Snapshot=t7.inf",
+		"Mode=HTML",
+		"ITEMDATA",
+		"Name=firstName", "Value={firstName}", "ENDITEM",
+		"Name=lastName", "Value={lastName}", "ENDITEM",
+		"Name=address1", "Value={adress}", "ENDITEM",
+		"Name=address2", "Value={adress}", "ENDITEM",
+		"Name=pass1", "Value={lastName} {lastName}", "ENDITEM",
+		"Name=creditCard", "Value={creditCard}", "ENDITEM",
+		"Name=expDate", "Value={expDate}", "ENDITEM",
+		"Name=oldCCOption", "Value=", "ENDITEM",
+		"Name=numPassengers", "Value=1", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
+		"Name=seatPref", "Value={seatPreference}", "ENDITEM",
+		"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM",
+		"Name=advanceDiscount", "Value=0", "ENDITEM",
+		"Name=returnFlight", "Value=", "ENDITEM",
+		"Name=JSFormSubmit", "Value=off", "ENDITEM",
+		"Name=buyFlights.x", "Value=30", "ENDITEM",
+		"Name=buyFlights.y", "Value=12", "ENDITEM",
+		"Name=.cgifields", "Value=saveCC", "ENDITEM",
 		"LAST");
-		
 		
 }
 
@@ -2866,6 +2870,29 @@ void fill_sign_up() {
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 }
+
+
+void go_to_itinerary_page() {
+	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+
+	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
+	web_reg_find("Text=Flights List","LAST");
+	web_url("Itinerary Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+		"Snapshot=t8.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	web_add_header("Sec-Fetch-User", 
+		"?1");
+
+	web_add_header("Upgrade-Insecure-Requests", 
+		"1");
+}
 # 9 "globals.h" 2
 
 
@@ -2909,16 +2936,7 @@ lr_start_transaction("S3_UserRegistration");
 
 	lr_start_transaction("welcome_page");
 
-		web_reg_find("Text=Welcome","LAST");
-		web_url("button_next.gif", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
-		"TargetFrame=body", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/login.pl", 
-		"Snapshot=t6.inf", 
-		"Mode=HTML", 
-		"LAST");
+	welcome_page();
 	
 	lr_end_transaction("welcome_page", 2);
 

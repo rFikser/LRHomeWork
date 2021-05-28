@@ -2698,12 +2698,28 @@ void go_to_flights_page() {
 
 void find_flight() {
 	
-	lr_think_time(19);
 	web_add_auto_header("Origin", 
 		"http://localhost:1080");
-	
+
+	web_add_auto_header("Sec-Fetch-User", 
+		"?1");
+
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+
+	lr_think_time(4);
+
+ 
+	web_reg_save_param_attrib(
+		"ParamName=outboundFlight",
+		"TagName=input",
+		"Extract=value",
+		"Name=outboundFlight",
+		"Type=radio",
+		"SEARCH_FILTERS",
+		"IgnoreRedirections=No",
+		"LAST");
 	web_reg_find("Text=Find Flight","LAST");
-	
 	web_submit_data("reservations.pl",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",
 		"Method=POST",
@@ -2719,37 +2735,20 @@ void find_flight() {
 		"Name=arrive", "Value={arriveCity}", "ENDITEM",
 		"Name=returnDate", "Value={returnDate}", "ENDITEM",
 		"Name=numPassengers", "Value=1", "ENDITEM",
-		"Name=seatPref", "Value={seatType}", "ENDITEM",
-		"Name=seatType", "Value={seatPreference}", "ENDITEM",
-		"Name=findFlights.x", "Value=51", "ENDITEM",
-		"Name=findFlights.y", "Value=16", "ENDITEM",
+		"Name=seatPref", "Value={seatPreference}", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
+		"Name=findFlights.x", "Value=31", "ENDITEM",
+		"Name=findFlights.y", "Value=5", "ENDITEM",
 		"Name=.cgifields", "Value=roundtrip", "ENDITEM",
 		"Name=.cgifields", "Value=seatType", "ENDITEM",
 		"Name=.cgifields", "Value=seatPref", "ENDITEM",
+		"Name=departCity", "Value=", "ENDITEM",
+		"Name=departCity", "Value=Zurich", "ENDITEM",
 		"LAST");
 }
 
 void reserve_flight() {
-	web_reg_find("Text=Payment Details","LAST");
-	
-	web_submit_data("reservations.pl_2", 
-		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Snapshot=t6.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=outboundFlight", "Value=020;338;05/25/2021", "ENDITEM", 
-		"Name=numPassengers", "Value=1", "ENDITEM", 
-		"Name=advanceDiscount", "Value=0", "ENDITEM", 
-		"Name=seatType", "Value={seatType}", "ENDITEM", 
-		"Name=seatPref", "Value={seatPreference}", "ENDITEM", 
-		"Name=reserveFlights.x", "Value=42", "ENDITEM", 
-		"Name=reserveFlights.y", "Value=11", "ENDITEM", 
-		"LAST");
-
+	web_reg_find("Text=hank you for booking through Web Tours","LAST");
 	(web_remove_auto_header("Origin", "ImplicitGen=Yes", "LAST"));
 
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
@@ -2759,37 +2758,42 @@ void reserve_flight() {
 	web_add_header("Origin", 
 		"http://localhost:1080");
 
+	web_add_auto_header("Sec-Fetch-User", 
+		"?1");
+
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+
 	lr_think_time(7);
 
-	web_submit_data("reservations.pl_3", 
-		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Snapshot=t7.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=firstName", "Value={firstName}", "ENDITEM", 
-		"Name=lastName", "Value={lastName}", "ENDITEM", 
-		"Name=address1", "Value={adress}", "ENDITEM", 
-		"Name=address2", "Value={adress}", "ENDITEM", 
-		"Name=pass1", "Value={firstName} {lastName}", "ENDITEM", 
-		"Name=creditCard", "Value={creditCard}", "ENDITEM", 
-		"Name=expDate", "Value={expDate}", "ENDITEM", 
-		"Name=oldCCOption", "Value=", "ENDITEM", 
-		"Name=numPassengers", "Value=1", "ENDITEM", 
-		"Name=seatType", "Value={seatType}", "ENDITEM", 
-		"Name=seatPref", "Value={seatPreference}", "ENDITEM", 
-		"Name=outboundFlight", "Value=020;338;05/25/2021", "ENDITEM", 
-		"Name=advanceDiscount", "Value=0", "ENDITEM", 
-		"Name=returnFlight", "Value=", "ENDITEM", 
-		"Name=JSFormSubmit", "Value=off", "ENDITEM", 
-		"Name=buyFlights.x", "Value=27", "ENDITEM", 
-		"Name=buyFlights.y", "Value=10", "ENDITEM", 
-		"Name=.cgifields", "Value=saveCC", "ENDITEM", 
+	web_submit_data("reservations.pl_3",
+		"Action=http://localhost:1080/cgi-bin/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl",
+		"Snapshot=t7.inf",
+		"Mode=HTML",
+		"ITEMDATA",
+		"Name=firstName", "Value={firstName}", "ENDITEM",
+		"Name=lastName", "Value={lastName}", "ENDITEM",
+		"Name=address1", "Value={adress}", "ENDITEM",
+		"Name=address2", "Value={adress}", "ENDITEM",
+		"Name=pass1", "Value={lastName} {lastName}", "ENDITEM",
+		"Name=creditCard", "Value={creditCard}", "ENDITEM",
+		"Name=expDate", "Value={expDate}", "ENDITEM",
+		"Name=oldCCOption", "Value=", "ENDITEM",
+		"Name=numPassengers", "Value=1", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
+		"Name=seatPref", "Value={seatPreference}", "ENDITEM",
+		"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM",
+		"Name=advanceDiscount", "Value=0", "ENDITEM",
+		"Name=returnFlight", "Value=", "ENDITEM",
+		"Name=JSFormSubmit", "Value=off", "ENDITEM",
+		"Name=buyFlights.x", "Value=30", "ENDITEM",
+		"Name=buyFlights.y", "Value=12", "ENDITEM",
+		"Name=.cgifields", "Value=saveCC", "ENDITEM",
 		"LAST");
-		
 		
 }
 
@@ -2867,13 +2871,38 @@ void fill_sign_up() {
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 }
+
+
+void go_to_itinerary_page() {
+	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+
+	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
+	web_reg_find("Text=Flights List","LAST");
+	web_url("Itinerary Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+		"Snapshot=t8.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	web_add_header("Sec-Fetch-User", 
+		"?1");
+
+	web_add_header("Upgrade-Insecure-Requests", 
+		"1");
+}
 # 9 "globals.h" 2
 
 
 
 
+
  
  
+
 
 
 
@@ -2910,6 +2939,7 @@ Action()
 
 	web_add_auto_header("sec-ch-ua-mobile", 
 		"?0");
+
 	web_add_auto_header("Sec-Fetch-Site", 
 		"none");
 
@@ -2925,7 +2955,7 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	lr_think_time(12);
+	lr_think_time(6);
 	
 	web_reg_save_param_ex("ParamName=userSession", 
 			        "LB=name\=\"userSession\" value\=\"",
@@ -2935,14 +2965,14 @@ Action()
 				    "SEARCH_FILTERS",
 				        "Scope=body",
 					"LAST");
-	
+
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
-		"Snapshot=t14.inf", 
+		"Snapshot=t20.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -2959,23 +2989,34 @@ Action()
 	web_add_auto_header("Sec-Fetch-Site", 
 		"same-origin");
 
-	lr_think_time(5);
+	lr_think_time(18);
 
-	web_submit_data("login.pl", 
-		"Action=http://localhost:1080/cgi-bin/login.pl", 
-		"Method=POST", 
-		"TargetFrame=body", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home", 
-		"Snapshot=t15.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=userSession", "Value={userSession}", "ENDITEM", 
-		"Name=username", "Value=ivan", "ENDITEM", 
-		"Name=password", "Value=ivan", "ENDITEM", 
-		"Name=login.x", "Value=0", "ENDITEM", 
-		"Name=login.y", "Value=0", "ENDITEM", 
-		"Name=JSFormSubmit", "Value=off", "ENDITEM", 
+ 
+	web_reg_save_param_regexp(
+		"ParamName=page",
+		"RegExp=page=(.*?)\"\\ TARGET",
+		"Ordinal=2",
+		"SEARCH_FILTERS",
+		"Scope=Body",
+		"IgnoreRedirections=No",
+		"RequestUrl=*/nav.pl*",
+		"LAST");
+
+	web_submit_data("login.pl",
+		"Action=http://localhost:1080/cgi-bin/login.pl",
+		"Method=POST",
+		"TargetFrame=body",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home",
+		"Snapshot=t21.inf",
+		"Mode=HTML",
+		"ITEMDATA",
+		"Name=userSession", "Value={userSession}", "ENDITEM",
+		"Name=username", "Value=ivan", "ENDITEM",
+		"Name=password", "Value=ivan", "ENDITEM",
+		"Name=login.x", "Value=0", "ENDITEM",
+		"Name=login.y", "Value=0", "ENDITEM",
+		"Name=JSFormSubmit", "Value=off", "ENDITEM",
 		"LAST");
 
 	web_add_auto_header("Sec-Fetch-User", 
@@ -2984,65 +3025,51 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	lr_think_time(4);
-	
-	web_reg_save_param_ex(
-    "ParamName=flightID", 
-    "LB=name\=\"flightID\" value\=\"",
-    "RB=\"",
-	"LAST");
-	
-	if (atoi(lr_eval_string("{flightID}")) > 0) {
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 		
-		lr_output_message("Flight id found and deleted");
-	} else if (atoi(lr_eval_string("{flightID}")) == 0) {
-		lr_error_message("Delete failed");
-	}
-	
-	web_url("Itinerary Button",
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary",
-		"TargetFrame=body",
-		"Resource=0",
-		"RecContentType=text/html",
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home",
-		"Snapshot=t16.inf",
-		"Mode=HTML",
+
+	web_image("Itinerary Button", 
+		"Alt=Itinerary Button", 
+		"Snapshot=t10.inf", 
 		"LAST");
-	
-	
-	
+
 	web_add_header("Origin", 
 		"http://localhost:1080");
 
-	lr_think_time(27);
-	web_submit_data("itinerary.pl",
-		"Action=http://localhost:1080/cgi-bin/itinerary.pl",
-		"Method=POST",
-		"TargetFrame=",
-		"RecContentType=text/html",
-		"Referer=http://localhost:1080/cgi-bin/itinerary.pl",
-		"Snapshot=t17.inf",
-		"Mode=HTML",
-		"ITEMDATA",
+	web_submit_form("itinerary.pl", 
+		"Snapshot=t11.inf", 
+		"ITEMDATA", 
 		"Name=1", "Value=on", "ENDITEM",
-		"Name=flightID", "Value={flightID}", "ENDITEM",
-		"Name=removeFlights.x", "Value=58", "ENDITEM",
-		"Name=removeFlights.y", "Value=5", "ENDITEM",
-		"Name=.cgifields", "Value=1", "ENDITEM",
 		"LAST");
-	
+
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 
 	web_add_header("Sec-Fetch-User", 
 		"?1");
+
+	lr_think_time(18);
 
 	web_url("SignOff Button",
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1",
 		"TargetFrame=body",
 		"Resource=0",
 		"RecContentType=text/html",
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary",
-		"Snapshot=t18.inf",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in={page}",
+		"Snapshot=t24.inf",
 		"Mode=HTML",
 		"LAST");
 

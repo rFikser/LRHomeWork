@@ -1,6 +1,6 @@
 [t1]
 FileName1=t1.htm
-URL1=https://darkvk.ru/styles/?v=4&sv={%22main%22:%22189%22,%22about%22:%221%22,%22data-protection%22:%221%22,%22ads%22:%2212%22,%22jobs%22:%221%22,%22support%22:%221%22,%22biz%22:%221%22,%22apps%22:%225%22,%22bugs%22:%223%22,%22dev%22:%222%22}&adr=4&t=1621857155143&r=688339990998
+URL1=http://localhost:1080/WebTours/
 Total=1
 RequestHeaderFile=t1_RequestHeader.txt
 RequestBodyFile=NONE

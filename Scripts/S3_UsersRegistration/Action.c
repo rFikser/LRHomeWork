@@ -3,46 +3,37 @@ Action()
 lr_start_transaction("S3_UserRegistration");
 
 		
-	lr_start_transaction("welcome_page");
+	lr_start_transaction("Welcome_page");
 
 		welcome_page();
 
-	lr_end_transaction("welcome_page", LR_AUTO);
+	lr_end_transaction("Welcome_page", LR_AUTO);
 	
 	
-	lr_start_transaction("go_to_sign_up_page");
+	lr_start_transaction("Go_to_sign_up_page");
 	
 	go_to_sign_up_page();
 
-	lr_end_transaction("go_to_sign_up_page", LR_AUTO);
+	lr_end_transaction("Go_to_sign_up_page", LR_AUTO);
 	
-	lr_start_transaction("fill_sign_up_values");
+	lr_start_transaction("Fill_sign_up_values");
 
 	fill_sign_up();
 
-	lr_end_transaction("fill_sign_up_values", LR_AUTO);
+	lr_end_transaction("Fill_sign_up_values", LR_AUTO);
 
-	lr_start_transaction("welcome_page");
+	lr_start_transaction("Welcome_page");
 
-		web_reg_find("Text=Welcome",LAST);
-		web_url("button_next.gif", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
-		"TargetFrame=body", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/login.pl", 
-		"Snapshot=t6.inf", 
-		"Mode=HTML", 
-		LAST);
+	welcome_page();
 	
-	lr_end_transaction("welcome_page", LR_AUTO);
+	lr_end_transaction("Welcome_page", LR_AUTO);
 
 
-	lr_start_transaction("sign_off");
+	lr_start_transaction("Sign_off");
 
 		sign_off();
 	
-	lr_end_transaction("sign_off", LR_AUTO);
+	lr_end_transaction("Sign_off", LR_AUTO);
 
 
 

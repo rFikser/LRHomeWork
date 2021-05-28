@@ -31,6 +31,7 @@
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="S3_UsersRegistration.c.pickle" Filter="1" />
     <FileEntry Name="S3_UsersRegistration.ci" Filter="1" />
+    <FileEntry Name="S3_UsersRegistration.prm.bak" Filter="1" />
     <FileEntry Name="S3_UsersRegistration.sdf" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="shunra.shunra" Filter="1" />

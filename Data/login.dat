@@ -1,6 +1,3 @@
 login,password,firstName,lastName,creditCard,expDate,adress
 ivan,ivan,ivan,ivan,12345678,1234,Moscow
-fikser,energyen321,Ilya,Serov,87654321,1324,Moscow
-ivan1,ivan1,ivan1,ivan1,37849128,1234,Moscow
-ivan2,ivan2,ivan2,ivan2,29387648,2312,Saint-Peterburg
-ivan3,ivan3,ivan3,ivan3,73829164,2312,Perm
+

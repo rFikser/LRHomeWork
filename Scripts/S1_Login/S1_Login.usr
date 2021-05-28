@@ -51,14 +51,14 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="T1_Go_to_flights__*delimiter*__Welcome_page__*delimiter*__Login__*delimiter*__Go_to_flights__*delimiter*__Sign_off"
+Order="S1_Go_to_flights__*delimiter*__Welcome_page__*delimiter*__Login__*delimiter*__Go_to_flights__*delimiter*__Sign_off"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
-T1_Go_to_flights=
+S1_Go_to_flights=
 Welcome_page=
 Login=
 Go_to_flights=

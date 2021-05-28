@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx-reuseport/1.13.4
+Date: Fri, 28 May 2021 12:58:55 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=30
+Vary: Accept-Encoding
+X-Powered-By: PHP/7.2.32
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+
