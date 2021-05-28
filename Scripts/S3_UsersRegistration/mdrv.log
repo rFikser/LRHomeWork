@@ -1,4 +1,4 @@
-Virtual User Script started at: 28.05.2021 12:49:10
+Virtual User Script started at: 29.05.2021 0:44:20
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (Jul 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -7,8 +7,8 @@ Run-Time Settings file: "C:\Users\fikser\Desktop\HomeWork_IBS\Scripts\S3_UsersRe
 Vuser directory: "C:\Users\fikser\Desktop\HomeWork_IBS\Scripts\S3_UsersRegistration"  	[MsgId: MMSG-27052]
 Vuser output directory: "C:\Users\fikser\Desktop\HomeWork_IBS\Scripts\S3_UsersRegistration"  	[MsgId: MMSG-27050]
 Operating system's current working directory: "c:\users\fikser\desktop\homework_ibs\scripts\s3_usersregistration"  	[MsgId: MMSG-27048]
-UTC (GMT) start date/time   : 2021-05-28 09:49:10  	[MsgId: MMSG-26992]
-LOCAL start date/time       : 2021-05-28 12:49:10  	[MsgId: MMSG-26991]
+UTC (GMT) start date/time   : 2021-05-28 21:44:20  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2021-05-29 00:44:20  	[MsgId: MMSG-26991]
 Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
 Some of the Run-Time Settings:  	[MsgId: MMSG-27142]
     Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
@@ -48,7 +48,7 @@ Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action Action.
 Action.c(3): Notify: Transaction "S3_UserRegistration" started.
-Action.c(6): Notify: Transaction "welcome_page" started.
+Action.c(6): Notify: Transaction "Welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
 ..\\..\\Parameters\\global_lib.h(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
 ..\\..\\Parameters\\global_lib.h(4): web_add_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
@@ -100,9 +100,9 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(39): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
 ..\\..\\Parameters\\global_lib.h(39): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
 ..\\..\\Parameters\\global_lib.h(48): web_url("WebTours") started  	[MsgId: MMSG-26355]
-..\\..\\Parameters\\global_lib.h(48): t=2188ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2188ms: Connected socket [0] from 127.0.0.1:2109 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2188ms: 576-byte request headers for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
+..\\..\\Parameters\\global_lib.h(48): t=287ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=288ms: Connected socket [0] from 127.0.0.1:51682 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=288ms: 576-byte request headers for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
 ..\\..\\Parameters\\global_lib.h(48):     GET /WebTours/ HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Sec-Fetch-Site: cross-site\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Sec-Fetch-Mode: cors\r\n
@@ -120,9 +120,9 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Host: localhost:1080\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2193ms: 298-byte response headers for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
+..\\..\\Parameters\\global_lib.h(48): t=293ms: 298-byte response headers for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
 ..\\..\\Parameters\\global_lib.h(48):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Server: Apache/2.2.21 (Win32)\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     ETag: "200000002e4d5-16e-4ddb1559ac980"\r\n
@@ -132,7 +132,7 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Content-Type: text/html\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2204ms: 366-byte response body for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
+..\\..\\Parameters\\global_lib.h(48): t=305ms: 366-byte response body for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
 ..\\..\\Parameters\\global_lib.h(48):     <HTML>\n
 ..\\..\\Parameters\\global_lib.h(48):     <HEAD>\n
 ..\\..\\Parameters\\global_lib.h(48):     <title>Web Tours</title>\n
@@ -147,11 +147,11 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     \n
 ..\\..\\Parameters\\global_lib.h(48): Detected non-resource "http://localhost:1080/WebTours/header.html" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
 ..\\..\\Parameters\\global_lib.h(48): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
-..\\..\\Parameters\\global_lib.h(48): t=2211ms: Request done "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2216ms: Connecting [1] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2217ms: Connecting [2] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2217ms: Connected socket [1] from 127.0.0.1:2110 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2217ms: 629-byte request headers for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+..\\..\\Parameters\\global_lib.h(48): t=309ms: Request done "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=335ms: Connecting [1] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=336ms: Connecting [2] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=336ms: Connected socket [1] from 127.0.0.1:51683 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=336ms: 629-byte request headers for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
 ..\\..\\Parameters\\global_lib.h(48):     GET /WebTours/header.html HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Referer: http://localhost:1080/WebTours/\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Sec-Fetch-Site: cross-site\r\n
@@ -170,8 +170,8 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Host: localhost:1080\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2218ms: Connected socket [2] from 127.0.0.1:2111 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2218ms: 640-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+..\\..\\Parameters\\global_lib.h(48): t=337ms: Connected socket [2] from 127.0.0.1:51684 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=337ms: 640-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
 ..\\..\\Parameters\\global_lib.h(48):     GET /cgi-bin/welcome.pl?signOff=true HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Referer: http://localhost:1080/WebTours/\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Sec-Fetch-Site: cross-site\r\n
@@ -190,9 +190,9 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Host: localhost:1080\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2219ms: 298-byte response headers for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+..\\..\\Parameters\\global_lib.h(48): t=338ms: 298-byte response headers for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
 ..\\..\\Parameters\\global_lib.h(48):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Server: Apache/2.2.21 (Win32)\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     ETag: "200000002e394-2c6-4ddb1559ac980"\r\n
@@ -202,7 +202,7 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Content-Type: text/html\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2220ms: 710-byte response body for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+..\\..\\Parameters\\global_lib.h(48): t=338ms: 710-byte response body for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
 ..\\..\\Parameters\\global_lib.h(48):     <!DOCTYPE html>\n
 ..\\..\\Parameters\\global_lib.h(48):     <HTML xmlns="http://www.w3.org/1999/xhtml">\n
 ..\\..\\Parameters\\global_lib.h(48):     <HEAD></HEAD>\n
@@ -222,9 +222,9 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     </HTML>
 ..\\..\\Parameters\\global_lib.h(48): Found resource "http://localhost:1080/WebTours/images/hp_logo.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
 ..\\..\\Parameters\\global_lib.h(48): Found resource "http://localhost:1080/WebTours/images/webtours.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
-..\\..\\Parameters\\global_lib.h(48): t=2222ms: Request done "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2244ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2244ms: 647-byte request headers for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
+..\\..\\Parameters\\global_lib.h(48): t=340ms: Request done "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=341ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=341ms: 647-byte request headers for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
 ..\\..\\Parameters\\global_lib.h(48):     GET /WebTours/images/hp_logo.png HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Referer: http://localhost:1080/WebTours/header.html\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Sec-Fetch-Site: cross-site\r\n
@@ -243,9 +243,9 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Host: localhost:1080\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2245ms: Connecting [3] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2245ms: Connected socket [3] from 127.0.0.1:2112 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2245ms: 648-byte request headers for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+..\\..\\Parameters\\global_lib.h(48): t=342ms: Connecting [3] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=342ms: Connected socket [3] from 127.0.0.1:51685 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=342ms: 648-byte request headers for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
 ..\\..\\Parameters\\global_lib.h(48):     GET /WebTours/images/webtours.png HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Referer: http://localhost:1080/WebTours/header.html\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Sec-Fetch-Site: cross-site\r\n
@@ -264,9 +264,9 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Host: localhost:1080\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2246ms: 297-byte response headers for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
+..\\..\\Parameters\\global_lib.h(48): t=343ms: 297-byte response headers for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
 ..\\..\\Parameters\\global_lib.h(48):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Server: Apache/2.2.21 (Win32)\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     ETag: "200000002e4bb-259-4b654c052c2c0"\r\n
@@ -276,11 +276,11 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Content-Type: image/png\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2247ms: 601-byte response body for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
-..\\..\\Parameters\\global_lib.h(48): t=2247ms: Request done "http://localhost:1080/WebTours/images/hp_logo.png"  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2248ms: 300-byte response headers for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+..\\..\\Parameters\\global_lib.h(48): t=344ms: 601-byte response body for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
+..\\..\\Parameters\\global_lib.h(48): t=344ms: Request done "http://localhost:1080/WebTours/images/hp_logo.png"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=345ms: 300-byte response headers for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
 ..\\..\\Parameters\\global_lib.h(48):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Server: Apache/2.2.21 (Win32)\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Last-Modified: Mon, 04 Nov 2013 13:47:02 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     ETag: "200000002e4d4-105b-4ea5a26938180"\r\n
@@ -290,24 +290,24 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Content-Type: image/png\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2249ms: 4187-byte response body for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
-..\\..\\Parameters\\global_lib.h(48): t=2250ms: Request done "http://localhost:1080/WebTours/images/webtours.png"  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2267ms: 328-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+..\\..\\Parameters\\global_lib.h(48): t=347ms: 4187-byte response body for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+..\\..\\Parameters\\global_lib.h(48): t=347ms: Request done "http://localhost:1080/WebTours/images/webtours.png"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=387ms: 328-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
 ..\\..\\Parameters\\global_lib.h(48):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Server: Apache/2.2.21 (Win32)\r\n
-..\\..\\Parameters\\global_lib.h(48):     Set-Cookie: MSO=SID&1622195351; path=/\r\n
-..\\..\\Parameters\\global_lib.h(48):     Set-Cookie: MTUserInfo=; path=/; expires=Thu, 27-May-2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(48):     Set-Cookie: MSO=SID&1622238260; path=/\r\n
+..\\..\\Parameters\\global_lib.h(48):     Set-Cookie: MTUserInfo=; path=/; expires=Thu, 27-May-2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Keep-Alive: timeout=5, max=100\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Transfer-Encoding: chunked\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Content-Type: text/html; charset=ISO-8859-1\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2268ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+..\\..\\Parameters\\global_lib.h(48): t=387ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
 ..\\..\\Parameters\\global_lib.h(48):     2ae\r\n
-..\\..\\Parameters\\global_lib.h(48): t=2268ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+..\\..\\Parameters\\global_lib.h(48): t=387ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2268ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+..\\..\\Parameters\\global_lib.h(48): t=388ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
 ..\\..\\Parameters\\global_lib.h(48):     <!-- \n
 ..\\..\\Parameters\\global_lib.h(48):      A Session ID has been created and loaded into a cookie called MSO.\n
 ..\\..\\Parameters\\global_lib.h(48):      Also, the server options have been loaded into the cookie called\n
@@ -331,12 +331,12 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     </html>
 ..\\..\\Parameters\\global_lib.h(48): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 ..\\..\\Parameters\\global_lib.h(48): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
-..\\..\\Parameters\\global_lib.h(48): t=2270ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+..\\..\\Parameters\\global_lib.h(48): t=389ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
 ..\\..\\Parameters\\global_lib.h(48):     0\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2270ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2277ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2277ms: 681-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+..\\..\\Parameters\\global_lib.h(48): t=390ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=396ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=396ms: 681-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
 ..\\..\\Parameters\\global_lib.h(48):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Sec-Fetch-Site: cross-site\r\n
@@ -354,10 +354,10 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Accept: */*\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Host: localhost:1080\r\n
-..\\..\\Parameters\\global_lib.h(48):     Cookie: MSO=SID&1622195351\r\n
+..\\..\\Parameters\\global_lib.h(48):     Cookie: MSO=SID&1622238260\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2278ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2278ms: 677-byte request headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
+..\\..\\Parameters\\global_lib.h(48): t=397ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=397ms: 677-byte request headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
 ..\\..\\Parameters\\global_lib.h(48):     GET /WebTours/home.html HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Sec-Fetch-Site: cross-site\r\n
@@ -375,11 +375,11 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Accept: */*\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Host: localhost:1080\r\n
-..\\..\\Parameters\\global_lib.h(48):     Cookie: MSO=SID&1622195351\r\n
+..\\..\\Parameters\\global_lib.h(48):     Cookie: MSO=SID&1622238260\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2279ms: 298-byte response headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
+..\\..\\Parameters\\global_lib.h(48): t=398ms: 298-byte response headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
 ..\\..\\Parameters\\global_lib.h(48):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Server: Apache/2.2.21 (Win32)\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     ETag: "200000002e395-551-4ddb1559ac980"\r\n
@@ -389,7 +389,7 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Content-Type: text/html\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2280ms: 1361-byte response body for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
+..\\..\\Parameters\\global_lib.h(48): t=399ms: 1361-byte response body for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
 ..\\..\\Parameters\\global_lib.h(48):     <HTML>\n
 ..\\..\\Parameters\\global_lib.h(48):     <HEAD>\n
 ..\\..\\Parameters\\global_lib.h(48):     \t<title>Web Tours</title>\n
@@ -435,22 +435,22 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     </table>\n
 ..\\..\\Parameters\\global_lib.h(48):     </body>\n
 ..\\..\\Parameters\\global_lib.h(48):     </HTML>\n
-..\\..\\Parameters\\global_lib.h(48): t=2283ms: Request done "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2323ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+..\\..\\Parameters\\global_lib.h(48): t=400ms: Request done "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=442ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
 ..\\..\\Parameters\\global_lib.h(48):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Server: Apache/2.2.21 (Win32)\r\n
-..\\..\\Parameters\\global_lib.h(48):     Expires: Thu, 27 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(48):     Expires: Thu, 27 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Keep-Alive: timeout=5, max=98\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Transfer-Encoding: chunked\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Content-Type: text/html; charset=ISO-8859-1\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2323ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
-..\\..\\Parameters\\global_lib.h(48):     5d2\r\n
-..\\..\\Parameters\\global_lib.h(48): t=2323ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+..\\..\\Parameters\\global_lib.h(48): t=443ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+..\\..\\Parameters\\global_lib.h(48):     5d0\r\n
+..\\..\\Parameters\\global_lib.h(48): t=443ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2324ms: 1490-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+..\\..\\Parameters\\global_lib.h(48): t=444ms: 1488-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
 ..\\..\\Parameters\\global_lib.h(48):     <!DOCTYPE html\n
 ..\\..\\Parameters\\global_lib.h(48):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
 ..\\..\\Parameters\\global_lib.h(48):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
@@ -467,8 +467,8 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     small {font-family: tahoma; font-size : 8pt}\n
 ..\\..\\Parameters\\global_lib.h(48):     </style>\n
 ..\\..\\Parameters\\global_lib.h(48):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
-..\\..\\Parameters\\global_lib.h(48):     <input type="hidden" name="userSession" value="131405.050708789zHfQVtHpcQfiDDDDtAfftpiiDHH
-..\\..\\Parameters\\global_lib.h(48):     f"/>\n
+..\\..\\Parameters\\global_lib.h(48):     <input type="hidden" name="userSession" value="131408.526528959zHfQDczpAiDDDDDDtAfffpQfzf"
+..\\..\\Parameters\\global_lib.h(48):     />\n
 ..\\..\\Parameters\\global_lib.h(48):     <table border="0"><tr><td>&nbsp;</td>\n
 ..\\..\\Parameters\\global_lib.h(48):     <td>&nbsp;</td></tr>\n
 ..\\..\\Parameters\\global_lib.h(48):     <tr><td>&nbsp;</td>\n
@@ -493,13 +493,13 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     </body>\n
 ..\\..\\Parameters\\global_lib.h(48):     </html>\n
 ..\\..\\Parameters\\global_lib.h(48): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
-..\\..\\Parameters\\global_lib.h(48): t=2326ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+..\\..\\Parameters\\global_lib.h(48): t=446ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
 ..\\..\\Parameters\\global_lib.h(48):     0\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2326ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): Notify: Saving Parameter "userSession = 131405.050708789zHfQVtHpcQfiDDDDtAfftpiiDHHf".
-..\\..\\Parameters\\global_lib.h(48): t=2327ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2327ms: 679-byte request headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
+..\\..\\Parameters\\global_lib.h(48): t=446ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): Notify: Saving Parameter "userSession = 131408.526528959zHfQDczpAiDDDDDDtAfffpQfzf".
+..\\..\\Parameters\\global_lib.h(48): t=447ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=447ms: 679-byte request headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
 ..\\..\\Parameters\\global_lib.h(48):     GET /WebTours/images/mer_login.gif HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Referer: http://localhost:1080/cgi-bin/nav.pl?in=home\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Sec-Fetch-Site: cross-site\r\n
@@ -517,11 +517,11 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Accept: */*\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Host: localhost:1080\r\n
-..\\..\\Parameters\\global_lib.h(48):     Cookie: MSO=SID&1622195351\r\n
+..\\..\\Parameters\\global_lib.h(48):     Cookie: MSO=SID&1622238260\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2328ms: 297-byte response headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
+..\\..\\Parameters\\global_lib.h(48): t=449ms: 297-byte response headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
 ..\\..\\Parameters\\global_lib.h(48):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Server: Apache/2.2.21 (Win32)\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     ETag: "200000002e4cd-2a7-4b654c052c2c0"\r\n
@@ -531,17 +531,17 @@ Action.c(6): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Content-Type: image/gif\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2329ms: 679-byte response body for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
-..\\..\\Parameters\\global_lib.h(48): t=2330ms: Request done "http://localhost:1080/WebTours/images/mer_login.gif"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=450ms: 679-byte response body for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
+..\\..\\Parameters\\global_lib.h(48): t=450ms: Request done "http://localhost:1080/WebTours/images/mer_login.gif"  	[MsgId: MMSG-26000]
 ..\\..\\Parameters\\global_lib.h(48): Registered web_reg_find successful for "Text=Web Tours" (count=6)  	[MsgId: MMSG-26364]
-..\\..\\Parameters\\global_lib.h(48): web_url("WebTours") was successful, 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(10): Notify: Transaction "welcome_page" ended with a "Pass" status (Duration: 0.2998 Wasted Time: 0.1085).
-Action.c(13): Notify: Transaction "go_to_sign_up_page" started.
+..\\..\\Parameters\\global_lib.h(48): web_url("WebTours") was successful, 10078 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(10): Notify: Transaction "Welcome_page" ended with a "Pass" status (Duration: 0.3180 Wasted Time: 0.1178).
+Action.c(13): Notify: Transaction "Go_to_sign_up_page" started.
 ..\\..\\Parameters\\global_lib.h(235): web_reg_find started  	[MsgId: MMSG-26355]
 ..\\..\\Parameters\\global_lib.h(235): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 ..\\..\\Parameters\\global_lib.h(236): web_url("sign up now") started  	[MsgId: MMSG-26355]
-..\\..\\Parameters\\global_lib.h(236): t=2503ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(236): t=2503ms: 635-byte request headers for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+..\\..\\Parameters\\global_lib.h(236): t=571ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(236): t=571ms: 635-byte request headers for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
 ..\\..\\Parameters\\global_lib.h(236):     GET /cgi-bin/login.pl?username=&password=&getInfo=true HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Referer: http://localhost:1080/WebTours/home.html\r\n
 ..\\..\\Parameters\\global_lib.h(236):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"\r\n
@@ -558,11 +558,11 @@ Action.c(13): Notify: Transaction "go_to_sign_up_page" started.
 ..\\..\\Parameters\\global_lib.h(236):     Accept: */*\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Host: localhost:1080\r\n
-..\\..\\Parameters\\global_lib.h(236):     Cookie: MSO=SID&1622195351\r\n
+..\\..\\Parameters\\global_lib.h(236):     Cookie: MSO=SID&1622238260\r\n
 ..\\..\\Parameters\\global_lib.h(236):     \r\n
-..\\..\\Parameters\\global_lib.h(236): t=2547ms: 228-byte response headers for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+..\\..\\Parameters\\global_lib.h(236): t=627ms: 228-byte response headers for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
 ..\\..\\Parameters\\global_lib.h(236):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(236):     Date: Fri, 28 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(236):     Date: Fri, 28 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Server: Apache/2.2.21 (Win32)\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Expires: 5s\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Keep-Alive: timeout=5, max=97\r\n
@@ -570,11 +570,11 @@ Action.c(13): Notify: Transaction "go_to_sign_up_page" started.
 ..\\..\\Parameters\\global_lib.h(236):     Transfer-Encoding: chunked\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Content-Type: text/html; charset=ISO-8859-1\r\n
 ..\\..\\Parameters\\global_lib.h(236):     \r\n
-..\\..\\Parameters\\global_lib.h(236): t=2549ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+..\\..\\Parameters\\global_lib.h(236): t=629ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
 ..\\..\\Parameters\\global_lib.h(236):     97d\r\n
-..\\..\\Parameters\\global_lib.h(236): t=2549ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+..\\..\\Parameters\\global_lib.h(236): t=629ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
 ..\\..\\Parameters\\global_lib.h(236):     \r\n
-..\\..\\Parameters\\global_lib.h(236): t=2550ms: 2429-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+..\\..\\Parameters\\global_lib.h(236): t=630ms: 2429-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
 ..\\..\\Parameters\\global_lib.h(236):     <!DOCTYPE html\n
 ..\\..\\Parameters\\global_lib.h(236):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
 ..\\..\\Parameters\\global_lib.h(236):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
@@ -613,12 +613,12 @@ Action.c(13): Notify: Transaction "go_to_sign_up_page" started.
 ..\\..\\Parameters\\global_lib.h(236):     </html>\n
 ..\\..\\Parameters\\global_lib.h(236): Found resource "http://localhost:1080/WebTours/profileValidate.js" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
 ..\\..\\Parameters\\global_lib.h(236): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
-..\\..\\Parameters\\global_lib.h(236): t=2551ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+..\\..\\Parameters\\global_lib.h(236): t=632ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
 ..\\..\\Parameters\\global_lib.h(236):     0\r\n
 ..\\..\\Parameters\\global_lib.h(236):     \r\n
-..\\..\\Parameters\\global_lib.h(236): t=2552ms: Request done "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(236): t=2553ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(236): t=2553ms: 644-byte request headers for "http://localhost:1080/WebTours/profileValidate.js" (RelFrameId=, Internal ID=10)
+..\\..\\Parameters\\global_lib.h(236): t=633ms: Request done "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(236): t=634ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(236): t=634ms: 644-byte request headers for "http://localhost:1080/WebTours/profileValidate.js" (RelFrameId=, Internal ID=10)
 ..\\..\\Parameters\\global_lib.h(236):     GET /WebTours/profileValidate.js HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Referer: http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true\r\n
 ..\\..\\Parameters\\global_lib.h(236):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"\r\n
@@ -635,10 +635,10 @@ Action.c(13): Notify: Transaction "go_to_sign_up_page" started.
 ..\\..\\Parameters\\global_lib.h(236):     Accept: */*\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Host: localhost:1080\r\n
-..\\..\\Parameters\\global_lib.h(236):     Cookie: MSO=SID&1622195351\r\n
+..\\..\\Parameters\\global_lib.h(236):     Cookie: MSO=SID&1622238260\r\n
 ..\\..\\Parameters\\global_lib.h(236):     \r\n
-..\\..\\Parameters\\global_lib.h(236): t=2554ms: Already connected [2] to localhost:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(236): t=2554ms: 648-byte request headers for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=11)
+..\\..\\Parameters\\global_lib.h(236): t=635ms: Already connected [2] to localhost:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(236): t=635ms: 648-byte request headers for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=11)
 ..\\..\\Parameters\\global_lib.h(236):     GET /WebTours/images/button_next.gif HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Referer: http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true\r\n
 ..\\..\\Parameters\\global_lib.h(236):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"\r\n
@@ -655,11 +655,11 @@ Action.c(13): Notify: Transaction "go_to_sign_up_page" started.
 ..\\..\\Parameters\\global_lib.h(236):     Accept: */*\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Host: localhost:1080\r\n
-..\\..\\Parameters\\global_lib.h(236):     Cookie: MSO=SID&1622195351\r\n
+..\\..\\Parameters\\global_lib.h(236):     Cookie: MSO=SID&1622238260\r\n
 ..\\..\\Parameters\\global_lib.h(236):     \r\n
-..\\..\\Parameters\\global_lib.h(236): t=2555ms: 313-byte response headers for "http://localhost:1080/WebTours/profileValidate.js" (RelFrameId=, Internal ID=10)
+..\\..\\Parameters\\global_lib.h(236): t=636ms: 313-byte response headers for "http://localhost:1080/WebTours/profileValidate.js" (RelFrameId=, Internal ID=10)
 ..\\..\\Parameters\\global_lib.h(236):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(236):     Date: Fri, 28 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(236):     Date: Fri, 28 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Server: Apache/2.2.21 (Win32)\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Last-Modified: Sun, 22 Apr 2012 14:28:17 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(236):     ETag: "200000002f0d5-2c18-4be45551fa240"\r\n
@@ -669,7 +669,7 @@ Action.c(13): Notify: Transaction "go_to_sign_up_page" started.
 ..\\..\\Parameters\\global_lib.h(236):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Content-Type: application/javascript\r\n
 ..\\..\\Parameters\\global_lib.h(236):     \r\n
-..\\..\\Parameters\\global_lib.h(236): t=2556ms: 11288-byte response body for "http://localhost:1080/WebTours/profileValidate.js" (RelFrameId=, Internal ID=10)
+..\\..\\Parameters\\global_lib.h(236): t=637ms: 11288-byte response body for "http://localhost:1080/WebTours/profileValidate.js" (RelFrameId=, Internal ID=10)
 ..\\..\\Parameters\\global_lib.h(236):     // check for IE3\n
 ..\\..\\Parameters\\global_lib.h(236):     var isIE3 = (navigator.appVersion.indexOf('MSIE 3') != -1);\n
 ..\\..\\Parameters\\global_lib.h(236):     \n
@@ -988,10 +988,10 @@ Action.c(13): Notify: Transaction "go_to_sign_up_page" started.
 ..\\..\\Parameters\\global_lib.h(236):     //  alert("I am valid!"); //remove this line when you use the code\n
 ..\\..\\Parameters\\global_lib.h(236):       return true; //change this to return true to make the form submit\n
 ..\\..\\Parameters\\global_lib.h(236):     }\n
-..\\..\\Parameters\\global_lib.h(236): t=2563ms: Request done "http://localhost:1080/WebTours/profileValidate.js"  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(236): t=2563ms: 297-byte response headers for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=11)
+..\\..\\Parameters\\global_lib.h(236): t=646ms: Request done "http://localhost:1080/WebTours/profileValidate.js"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(236): t=646ms: 297-byte response headers for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=11)
 ..\\..\\Parameters\\global_lib.h(236):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(236):     Date: Fri, 28 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(236):     Date: Fri, 28 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Server: Apache/2.2.21 (Win32)\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(236):     ETag: "200000002e4aa-2f6-4b654c052c2c0"\r\n
@@ -1001,8 +1001,8 @@ Action.c(13): Notify: Transaction "go_to_sign_up_page" started.
 ..\\..\\Parameters\\global_lib.h(236):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(236):     Content-Type: image/gif\r\n
 ..\\..\\Parameters\\global_lib.h(236):     \r\n
-..\\..\\Parameters\\global_lib.h(236): t=2564ms: 758-byte response body for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=11)
-..\\..\\Parameters\\global_lib.h(236): t=2564ms: Request done "http://localhost:1080/WebTours/images/button_next.gif"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(236): t=647ms: 758-byte response body for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=11)
+..\\..\\Parameters\\global_lib.h(236): t=648ms: Request done "http://localhost:1080/WebTours/images/button_next.gif"  	[MsgId: MMSG-26000]
 ..\\..\\Parameters\\global_lib.h(236): Registered web_reg_find successful for "Text=First time registering? Please complete the form below." (count=1)  	[MsgId: MMSG-26364]
 ..\\..\\Parameters\\global_lib.h(236): web_url("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 ..\\..\\Parameters\\global_lib.h(246): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
@@ -1017,20 +1017,20 @@ Action.c(13): Notify: Transaction "go_to_sign_up_page" started.
 ..\\..\\Parameters\\global_lib.h(252): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
 ..\\..\\Parameters\\global_lib.h(252): "Upgrade-Insecure-Requests: 1" header registered (superseding previous registration) for adding to requests from all following Action functions  	[MsgId: MMSG-26504]
 ..\\..\\Parameters\\global_lib.h(252): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
-Action.c(17): Notify: Transaction "go_to_sign_up_page" ended with a "Pass" status (Duration: 0.1268 Wasted Time: 0.0053).
-Action.c(19): Notify: Transaction "fill_sign_up_values" started.
+Action.c(17): Notify: Transaction "Go_to_sign_up_page" ended with a "Pass" status (Duration: 0.1275 Wasted Time: 0.0077).
+Action.c(19): Notify: Transaction "Fill_sign_up_values" started.
 ..\\..\\Parameters\\global_lib.h(259): web_reg_find started  	[MsgId: MMSG-26355]
 ..\\..\\Parameters\\global_lib.h(259): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 ..\\..\\Parameters\\global_lib.h(260): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
-..\\..\\Parameters\\global_lib.h(260): Notify: Parameter Substitution: parameter "randomUser" =  "66"
-..\\..\\Parameters\\global_lib.h(260): Notify: Parameter Substitution: parameter "randomUser" =  "66"
-..\\..\\Parameters\\global_lib.h(260): Notify: Parameter Substitution: parameter "randomUser" =  "66"
-..\\..\\Parameters\\global_lib.h(260): Notify: Parameter Substitution: parameter "randomUser" =  "66"
-..\\..\\Parameters\\global_lib.h(260): Notify: Parameter Substitution: parameter "randomUser" =  "66"
-..\\..\\Parameters\\global_lib.h(260): Notify: Parameter Substitution: parameter "adress" =  "Denver"
-..\\..\\Parameters\\global_lib.h(260): Notify: Parameter Substitution: parameter "adress" =  "Denver"
-..\\..\\Parameters\\global_lib.h(260): t=2709ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(260): t=2709ms: 702-byte request headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+..\\..\\Parameters\\global_lib.h(260): Notify: Parameter Substitution: parameter "randomUser" =  "55"
+..\\..\\Parameters\\global_lib.h(260): Notify: Parameter Substitution: parameter "randomUser" =  "55"
+..\\..\\Parameters\\global_lib.h(260): Notify: Parameter Substitution: parameter "randomUser" =  "55"
+..\\..\\Parameters\\global_lib.h(260): Notify: Parameter Substitution: parameter "randomUser" =  "55"
+..\\..\\Parameters\\global_lib.h(260): Notify: Parameter Substitution: parameter "randomUser" =  "55"
+..\\..\\Parameters\\global_lib.h(260): Notify: Parameter Substitution: parameter "adress" =  "Paris"
+..\\..\\Parameters\\global_lib.h(260): Notify: Parameter Substitution: parameter "adress" =  "Paris"
+..\\..\\Parameters\\global_lib.h(260): t=712ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(260): t=712ms: 702-byte request headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
 ..\\..\\Parameters\\global_lib.h(260):     POST /cgi-bin/login.pl HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(260):     Content-Type: application/x-www-form-urlencoded\r\n
 ..\\..\\Parameters\\global_lib.h(260):     Referer: http://localhost:1080/cgi-bin/login.pl\r\n
@@ -1049,29 +1049,29 @@ Action.c(19): Notify: Transaction "fill_sign_up_values" started.
 ..\\..\\Parameters\\global_lib.h(260):     Accept: */*\r\n
 ..\\..\\Parameters\\global_lib.h(260):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(260):     Host: localhost:1080\r\n
-..\\..\\Parameters\\global_lib.h(260):     Cookie: MSO=SID&1622195351\r\n
-..\\..\\Parameters\\global_lib.h(260):     Content-Length: 146\r\n
+..\\..\\Parameters\\global_lib.h(260):     Cookie: MSO=SID&1622238260\r\n
+..\\..\\Parameters\\global_lib.h(260):     Content-Length: 144\r\n
 ..\\..\\Parameters\\global_lib.h(260):     \r\n
-..\\..\\Parameters\\global_lib.h(260): t=2710ms: 146-byte request body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
-..\\..\\Parameters\\global_lib.h(260):     username=user66&password=user66&passwordConfirm=user66&firstName=user66&lastName=user66&ad
-..\\..\\Parameters\\global_lib.h(260):     dress1=Denver&address2=Denver&register.x=73&register.y=6
-..\\..\\Parameters\\global_lib.h(260): t=2753ms: 371-byte response headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+..\\..\\Parameters\\global_lib.h(260): t=713ms: 144-byte request body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+..\\..\\Parameters\\global_lib.h(260):     username=user55&password=user55&passwordConfirm=user55&firstName=user55&lastName=user55&ad
+..\\..\\Parameters\\global_lib.h(260):     dress1=Paris&address2=Paris&register.x=73&register.y=6
+..\\..\\Parameters\\global_lib.h(260): t=767ms: 368-byte response headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
 ..\\..\\Parameters\\global_lib.h(260):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(260):     Date: Fri, 28 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(260):     Date: Fri, 28 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(260):     Server: Apache/2.2.21 (Win32)\r\n
 ..\\..\\Parameters\\global_lib.h(260):     Expires: 5s\r\n
-..\\..\\Parameters\\global_lib.h(260):     Set-Cookie: MTUserInfo=firstName&user66&address2&Denver&username&user66&hash&118&lastName&
-..\\..\\Parameters\\global_lib.h(260):     user66&address1&Denver&creditCard&&expDate&; path=/\r\n
+..\\..\\Parameters\\global_lib.h(260):     Set-Cookie: MTUserInfo=firstName&user55&address2&Paris&username&user55&hash&21&lastName&us
+..\\..\\Parameters\\global_lib.h(260):     er55&address1&Paris&creditCard&&expDate&; path=/\r\n
 ..\\..\\Parameters\\global_lib.h(260):     Keep-Alive: timeout=5, max=96\r\n
 ..\\..\\Parameters\\global_lib.h(260):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(260):     Transfer-Encoding: chunked\r\n
 ..\\..\\Parameters\\global_lib.h(260):     Content-Type: text/html; charset=ISO-8859-1\r\n
 ..\\..\\Parameters\\global_lib.h(260):     \r\n
-..\\..\\Parameters\\global_lib.h(260): t=2757ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+..\\..\\Parameters\\global_lib.h(260): t=770ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
 ..\\..\\Parameters\\global_lib.h(260):     437\r\n
-..\\..\\Parameters\\global_lib.h(260): t=2757ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+..\\..\\Parameters\\global_lib.h(260): t=770ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
 ..\\..\\Parameters\\global_lib.h(260):     \r\n
-..\\..\\Parameters\\global_lib.h(260): t=2758ms: 1079-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+..\\..\\Parameters\\global_lib.h(260): t=770ms: 1079-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
 ..\\..\\Parameters\\global_lib.h(260):     <!DOCTYPE html\n
 ..\\..\\Parameters\\global_lib.h(260):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
 ..\\..\\Parameters\\global_lib.h(260):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
@@ -1088,7 +1088,7 @@ Action.c(19): Notify: Transaction "fill_sign_up_values" started.
 ..\\..\\Parameters\\global_lib.h(260):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
 ..\\..\\Parameters\\global_lib.h(260):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
 ..\\..\\Parameters\\global_lib.h(260):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
-..\\..\\Parameters\\global_lib.h(260):     black}</style><blockquote>Thank you, <b>user66</b>, for registering and welcome to the Web
+..\\..\\Parameters\\global_lib.h(260):     black}</style><blockquote>Thank you, <b>user55</b>, for registering and welcome to the Web
 ..\\..\\Parameters\\global_lib.h(260):      Tours family.\n
 ..\\..\\Parameters\\global_lib.h(260):     We hope we can meet all your current and future travel needs.  If you have any questions, 
 ..\\..\\Parameters\\global_lib.h(260):     feel free \n
@@ -1098,12 +1098,12 @@ Action.c(19): Notify: Transaction "fill_sign_up_values" started.
 ..\\..\\Parameters\\global_lib.h(260):     </body>\n
 ..\\..\\Parameters\\global_lib.h(260):     </html>
 ..\\..\\Parameters\\global_lib.h(260): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-..\\..\\Parameters\\global_lib.h(260): t=2760ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+..\\..\\Parameters\\global_lib.h(260): t=771ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
 ..\\..\\Parameters\\global_lib.h(260):     0\r\n
 ..\\..\\Parameters\\global_lib.h(260):     \r\n
-..\\..\\Parameters\\global_lib.h(260): t=2760ms: Request done "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(260): t=772ms: Request done "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26000]
 ..\\..\\Parameters\\global_lib.h(260): Registered web_reg_find successful for "Text=Thank you" (count=1)  	[MsgId: MMSG-26364]
-..\\..\\Parameters\\global_lib.h(260): web_submit_data("login.pl_2") was successful, 1079 body bytes, 371 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\..\\Parameters\\global_lib.h(260): web_submit_data("login.pl_2") was successful, 1079 body bytes, 368 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 ..\\..\\Parameters\\global_lib.h(280): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
 ..\\..\\Parameters\\global_lib.h(280): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
 ..\\..\\Parameters\\global_lib.h(280): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
@@ -1121,8 +1121,8 @@ Action.c(19): Notify: Transaction "fill_sign_up_values" started.
 ..\\..\\Parameters\\global_lib.h(289): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
 ..\\..\\Parameters\\global_lib.h(289): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
 ..\\..\\Parameters\\global_lib.h(289): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
-Action.c(23): Notify: Transaction "fill_sign_up_values" ended with a "Pass" status (Duration: 0.1408 Wasted Time: 0.0058).
-Action.c(25): Notify: Transaction "welcome_page" started.
+Action.c(23): Notify: Transaction "Fill_sign_up_values" ended with a "Pass" status (Duration: 0.1086 Wasted Time: 0.0073).
+Action.c(25): Notify: Transaction "Welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
 ..\\..\\Parameters\\global_lib.h(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
 ..\\..\\Parameters\\global_lib.h(4): web_add_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
@@ -1175,7 +1175,7 @@ Action.c(25): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(39): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
 ..\\..\\Parameters\\global_lib.h(48): web_url("WebTours") started  	[MsgId: MMSG-26355]
 ..\\..\\Parameters\\global_lib.h(48): Retrieving data from cache for "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26558]
-..\\..\\Parameters\\global_lib.h(48): t=2914ms: 366-byte response body retrieved from cache for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=13)
+..\\..\\Parameters\\global_lib.h(48): t=858ms: 366-byte response body retrieved from cache for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=13)
 ..\\..\\Parameters\\global_lib.h(48):     <HTML>\n
 ..\\..\\Parameters\\global_lib.h(48):     <HEAD>\n
 ..\\..\\Parameters\\global_lib.h(48):     <title>Web Tours</title>\n
@@ -1190,7 +1190,7 @@ Action.c(25): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     \n
 ..\\..\\Parameters\\global_lib.h(48): Detected non-resource "http://localhost:1080/WebTours/header.html" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
 ..\\..\\Parameters\\global_lib.h(48): Retrieving data from cache for "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26558]
-..\\..\\Parameters\\global_lib.h(48): t=2914ms: 710-byte response body retrieved from cache for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=14)
+..\\..\\Parameters\\global_lib.h(48): t=859ms: 710-byte response body retrieved from cache for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=14)
 ..\\..\\Parameters\\global_lib.h(48):     <!DOCTYPE html>\n
 ..\\..\\Parameters\\global_lib.h(48):     <HTML xmlns="http://www.w3.org/1999/xhtml">\n
 ..\\..\\Parameters\\global_lib.h(48):     <HEAD></HEAD>\n
@@ -1211,8 +1211,8 @@ Action.c(25): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48): Resource "http://localhost:1080/WebTours/images/hp_logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ..\\..\\Parameters\\global_lib.h(48): Resource "http://localhost:1080/WebTours/images/webtours.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ..\\..\\Parameters\\global_lib.h(48): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
-..\\..\\Parameters\\global_lib.h(48): t=2915ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2916ms: 791-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=15)
+..\\..\\Parameters\\global_lib.h(48): t=860ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=860ms: 788-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=15)
 ..\\..\\Parameters\\global_lib.h(48):     GET /cgi-bin/welcome.pl?signOff=true HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Referer: http://localhost:1080/WebTours/\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Sec-Fetch-Site: cross-site\r\n
@@ -1230,25 +1230,25 @@ Action.c(25): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Accept: */*\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Host: localhost:1080\r\n
-..\\..\\Parameters\\global_lib.h(48):     Cookie: MSO=SID&1622195351; MTUserInfo=firstName&user66&address2&Denver&username&user66&ha
-..\\..\\Parameters\\global_lib.h(48):     sh&118&lastName&user66&address1&Denver&creditCard&&expDate&\r\n
+..\\..\\Parameters\\global_lib.h(48):     Cookie: MSO=SID&1622238260; MTUserInfo=firstName&user55&address2&Paris&username&user55&has
+..\\..\\Parameters\\global_lib.h(48):     h&21&lastName&user55&address1&Paris&creditCard&&expDate&\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2954ms: 327-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=15)
+..\\..\\Parameters\\global_lib.h(48): t=902ms: 327-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=15)
 ..\\..\\Parameters\\global_lib.h(48):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Server: Apache/2.2.21 (Win32)\r\n
-..\\..\\Parameters\\global_lib.h(48):     Set-Cookie: MSO=SID&1622195351; path=/\r\n
-..\\..\\Parameters\\global_lib.h(48):     Set-Cookie: MTUserInfo=; path=/; expires=Thu, 27-May-2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(48):     Set-Cookie: MSO=SID&1622238260; path=/\r\n
+..\\..\\Parameters\\global_lib.h(48):     Set-Cookie: MTUserInfo=; path=/; expires=Thu, 27-May-2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Keep-Alive: timeout=5, max=95\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Transfer-Encoding: chunked\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Content-Type: text/html; charset=ISO-8859-1\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2955ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=15)
+..\\..\\Parameters\\global_lib.h(48): t=903ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=15)
 ..\\..\\Parameters\\global_lib.h(48):     2ae\r\n
-..\\..\\Parameters\\global_lib.h(48): t=2955ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=15)
+..\\..\\Parameters\\global_lib.h(48): t=903ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=15)
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2956ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=15)
+..\\..\\Parameters\\global_lib.h(48): t=904ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=15)
 ..\\..\\Parameters\\global_lib.h(48):     <!-- \n
 ..\\..\\Parameters\\global_lib.h(48):      A Session ID has been created and loaded into a cookie called MSO.\n
 ..\\..\\Parameters\\global_lib.h(48):      Also, the server options have been loaded into the cookie called\n
@@ -1273,7 +1273,7 @@ Action.c(25): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 ..\\..\\Parameters\\global_lib.h(48): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 ..\\..\\Parameters\\global_lib.h(48): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
-..\\..\\Parameters\\global_lib.h(48): t=2958ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=17)
+..\\..\\Parameters\\global_lib.h(48): t=905ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=17)
 ..\\..\\Parameters\\global_lib.h(48):     <HTML>\n
 ..\\..\\Parameters\\global_lib.h(48):     <HEAD>\n
 ..\\..\\Parameters\\global_lib.h(48):     \t<title>Web Tours</title>\n
@@ -1319,12 +1319,12 @@ Action.c(25): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     </table>\n
 ..\\..\\Parameters\\global_lib.h(48):     </body>\n
 ..\\..\\Parameters\\global_lib.h(48):     </HTML>\n
-..\\..\\Parameters\\global_lib.h(48): t=2959ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=15)
+..\\..\\Parameters\\global_lib.h(48): t=907ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=15)
 ..\\..\\Parameters\\global_lib.h(48):     0\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=2960ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2961ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): t=2961ms: 681-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=16)
+..\\..\\Parameters\\global_lib.h(48): t=908ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=908ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): t=908ms: 681-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=16)
 ..\\..\\Parameters\\global_lib.h(48):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Sec-Fetch-Site: cross-site\r\n
@@ -1342,23 +1342,23 @@ Action.c(25): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     Accept: */*\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Host: localhost:1080\r\n
-..\\..\\Parameters\\global_lib.h(48):     Cookie: MSO=SID&1622195351\r\n
+..\\..\\Parameters\\global_lib.h(48):     Cookie: MSO=SID&1622238260\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=3004ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=16)
+..\\..\\Parameters\\global_lib.h(48): t=952ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=16)
 ..\\..\\Parameters\\global_lib.h(48):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(48):     Date: Fri, 28 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Server: Apache/2.2.21 (Win32)\r\n
-..\\..\\Parameters\\global_lib.h(48):     Expires: Thu, 27 May 2021 09:49:11 GMT\r\n
+..\\..\\Parameters\\global_lib.h(48):     Expires: Thu, 27 May 2021 21:44:20 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Keep-Alive: timeout=5, max=96\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Transfer-Encoding: chunked\r\n
 ..\\..\\Parameters\\global_lib.h(48):     Content-Type: text/html; charset=ISO-8859-1\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=3004ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=16)
-..\\..\\Parameters\\global_lib.h(48):     5d2\r\n
-..\\..\\Parameters\\global_lib.h(48): t=3004ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=16)
+..\\..\\Parameters\\global_lib.h(48): t=953ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=16)
+..\\..\\Parameters\\global_lib.h(48):     5d0\r\n
+..\\..\\Parameters\\global_lib.h(48): t=953ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=16)
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=3005ms: 1490-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=16)
+..\\..\\Parameters\\global_lib.h(48): t=954ms: 1488-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=16)
 ..\\..\\Parameters\\global_lib.h(48):     <!DOCTYPE html\n
 ..\\..\\Parameters\\global_lib.h(48):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
 ..\\..\\Parameters\\global_lib.h(48):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
@@ -1375,8 +1375,8 @@ Action.c(25): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     small {font-family: tahoma; font-size : 8pt}\n
 ..\\..\\Parameters\\global_lib.h(48):     </style>\n
 ..\\..\\Parameters\\global_lib.h(48):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
-..\\..\\Parameters\\global_lib.h(48):     <input type="hidden" name="userSession" value="131405.050708789zHfQVtHpcQfiDDDDtAfftpiiDHH
-..\\..\\Parameters\\global_lib.h(48):     f"/>\n
+..\\..\\Parameters\\global_lib.h(48):     <input type="hidden" name="userSession" value="131408.526528959zHfQDczpAiDDDDDDtAfffpQfzf"
+..\\..\\Parameters\\global_lib.h(48):     />\n
 ..\\..\\Parameters\\global_lib.h(48):     <table border="0"><tr><td>&nbsp;</td>\n
 ..\\..\\Parameters\\global_lib.h(48):     <td>&nbsp;</td></tr>\n
 ..\\..\\Parameters\\global_lib.h(48):     <tr><td>&nbsp;</td>\n
@@ -1401,20 +1401,20 @@ Action.c(25): Notify: Transaction "welcome_page" started.
 ..\\..\\Parameters\\global_lib.h(48):     </body>\n
 ..\\..\\Parameters\\global_lib.h(48):     </html>\n
 ..\\..\\Parameters\\global_lib.h(48): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-..\\..\\Parameters\\global_lib.h(48): t=3008ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=16)
+..\\..\\Parameters\\global_lib.h(48): t=956ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=16)
 ..\\..\\Parameters\\global_lib.h(48):     0\r\n
 ..\\..\\Parameters\\global_lib.h(48):     \r\n
-..\\..\\Parameters\\global_lib.h(48): t=3008ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(48): Notify: Saving Parameter "userSession = 131405.050708789zHfQVtHpcQfiDDDDtAfftpiiDHHf".
+..\\..\\Parameters\\global_lib.h(48): t=957ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(48): Notify: Saving Parameter "userSession = 131408.526528959zHfQDczpAiDDDDDDtAfffpQfzf".
 ..\\..\\Parameters\\global_lib.h(48): Registered web_reg_find successful for "Text=Web Tours" (count=6)  	[MsgId: MMSG-26364]
-..\\..\\Parameters\\global_lib.h(48): web_url("WebTours") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(29): Notify: Transaction "welcome_page" ended with a "Pass" status (Duration: 0.1744 Wasted Time: 0.0075).
-Action.c(32): Notify: Transaction "sign_off" started.
+..\\..\\Parameters\\global_lib.h(48): web_url("WebTours") was successful, 2174 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "Welcome_page" ended with a "Pass" status (Duration: 0.1718 Wasted Time: 0.0082).
+Action.c(32): Notify: Transaction "Sign_off" started.
 ..\\..\\Parameters\\global_lib.h(221): web_reg_find started  	[MsgId: MMSG-26355]
 ..\\..\\Parameters\\global_lib.h(221): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 ..\\..\\Parameters\\global_lib.h(223): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
-..\\..\\Parameters\\global_lib.h(223): t=3152ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(223): t=3152ms: 631-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=18)
+..\\..\\Parameters\\global_lib.h(223): t=1024ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(223): t=1024ms: 631-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=18)
 ..\\..\\Parameters\\global_lib.h(223):     GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
 ..\\..\\Parameters\\global_lib.h(223):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"\r\n
@@ -1431,24 +1431,24 @@ Action.c(32): Notify: Transaction "sign_off" started.
 ..\\..\\Parameters\\global_lib.h(223):     Accept: */*\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Host: localhost:1080\r\n
-..\\..\\Parameters\\global_lib.h(223):     Cookie: MSO=SID&1622195351\r\n
+..\\..\\Parameters\\global_lib.h(223):     Cookie: MSO=SID&1622238260\r\n
 ..\\..\\Parameters\\global_lib.h(223):     \r\n
-..\\..\\Parameters\\global_lib.h(223): t=3203ms: 327-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=18)
+..\\..\\Parameters\\global_lib.h(223): t=1069ms: 327-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=18)
 ..\\..\\Parameters\\global_lib.h(223):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(223):     Date: Fri, 28 May 2021 09:49:12 GMT\r\n
+..\\..\\Parameters\\global_lib.h(223):     Date: Fri, 28 May 2021 21:44:21 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Server: Apache/2.2.21 (Win32)\r\n
-..\\..\\Parameters\\global_lib.h(223):     Set-Cookie: MSO=SID&1622195352; path=/\r\n
-..\\..\\Parameters\\global_lib.h(223):     Set-Cookie: MTUserInfo=; path=/; expires=Thu, 27-May-2021 09:49:12 GMT\r\n
+..\\..\\Parameters\\global_lib.h(223):     Set-Cookie: MSO=SID&1622238261; path=/\r\n
+..\\..\\Parameters\\global_lib.h(223):     Set-Cookie: MTUserInfo=; path=/; expires=Thu, 27-May-2021 21:44:21 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Keep-Alive: timeout=5, max=94\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Transfer-Encoding: chunked\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Content-Type: text/html; charset=ISO-8859-1\r\n
 ..\\..\\Parameters\\global_lib.h(223):     \r\n
-..\\..\\Parameters\\global_lib.h(223): t=3206ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=18)
+..\\..\\Parameters\\global_lib.h(223): t=1072ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=18)
 ..\\..\\Parameters\\global_lib.h(223):     2ae\r\n
-..\\..\\Parameters\\global_lib.h(223): t=3206ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=18)
+..\\..\\Parameters\\global_lib.h(223): t=1072ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=18)
 ..\\..\\Parameters\\global_lib.h(223):     \r\n
-..\\..\\Parameters\\global_lib.h(223): t=3207ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=18)
+..\\..\\Parameters\\global_lib.h(223): t=1073ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=18)
 ..\\..\\Parameters\\global_lib.h(223):     <!-- \n
 ..\\..\\Parameters\\global_lib.h(223):      A Session ID has been created and loaded into a cookie called MSO.\n
 ..\\..\\Parameters\\global_lib.h(223):      Also, the server options have been loaded into the cookie called\n
@@ -1473,7 +1473,7 @@ Action.c(32): Notify: Transaction "sign_off" started.
 ..\\..\\Parameters\\global_lib.h(223): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
 ..\\..\\Parameters\\global_lib.h(223): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
 ..\\..\\Parameters\\global_lib.h(223): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
-..\\..\\Parameters\\global_lib.h(223): t=3210ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=20)
+..\\..\\Parameters\\global_lib.h(223): t=1074ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=20)
 ..\\..\\Parameters\\global_lib.h(223):     <HTML>\n
 ..\\..\\Parameters\\global_lib.h(223):     <HEAD>\n
 ..\\..\\Parameters\\global_lib.h(223):     \t<title>Web Tours</title>\n
@@ -1519,12 +1519,12 @@ Action.c(32): Notify: Transaction "sign_off" started.
 ..\\..\\Parameters\\global_lib.h(223):     </table>\n
 ..\\..\\Parameters\\global_lib.h(223):     </body>\n
 ..\\..\\Parameters\\global_lib.h(223):     </HTML>\n
-..\\..\\Parameters\\global_lib.h(223): t=3212ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=18)
+..\\..\\Parameters\\global_lib.h(223): t=1076ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=18)
 ..\\..\\Parameters\\global_lib.h(223):     0\r\n
 ..\\..\\Parameters\\global_lib.h(223):     \r\n
-..\\..\\Parameters\\global_lib.h(223): t=3213ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(223): t=3214ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
-..\\..\\Parameters\\global_lib.h(223): t=3214ms: 618-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=19)
+..\\..\\Parameters\\global_lib.h(223): t=1077ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(223): t=1078ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(223): t=1078ms: 618-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=19)
 ..\\..\\Parameters\\global_lib.h(223):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1\r\n
 ..\\..\\Parameters\\global_lib.h(223):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"\r\n
@@ -1541,23 +1541,23 @@ Action.c(32): Notify: Transaction "sign_off" started.
 ..\\..\\Parameters\\global_lib.h(223):     Accept: */*\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Host: localhost:1080\r\n
-..\\..\\Parameters\\global_lib.h(223):     Cookie: MSO=SID&1622195352\r\n
+..\\..\\Parameters\\global_lib.h(223):     Cookie: MSO=SID&1622238261\r\n
 ..\\..\\Parameters\\global_lib.h(223):     \r\n
-..\\..\\Parameters\\global_lib.h(223): t=3264ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=19)
+..\\..\\Parameters\\global_lib.h(223): t=1126ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=19)
 ..\\..\\Parameters\\global_lib.h(223):     HTTP/1.1 200 OK\r\n
-..\\..\\Parameters\\global_lib.h(223):     Date: Fri, 28 May 2021 09:49:12 GMT\r\n
+..\\..\\Parameters\\global_lib.h(223):     Date: Fri, 28 May 2021 21:44:21 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Server: Apache/2.2.21 (Win32)\r\n
-..\\..\\Parameters\\global_lib.h(223):     Expires: Thu, 27 May 2021 09:49:12 GMT\r\n
+..\\..\\Parameters\\global_lib.h(223):     Expires: Thu, 27 May 2021 21:44:21 GMT\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Keep-Alive: timeout=5, max=95\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Connection: Keep-Alive\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Transfer-Encoding: chunked\r\n
 ..\\..\\Parameters\\global_lib.h(223):     Content-Type: text/html; charset=ISO-8859-1\r\n
 ..\\..\\Parameters\\global_lib.h(223):     \r\n
-..\\..\\Parameters\\global_lib.h(223): t=3265ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=19)
-..\\..\\Parameters\\global_lib.h(223):     5c9\r\n
-..\\..\\Parameters\\global_lib.h(223): t=3265ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=19)
+..\\..\\Parameters\\global_lib.h(223): t=1126ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=19)
+..\\..\\Parameters\\global_lib.h(223):     5ce\r\n
+..\\..\\Parameters\\global_lib.h(223): t=1126ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=19)
 ..\\..\\Parameters\\global_lib.h(223):     \r\n
-..\\..\\Parameters\\global_lib.h(223): t=3266ms: 1481-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=19)
+..\\..\\Parameters\\global_lib.h(223): t=1127ms: 1486-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=19)
 ..\\..\\Parameters\\global_lib.h(223):     <!DOCTYPE html\n
 ..\\..\\Parameters\\global_lib.h(223):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
 ..\\..\\Parameters\\global_lib.h(223):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
@@ -1574,7 +1574,8 @@ Action.c(32): Notify: Transaction "sign_off" started.
 ..\\..\\Parameters\\global_lib.h(223):     small {font-family: tahoma; font-size : 8pt}\n
 ..\\..\\Parameters\\global_lib.h(223):     </style>\n
 ..\\..\\Parameters\\global_lib.h(223):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
-..\\..\\Parameters\\global_lib.h(223):     <input type="hidden" name="userSession" value="131405.050789793zHfQVtHpDtAfftpiiDi"/>\n
+..\\..\\Parameters\\global_lib.h(223):     <input type="hidden" name="userSession" value="131408.526609964zHfQDczpAiHftAfffpQfzfcf"/>
+..\\..\\Parameters\\global_lib.h(223):     \n
 ..\\..\\Parameters\\global_lib.h(223):     <table border="0"><tr><td>&nbsp;</td>\n
 ..\\..\\Parameters\\global_lib.h(223):     <td>&nbsp;</td></tr>\n
 ..\\..\\Parameters\\global_lib.h(223):     <tr><td>&nbsp;</td>\n
@@ -1599,23 +1600,23 @@ Action.c(32): Notify: Transaction "sign_off" started.
 ..\\..\\Parameters\\global_lib.h(223):     </body>\n
 ..\\..\\Parameters\\global_lib.h(223):     </html>\n
 ..\\..\\Parameters\\global_lib.h(223): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-..\\..\\Parameters\\global_lib.h(223): t=3267ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=19)
+..\\..\\Parameters\\global_lib.h(223): t=1129ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=19)
 ..\\..\\Parameters\\global_lib.h(223):     0\r\n
 ..\\..\\Parameters\\global_lib.h(223):     \r\n
-..\\..\\Parameters\\global_lib.h(223): t=3268ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+..\\..\\Parameters\\global_lib.h(223): t=1129ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
 ..\\..\\Parameters\\global_lib.h(223): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
-..\\..\\Parameters\\global_lib.h(223): web_url("SignOff Button") was successful, 2167 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(36): Notify: Transaction "sign_off" ended with a "Pass" status (Duration: 0.1905 Wasted Time: 0.0061).
-Action.c(40): Notify: Transaction "S3_UserRegistration" ended with a "Pass" status (Duration: 1.2821 Wasted Time: 0.1332).
+..\\..\\Parameters\\global_lib.h(223): web_url("SignOff Button") was successful, 2172 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(36): Notify: Transaction "Sign_off" ended with a "Pass" status (Duration: 0.1536 Wasted Time: 0.0087).
+Action.c(40): Notify: Transaction "S3_UserRegistration" ended with a "Pass" status (Duration: 0.9748 Wasted Time: 0.1498).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.
 Vuser Terminated.
-t=3562ms: Closed connection [0] to localhost:1080 after completing 7 request(s)  	[MsgId: MMSG-26000]
-t=3562ms: Closed connection [1] to localhost:1080 after completing 6 request(s)  	[MsgId: MMSG-26000]
-t=3562ms: Closed connection [2] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
-t=3562ms: Closed connection [3] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=1677ms: Closed connection [0] to localhost:1080 after completing 7 request(s)  	[MsgId: MMSG-26000]
+t=1677ms: Closed connection [1] to localhost:1080 after completing 6 request(s)  	[MsgId: MMSG-26000]
+t=1677ms: Closed connection [2] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+t=1677ms: Closed connection [3] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
 HTML-Mode memory management statistics: Reusable=5, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
-Vuser 0 (thread 152), ended OK."
+Vuser 0 (thread 2572), ended OK."

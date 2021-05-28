@@ -292,23 +292,68 @@ void fill_sign_up() {
 
 
 void go_to_itinerary_page() {
-	web_revert_auto_header("Sec-Fetch-User");
+	web_add_auto_header("Sec-Fetch-User", 
+		"?1");
 
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+	
+	lr_think_time(72);
+
+	
+	web_reg_save_param_regexp(
+		"ParamName=flightNumber",
+		"RegExp=input type=\"checkbox\" name=\"(.*?)\"",
+		"Group=1",
+		"Ordinal=all",
+		SEARCH_FILTERS,
+		LAST);
+	
+	web_reg_find("Text=User wants the intineraries",
+		LAST);
+
+	web_image("Itinerary Button", 
+		"Alt=Itinerary Button", 
+		"Snapshot=t19.inf", 
+		LAST);
+}
+
+void delete_flight() {
+	web_add_header("Origin", 
+		"http://127.0.0.1:1080");
+	
+
+	lr_think_time(72);
+
+	
+
+	web_reg_find("Text=Flight #1 ",
+		LAST);
+
+	web_submit_form("itinerary.pl", 
+		"Snapshot=t20.inf", 
+		ITEMDATA, 
+		"Name={flightNumber_1}", "Value=on", ENDITEM,
+		"Name=removeFlights.x", "Value=59", ENDITEM,
+		"Name=removeFlights.y", "Value=11", ENDITEM,		
+		LAST);
+
+}
+
+
+void go_to_itinerary_page_url() {
 	web_revert_auto_header("Upgrade-Insecure-Requests");
-	web_reg_find("Text=Flights List",LAST);
+
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+
 	web_url("Itinerary Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
-		"Snapshot=t8.inf", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t7.inf", 
 		"Mode=HTML", 
 		LAST);
-
-	web_add_header("Sec-Fetch-User", 
-		"?1");
-
-	web_add_header("Upgrade-Insecure-Requests", 
-		"1");
 }

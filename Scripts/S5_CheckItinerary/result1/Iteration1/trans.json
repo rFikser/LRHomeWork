@@ -1,0 +1,22 @@
+[
+    {
+        "transactionName": "Welcome_page",
+        "rawStartTime": 1622237772756,
+        "rawEndTime": 1622237773033
+    },
+    {
+        "transactionName": "Login",
+        "rawStartTime": 1622237773050,
+        "rawEndTime": 1622237773223
+    },
+    {
+        "transactionName": "Go_to_itinerary_page",
+        "rawStartTime": 1622237773239,
+        "rawEndTime": 1622237773396
+    },
+    {
+        "transactionName": "Sign_off",
+        "rawStartTime": 1622237773412,
+        "rawEndTime": 1622237773571
+    }
+]

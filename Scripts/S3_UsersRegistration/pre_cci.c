@@ -2873,25 +2873,70 @@ void fill_sign_up() {
 
 
 void go_to_itinerary_page() {
-	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+	web_add_auto_header("Sec-Fetch-User", 
+		"?1");
 
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+	
+	lr_think_time(72);
+
+	
+	web_reg_save_param_regexp(
+		"ParamName=flightNumber",
+		"RegExp=input type=\"checkbox\" name=\"(.*?)\"",
+		"Group=1",
+		"Ordinal=all",
+		"SEARCH_FILTERS",
+		"LAST");
+	
+	web_reg_find("Text=User wants the intineraries",
+		"LAST");
+
+	web_image("Itinerary Button", 
+		"Alt=Itinerary Button", 
+		"Snapshot=t19.inf", 
+		"LAST");
+}
+
+void delete_flight() {
+	web_add_header("Origin", 
+		"http://127.0.0.1:1080");
+	
+
+	lr_think_time(72);
+
+	
+
+	web_reg_find("Text=Flight #1 ",
+		"LAST");
+
+	web_submit_form("itinerary.pl", 
+		"Snapshot=t20.inf", 
+		"ITEMDATA", 
+		"Name={flightNumber_1}", "Value=on", "ENDITEM",
+		"Name=removeFlights.x", "Value=59", "ENDITEM",
+		"Name=removeFlights.y", "Value=11", "ENDITEM",		
+		"LAST");
+
+}
+
+
+void go_to_itinerary_page_url() {
 	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
-	web_reg_find("Text=Flights List","LAST");
+
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+
 	web_url("Itinerary Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
-		"Snapshot=t8.inf", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t7.inf", 
 		"Mode=HTML", 
 		"LAST");
-
-	web_add_header("Sec-Fetch-User", 
-		"?1");
-
-	web_add_header("Upgrade-Insecure-Requests", 
-		"1");
 }
 # 9 "globals.h" 2
 
@@ -2915,37 +2960,37 @@ Action()
 lr_start_transaction("S3_UserRegistration");
 
 		
-	lr_start_transaction("welcome_page");
+	lr_start_transaction("Welcome_page");
 
 		welcome_page();
 
-	lr_end_transaction("welcome_page", 2);
+	lr_end_transaction("Welcome_page", 2);
 	
 	
-	lr_start_transaction("go_to_sign_up_page");
+	lr_start_transaction("Go_to_sign_up_page");
 	
 	go_to_sign_up_page();
 
-	lr_end_transaction("go_to_sign_up_page", 2);
+	lr_end_transaction("Go_to_sign_up_page", 2);
 	
-	lr_start_transaction("fill_sign_up_values");
+	lr_start_transaction("Fill_sign_up_values");
 
 	fill_sign_up();
 
-	lr_end_transaction("fill_sign_up_values", 2);
+	lr_end_transaction("Fill_sign_up_values", 2);
 
-	lr_start_transaction("welcome_page");
+	lr_start_transaction("Welcome_page");
 
 	welcome_page();
 	
-	lr_end_transaction("welcome_page", 2);
+	lr_end_transaction("Welcome_page", 2);
 
 
-	lr_start_transaction("sign_off");
+	lr_start_transaction("Sign_off");
 
 		sign_off();
 	
-	lr_end_transaction("sign_off", 2);
+	lr_end_transaction("Sign_off", 2);
 
 
 

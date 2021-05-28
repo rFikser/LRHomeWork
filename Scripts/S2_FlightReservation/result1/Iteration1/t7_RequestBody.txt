@@ -1,4 +1,4 @@
 "firstName=ivan&lastName=ivan&address1=Moscow&address2=Moscow&pass1=ivan+ivan&creditCard=123456"
-"78&expDate=1234&oldCCOption=&numPassengers=1&seatType=Business&seatPref=Window&outboundFlight="
-"900%3B610%3B05%2F30%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=30&bu"
-"yFlights.y=12&.cgifields=saveCC"
+"78&expDate=1234&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=Aisle&outboundFlight=810%"
+"3B1219%3B05%2F31%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=30&buyFl"
+"ights.y=12&.cgifields=saveCC"

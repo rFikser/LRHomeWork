@@ -1,0 +1,10 @@
+[t26]
+FileName1=t25.htm
+URL1=http://localhost:1080/WebTours/
+Total=2
+SnapshotXmlFile=snapshot_26.xml
+FileName2=t26f1.htm
+URL2=http://localhost:1080/cgi-bin/welcome.pl?signOff=true
+ContentType=text/html
+FrameIndex2=0.1
+UseFrameIndex=1

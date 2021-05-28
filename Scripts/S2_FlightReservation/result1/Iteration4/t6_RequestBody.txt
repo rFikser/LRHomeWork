@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Frankfurt&departDate=05%2F30%2F2021&arrive=Sydney&returnDate=07%2F27%"
-"2F2021&numPassengers=1&seatPref=Aisle&seatType=Coach&findFlights.x=31&findFlights.y=5&.cgifiel"
-"ds=roundtrip&.cgifields=seatType&.cgifields=seatPref&departCity=&departCity=Zurich"

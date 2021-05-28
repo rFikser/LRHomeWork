@@ -25,8 +25,12 @@
     <FileEntry Name="16563745144_tH0.913.idx" Filter="1" />
     <FileEntry Name="180444539440.idx" Filter="1" />
     <FileEntry Name="202191419440.idx" Filter="1" />
+    <FileEntry Name="20219141944_sUu.738.idx" Filter="1" />
+    <FileEntry Name="20219141944_voh.4.idx" Filter="1" />
     <FileEntry Name="233010580440.idx" Filter="1" />
     <FileEntry Name="36676764440.idx" Filter="1" />
+    <FileEntry Name="3667676444_JOD.3.idx" Filter="1" />
+    <FileEntry Name="3667676444_SR2.737.idx" Filter="1" />
     <FileEntry Name="56721328440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
@@ -37,14 +41,12 @@
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
-    <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="S1_Login.c.pickle" Filter="1" />
     <FileEntry Name="S1_Login.ci" Filter="1" />
     <FileEntry Name="S1_Login.prm.bak" Filter="1" />
     <FileEntry Name="S1_Login.sdf" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
-    <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />

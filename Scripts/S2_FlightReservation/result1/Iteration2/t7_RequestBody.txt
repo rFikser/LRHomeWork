@@ -1,4 +1,0 @@
-"firstName=ivan&lastName=ivan&address1=Moscow&address2=Moscow&pass1=ivan+ivan&creditCard=123456"
-"78&expDate=1234&oldCCOption=&numPassengers=1&seatType=Business&seatPref=Aisle&outboundFlight=5"
-"40%3B901%3B05%2F30%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=30&buy"
-"Flights.y=12&.cgifields=saveCC"

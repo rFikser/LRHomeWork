@@ -33,7 +33,6 @@ Action()
 	
 		
 		lr_end_transaction("S1_Go_to_flights", LR_AUTO);
-lr_end_transaction("", LR_AUTO);
 	return 0;
 	
 

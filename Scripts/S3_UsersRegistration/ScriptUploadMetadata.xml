@@ -27,14 +27,12 @@
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
-    <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="S3_UsersRegistration.c.pickle" Filter="1" />
     <FileEntry Name="S3_UsersRegistration.ci" Filter="1" />
     <FileEntry Name="S3_UsersRegistration.prm.bak" Filter="1" />
     <FileEntry Name="S3_UsersRegistration.sdf" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
-    <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />

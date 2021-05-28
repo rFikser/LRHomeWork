@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\fikser\Desktop\HomeWork_IBS\Scripts\S5_CheckItinerary
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\fikser\desktop\homework_ibs\scripts\s5_checkitinerary\\logfile.log
+c:\users\fikser\desktop\homework_ibs\scripts\s5_checkitinerary\\combined_S5_CheckItinerary.c
+c:\users\fikser\desktop\homework_ibs\scripts\s5_checkitinerary\\pre_cci.c

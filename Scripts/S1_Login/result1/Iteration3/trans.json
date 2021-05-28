@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "Welcome_page",
+        "rawStartTime": 1622238179018,
+        "rawEndTime": 1622238179221
+    },
+    {
+        "transactionName": "Login",
+        "rawStartTime": 1622238179237,
+        "rawEndTime": 1622238179412
+    },
+    {
+        "transactionName": "Go_to_flights",
+        "rawStartTime": 1622238179428,
+        "rawEndTime": 1622238179600
+    },
+    {
+        "transactionName": "Sign_off",
+        "rawStartTime": 1622238179615,
+        "rawEndTime": 1622238179801
+    },
+    {
+        "transactionName": "S1_Go_to_flights",
+        "rawStartTime": 1622238178986,
+        "rawEndTime": 1622238179816
+    }
+]
