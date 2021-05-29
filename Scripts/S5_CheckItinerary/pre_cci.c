@@ -2958,33 +2958,38 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
+	
+	lr_start_transaction("S5_CheckItinerary");
 
-	lr_start_transaction("Welcome_page");
+		lr_start_transaction("Welcome_page");
+	
+			welcome_page();
+	
+		lr_end_transaction("Welcome_page", 2);
+	
+	
+		lr_start_transaction("Login");
+	
+			login();
+	
+		lr_end_transaction("Login", 2);
+	
+	
+		lr_start_transaction("Go_to_itinerary_page");
+	
+			go_to_itinerary_page_url();
+	
+		lr_end_transaction("Go_to_itinerary_page", 2);
+	
+	
+		lr_start_transaction("Sign_off");
+	
+			sign_off();
+	
+		lr_end_transaction("Sign_off", 2);
 
-		welcome_page();
+	lr_end_transaction("S5_CheckItinerary", 2);
 
-	lr_end_transaction("Welcome_page", 2);
-
-
-	lr_start_transaction("Login");
-
-		login();
-
-	lr_end_transaction("Login", 2);
-
-
-	lr_start_transaction("Go_to_itinerary_page");
-
-		go_to_itinerary_page_url();
-
-	lr_end_transaction("Go_to_itinerary_page", 2);
-
-
-	lr_start_transaction("Sign_off");
-
-		sign_off();
-
-	lr_end_transaction("Sign_off", 2);
 
 
 	return 0;

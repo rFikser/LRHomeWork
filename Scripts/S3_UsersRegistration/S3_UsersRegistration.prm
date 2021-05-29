@@ -15,7 +15,7 @@ value_for_each_vuser=""
 [parameter:randomUser]
 Format="%02lu"
 GenerateNewVal="EachIteration"
-MaxValue="100"
+MaxValue="1000"
 MinValue="1"
 OriginalValue=""
 ParamName="randomUser"

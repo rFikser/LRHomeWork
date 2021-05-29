@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="Welcome_page__*delimiter*__Login__*delimiter*__Go_to_itinerary_page__*delimiter*__Sign_off"
+Order="Welcome_page__*delimiter*__Login__*delimiter*__Go_to_itinerary_page__*delimiter*__Sign_off__*delimiter*__S5_CheckItinerary"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -62,3 +62,4 @@ Welcome_page=
 Login=
 Go_to_itinerary_page=
 Sign_off=
+S5_CheckItinerary=

@@ -1,22 +1,27 @@
 [
     {
         "transactionName": "Welcome_page",
-        "rawStartTime": 1622237772756,
-        "rawEndTime": 1622237773033
+        "rawStartTime": 1622295733499,
+        "rawEndTime": 1622295734038
     },
     {
         "transactionName": "Login",
-        "rawStartTime": 1622237773050,
-        "rawEndTime": 1622237773223
+        "rawStartTime": 1622295734054,
+        "rawEndTime": 1622295734242
     },
     {
         "transactionName": "Go_to_itinerary_page",
-        "rawStartTime": 1622237773239,
-        "rawEndTime": 1622237773396
+        "rawStartTime": 1622295734258,
+        "rawEndTime": 1622295734466
     },
     {
         "transactionName": "Sign_off",
-        "rawStartTime": 1622237773412,
-        "rawEndTime": 1622237773571
+        "rawStartTime": 1622295734482,
+        "rawEndTime": 1622295734623
+    },
+    {
+        "transactionName": "S5_CheckItinerary",
+        "rawStartTime": 1622295733483,
+        "rawEndTime": 1622295734638
     }
 ]
