@@ -197,6 +197,7 @@
     <FileEntry Name="19680908644_ZRo.875.idx" Filter="1" />
     <FileEntry Name="19680908644_Zw9.303.idx" Filter="1" />
     <FileEntry Name="19680908644_zzR.505.idx" Filter="1" />
+    <FileEntry Name="90966529440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -204,6 +205,8 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="login.dat" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvp7X.343.log" Filter="1" />
+    <FileEntry Name="mdrvQ3d.221.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

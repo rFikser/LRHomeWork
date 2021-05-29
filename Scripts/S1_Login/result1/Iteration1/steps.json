@@ -3,24 +3,24 @@
         "stepId": "STEP1",
         "stepName": "Url: WebTours",
         "infFile": "t2.inf",
-        "time": 1622238177603
+        "time": 1622313513727
     },
     {
         "stepId": "STEP2",
         "stepName": "Submit Data: login.pl",
         "infFile": "t3.inf",
-        "time": 1622238177794
+        "time": 1622313513937
     },
     {
         "stepId": "STEP3",
         "stepName": "Url: Search Flights Button",
         "infFile": "t4.inf",
-        "time": 1622238177982
+        "time": 1622313514149
     },
     {
         "stepId": "STEP4",
         "stepName": "Url: SignOff Button",
         "infFile": "t5.inf",
-        "time": 1622238178151
+        "time": 1622313514302
     }
 ]

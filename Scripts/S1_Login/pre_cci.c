@@ -2579,7 +2579,7 @@ void
 
 # 8 "globals.h" 2
 
-# 1 "..\\..\\Parameters\\global_lib.h" 1
+# 1 "..\\Data\\global_lib.h" 1
 void welcome_page() {
 	
 	web_set_sockets_option("SSL_VERSION", "2&3");

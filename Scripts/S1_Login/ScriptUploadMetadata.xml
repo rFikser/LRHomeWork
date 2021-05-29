@@ -27,7 +27,10 @@
     <FileEntry Name="202191419440.idx" Filter="1" />
     <FileEntry Name="20219141944_sUu.738.idx" Filter="1" />
     <FileEntry Name="20219141944_voh.4.idx" Filter="1" />
+    <FileEntry Name="226941284440.idx" Filter="1" />
+    <FileEntry Name="228891968440.idx" Filter="1" />
     <FileEntry Name="233010580440.idx" Filter="1" />
+    <FileEntry Name="24925536440.idx" Filter="1" />
     <FileEntry Name="36676764440.idx" Filter="1" />
     <FileEntry Name="3667676444_JOD.3.idx" Filter="1" />
     <FileEntry Name="3667676444_SR2.737.idx" Filter="1" />
@@ -37,6 +40,7 @@
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvB33.853.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
