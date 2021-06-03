@@ -2580,6 +2580,10 @@ void
 # 8 "globals.h" 2
 
 # 1 "..\\Data\\global_lib.h" 1
+
+
+
+
 void welcome_page() {
 	
 	web_set_sockets_option("SSL_VERSION", "2&3");
@@ -2837,27 +2841,56 @@ void go_to_sign_up_page() {
 	lr_think_time(17);
 }
 
+ 
+int lr_guid_gen()
+{
+    typedef struct _GUID
+    {
+        unsigned long Data1;
+        unsigned short Data2;
+        unsigned short Data3;
+        unsigned char Data4[32];
+    } GUID;
+
+    GUID m_guid;
+    char buf[50];
+
+    ci_load_dll(ci_this_context,("ole32.dll"));
+
+    CoCreateGuid(&m_guid);
+
+    sprintf (buf, "%08lX",
+    m_guid.Data1, m_guid.Data2, m_guid.Data3,
+    m_guid.Data4[0], m_guid.Data4[1], m_guid.Data4[2], m_guid.Data4[3]);
+
+    lr_save_string(buf, "lrGUID");
+
+    return 0;
+}
+
 void fill_sign_up() {
-	web_reg_find("Text=Thank you","LAST");
-	web_submit_data("login.pl_2", 
-		"Action=http://localhost:1080/cgi-bin/login.pl", 
-		"Method=POST", 
-		"TargetFrame=info", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/login.pl", 
-		"Snapshot=t5.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=username", "Value=user{randomUser}", "ENDITEM", 
-		"Name=password", "Value=user{randomUser}", "ENDITEM", 
-		"Name=passwordConfirm", "Value=user{randomUser}", "ENDITEM", 
-		"Name=firstName", "Value=user{randomUser}", "ENDITEM", 
-		"Name=lastName", "Value=user{randomUser}", "ENDITEM", 
-		"Name=address1", "Value={adress}", "ENDITEM", 
-		"Name=address2", "Value={adress}", "ENDITEM", 
-		"Name=register.x", "Value=73", "ENDITEM", 
-		"Name=register.y", "Value=6", "ENDITEM", 
-		"LAST");
+		
+		lr_save_int(lr_guid_gen(), "randomUser");  
+		web_reg_find("Text=Thank you","LAST");
+		web_submit_data("login.pl_2", 
+			"Action=http://localhost:1080/cgi-bin/login.pl", 
+			"Method=POST", 
+			"TargetFrame=info", 
+			"RecContentType=text/html", 
+			"Referer=http://localhost:1080/cgi-bin/login.pl", 
+			"Snapshot=t5.inf", 
+			"Mode=HTML", 
+			"ITEMDATA", 
+			"Name=username", "Value={lrGUID}", "ENDITEM", 
+			"Name=password", "Value={lrGUID}", "ENDITEM", 
+			"Name=passwordConfirm", "Value={lrGUID}", "ENDITEM", 
+			"Name=firstName", "Value={lrGUID}", "ENDITEM", 
+			"Name=lastName", "Value={lrGUID}", "ENDITEM", 
+			"Name=address1", "Value={adress}", "ENDITEM", 
+			"Name=address2", "Value={adress}", "ENDITEM", 
+			"Name=register.x", "Value=73", "ENDITEM", 
+			"Name=register.y", "Value=6", "ENDITEM", 
+			"LAST");
 
 	(web_remove_auto_header("Origin", "ImplicitGen=Yes", "LAST"));
 
@@ -2880,16 +2913,16 @@ void go_to_itinerary_page() {
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 	
-	lr_think_time(72);
-
+	lr_think_time(8);
 	
 	web_reg_save_param_regexp(
-		"ParamName=flightNumber",
+		"ParamName=flightNumber_original",
 		"RegExp=input type=\"checkbox\" name=\"(.*?)\"",
 		"Group=1",
 		"Ordinal=all",
 		"SEARCH_FILTERS",
 		"LAST");
+
 	
 	web_reg_find("Text=User wants the intineraries",
 		"LAST");
@@ -2905,23 +2938,45 @@ void delete_flight() {
 		"http://127.0.0.1:1080");
 	
 
-	lr_think_time(72);
+	lr_think_time(20);
 
-	
+	web_reg_save_param_regexp(
+		"ParamName=flightNumber",
+		"RegExp=input type=\"checkbox\" name=\"(.*?)\"",
+		"Group=1",
+		"Ordinal=all",
+		"SEARCH_FILTERS",
+		"LAST");
 
 	web_reg_find("Text=Flight #1 ",
 		"LAST");
-
+	
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t20.inf", 
 		"ITEMDATA", 
-		"Name={flightNumber_1}", "Value=on", "ENDITEM",
+		"Name={flightNumber_original_1}", "Value=on", "ENDITEM",
 		"Name=removeFlights.x", "Value=59", "ENDITEM",
 		"Name=removeFlights.y", "Value=11", "ENDITEM",		
 		"LAST");
+	
 
 }
 
+
+void submit_registration() {
+	
+	lr_think_time(5);
+	web_reg_find("Text=User has returned to the home page","LAST");
+		web_url("button_next.gif", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/login.pl", 
+		"Snapshot=t11.inf", 
+		"Mode=HTML", 
+		"LAST");
+}
 
 void go_to_itinerary_page_url() {
 	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
@@ -2939,6 +2994,8 @@ void go_to_itinerary_page_url() {
 		"Mode=HTML", 
 		"LAST");
 }
+
+
 # 9 "globals.h" 2
 
 
@@ -2978,9 +3035,18 @@ Action()
 		
 		lr_start_transaction("Go_to_flights");
 		
+		if (atoi(lr_eval_string("{Go_to_flights}"))% 10 < 5) {
 			go_to_flights_page();
+		}
 		
 		lr_end_transaction("Go_to_flights", 2);
+		
+		
+		lr_start_transaction("Go_to_itinerary_page");
+
+		go_to_itinerary_page();
+
+		lr_end_transaction("Go_to_itinerary_page", 2);
 		
 		
 		lr_start_transaction("Sign_off");

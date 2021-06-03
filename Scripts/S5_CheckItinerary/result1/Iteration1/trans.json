@@ -1,27 +1,37 @@
 [
     {
         "transactionName": "Welcome_page",
-        "rawStartTime": 1622313929375,
-        "rawEndTime": 1622313929738
+        "rawStartTime": 1622655820348,
+        "rawEndTime": 1622655825713
     },
     {
         "transactionName": "Login",
-        "rawStartTime": 1622313929753,
-        "rawEndTime": 1622313929923
+        "rawStartTime": 1622655825729,
+        "rawEndTime": 1622655830962
+    },
+    {
+        "transactionName": "Go_to_flights",
+        "rawStartTime": 1622655830994,
+        "rawEndTime": 1622655831186
+    },
+    {
+        "transactionName": "Find_flight",
+        "rawStartTime": 1622655831217,
+        "rawEndTime": 1622655835355
     },
     {
         "transactionName": "Go_to_itinerary_page",
-        "rawStartTime": 1622313929939,
-        "rawEndTime": 1622313930143
+        "rawStartTime": 1622655835372,
+        "rawEndTime": 1622655835573
     },
     {
-        "transactionName": "Sign_off",
-        "rawStartTime": 1622313930158,
-        "rawEndTime": 1622313930297
+        "transactionName": "Sign_off();",
+        "rawStartTime": 1622655835589,
+        "rawEndTime": 1622655835727
     },
     {
         "transactionName": "S5_CheckItinerary",
-        "rawStartTime": 1622313929359,
-        "rawEndTime": 1622313930313
+        "rawStartTime": 1622655820333,
+        "rawEndTime": 1622655835743
     }
 ]

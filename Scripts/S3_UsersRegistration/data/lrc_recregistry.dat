@@ -7,7 +7,7 @@ Registry settings:
 		default	yes
 	AUT
 		(Default)	
-		default	C:\Program Files\Google\Chrome\Application\chrome.exe --incognito 
+		default	C:\Program Files\Mozilla Firefox\firefox.exe
 	DebugFilter
 		(Default)	
 		default	off
@@ -328,5 +328,5 @@ Registry settings:
 		default	off
 	WorkingDir
 		(Default)	
-		default	C:\Program Files (x86)\HPE\LoadRunner\Bin\
+		default	C:\Program Files\Mozilla Firefox\
 

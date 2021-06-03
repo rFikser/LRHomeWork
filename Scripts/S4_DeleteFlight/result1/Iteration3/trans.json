@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "Welcome_page",
+        "rawStartTime": 1622731423918,
+        "rawEndTime": 1622731424077
+    },
+    {
+        "transactionName": "Login",
+        "rawStartTime": 1622731424093,
+        "rawEndTime": 1622731424269
+    },
+    {
+        "transactionName": "Go_to_itinerary_page",
+        "rawStartTime": 1622731424285,
+        "rawEndTime": 1622731424556
+    },
+    {
+        "transactionName": "Delete_flight",
+        "rawStartTime": 1622731424571,
+        "rawEndTime": 1622731424839
+    },
+    {
+        "transactionName": "Sign_off",
+        "rawStartTime": 1622731424871,
+        "rawEndTime": 1622731425015
+    },
+    {
+        "transactionName": "S4_DeleteFlight",
+        "rawStartTime": 1622731423903,
+        "rawEndTime": 1622731425030
+    }
+]

@@ -2579,6 +2579,10 @@ void
 # 8 "globals.h" 2
 
 # 1 "..\\Data\\global_lib.h" 1
+
+
+
+
 void welcome_page() {
 	
 	web_set_sockets_option("SSL_VERSION", "2&3");
@@ -2865,7 +2869,7 @@ int lr_guid_gen()
 
 void fill_sign_up() {
 		
-		lr_save_int(lr_guid_gen(), "randomUser");
+		lr_save_int(lr_guid_gen(), "randomUser");  
 		web_reg_find("Text=Thank you","LAST");
 		web_submit_data("login.pl_2", 
 			"Action=http://localhost:1080/cgi-bin/login.pl", 
@@ -2908,16 +2912,16 @@ void go_to_itinerary_page() {
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 	
-	lr_think_time(72);
-
+	lr_think_time(8);
 	
 	web_reg_save_param_regexp(
-		"ParamName=flightNumber",
+		"ParamName=flightNumber_original",
 		"RegExp=input type=\"checkbox\" name=\"(.*?)\"",
 		"Group=1",
 		"Ordinal=all",
 		"SEARCH_FILTERS",
 		"LAST");
+
 	
 	web_reg_find("Text=User wants the intineraries",
 		"LAST");
@@ -2933,23 +2937,45 @@ void delete_flight() {
 		"http://127.0.0.1:1080");
 	
 
-	lr_think_time(72);
+	lr_think_time(20);
 
-	
+	web_reg_save_param_regexp(
+		"ParamName=flightNumber",
+		"RegExp=input type=\"checkbox\" name=\"(.*?)\"",
+		"Group=1",
+		"Ordinal=all",
+		"SEARCH_FILTERS",
+		"LAST");
 
 	web_reg_find("Text=Flight #1 ",
 		"LAST");
-
+	
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t20.inf", 
 		"ITEMDATA", 
-		"Name={flightNumber_1}", "Value=on", "ENDITEM",
+		"Name={flightNumber_original_1}", "Value=on", "ENDITEM",
 		"Name=removeFlights.x", "Value=59", "ENDITEM",
 		"Name=removeFlights.y", "Value=11", "ENDITEM",		
 		"LAST");
+	
 
 }
 
+
+void submit_registration() {
+	
+	lr_think_time(5);
+	web_reg_find("Text=User has returned to the home page","LAST");
+		web_url("button_next.gif", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/login.pl", 
+		"Snapshot=t11.inf", 
+		"Mode=HTML", 
+		"LAST");
+}
 
 void go_to_itinerary_page_url() {
 	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
@@ -2972,8 +2998,10 @@ void go_to_itinerary_page_url() {
 # 9 "globals.h" 2
 
 
+
  
  
+
 
 
 # 3 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s3_usersregistration\\\\combined_S3_UsersRegistration.c" 2
@@ -3010,19 +3038,19 @@ lr_start_transaction("S3_UserRegistration");
 
 	lr_end_transaction("Fill_sign_up_values", 2);
 
-	lr_start_transaction("Welcome_page");
-
-		welcome_page();
 	
-	lr_end_transaction("Welcome_page", 2);
-
-
-	lr_start_transaction("Sign_off");
-
-		sign_off();
+	lr_start_transaction("Submit_registration");	
 	
-	lr_end_transaction("Sign_off", 2);
+		submit_registration();
 	
+	lr_end_transaction("Submit_registration", 2);
+
+
+	if (atoi(lr_eval_string("{iteration}"))%10 < 5) {
+		lr_start_transaction("Sign_off");
+			sign_off();
+		lr_end_transaction("Sign_off", 2);
+		}
 	
 	lr_end_transaction("S3_UserRegistration", 2);
 
@@ -3031,10 +3059,93 @@ lr_start_transaction("S3_UserRegistration");
 }
 # 5 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s3_usersregistration\\\\combined_S3_UsersRegistration.c" 2
 
+# 1 "asda.c" 1
+asda()
+{
+
+	web_set_sockets_option("SSL_VERSION", "2&3");
+
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+
+	web_url("WebTours", 
+		"URL=http://localhost:1080/WebTours/", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=", 
+		"Snapshot=t8.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
+
+	web_url("login.pl", 
+		"URL=http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/WebTours/home.html", 
+		"Snapshot=t9.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	web_add_header("Origin", 
+		"http://localhost:1080");
+
+	web_add_auto_header("Upgrade-Insecure-Requests", 
+		"1");
+
+	web_submit_data("login.pl_2", 
+		"Action=http://localhost:1080/cgi-bin/login.pl", 
+		"Method=POST", 
+		"TargetFrame=info", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true", 
+		"Snapshot=t10.inf", 
+		"Mode=HTML", 
+		"ITEMDATA", 
+		"Name=username", "Value=kkk", "ENDITEM", 
+		"Name=password", "Value=kkk", "ENDITEM", 
+		"Name=passwordConfirm", "Value=kkk", "ENDITEM", 
+		"Name=firstName", "Value=kkk", "ENDITEM", 
+		"Name=lastName", "Value=kkk", "ENDITEM", 
+		"Name=address1", "Value=kkk", "ENDITEM", 
+		"Name=address2", "Value=kkk", "ENDITEM", 
+		"Name=register.x", "Value=63", "ENDITEM", 
+		"Name=register.y", "Value=5", "ENDITEM", 
+		"LAST");
+
+	lr_think_time(4);
+
+	web_url("button_next.gif", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/login.pl", 
+		"Snapshot=t11.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	web_url("SignOff Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t12.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	return 0;
+}
+# 6 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s3_usersregistration\\\\combined_S3_UsersRegistration.c" 2
+
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s3_usersregistration\\\\combined_S3_UsersRegistration.c" 2
+# 7 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s3_usersregistration\\\\combined_S3_UsersRegistration.c" 2
 

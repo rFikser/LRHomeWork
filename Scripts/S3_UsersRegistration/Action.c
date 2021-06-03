@@ -22,19 +22,19 @@ lr_start_transaction("S3_UserRegistration");
 
 	lr_end_transaction("Fill_sign_up_values", LR_AUTO);
 
-	lr_start_transaction("Welcome_page");
-
-		welcome_page();
 	
-	lr_end_transaction("Welcome_page", LR_AUTO);
-
-
-	lr_start_transaction("Sign_off");
-
-		sign_off();
+	lr_start_transaction("Submit_registration");	
 	
-	lr_end_transaction("Sign_off", LR_AUTO);
+		submit_registration();
 	
+	lr_end_transaction("Submit_registration", LR_AUTO);
+
+
+	if (atoi(lr_eval_string("{iteration}"))%10 < SIGNOFF_PERCENT) {
+		lr_start_transaction("Sign_off");
+			sign_off();
+		lr_end_transaction("Sign_off", LR_AUTO);
+		}
 	
 	lr_end_transaction("S3_UserRegistration", LR_AUTO);
 

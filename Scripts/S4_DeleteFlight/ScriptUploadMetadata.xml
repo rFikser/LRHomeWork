@@ -205,8 +205,21 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="login.dat" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv1O6.545.log" Filter="1" />
+    <FileEntry Name="mdrv43D.903.log" Filter="1" />
+    <FileEntry Name="mdrv48E.567.log" Filter="1" />
+    <FileEntry Name="mdrvBWD.43.log" Filter="1" />
+    <FileEntry Name="mdrvdfA.473.log" Filter="1" />
+    <FileEntry Name="mdrvFio.727.log" Filter="1" />
+    <FileEntry Name="mdrvGHh.533.log" Filter="1" />
+    <FileEntry Name="mdrvJ4k.179.log" Filter="1" />
+    <FileEntry Name="mdrvNk3.581.log" Filter="1" />
     <FileEntry Name="mdrvp7X.343.log" Filter="1" />
     <FileEntry Name="mdrvQ3d.221.log" Filter="1" />
+    <FileEntry Name="mdrvQFP.75.log" Filter="1" />
+    <FileEntry Name="mdrvtH7.597.log" Filter="1" />
+    <FileEntry Name="mdrvXRt.939.log" Filter="1" />
+    <FileEntry Name="mdrvXXg.475.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

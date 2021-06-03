@@ -37,13 +37,6 @@ Action()
 			reserve_flight();
 	
 		lr_end_transaction("Reserve_flight", LR_AUTO);
-	
-	
-		lr_start_transaction("Sign_off");
-	
-			sign_off();
-	
-		lr_end_transaction("Sign_off", LR_AUTO);
 
 
 

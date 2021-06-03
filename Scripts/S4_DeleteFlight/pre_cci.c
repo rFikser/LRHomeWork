@@ -2580,43 +2580,47 @@ void
 # 8 "globals.h" 2
 
 # 1 "..\\Data\\global_lib.h" 1
+
+
+
+
 void welcome_page() {
 	
 	web_set_sockets_option("SSL_VERSION", "2&3");
 	web_add_header("Sec-Fetch-Site", 
 			"cross-site");
 	
-		web_add_header("Sec-Fetch-Mode", 
-			"cors");
+		 
+			 
 	
-		web_add_header("Sec-Fetch-Dest", 
-			"empty");
+		 
+			 
 	
-		web_add_header("Origin", 
-			"chrome-extension://gamlckmepdclkglolaedeigblmmpmfhf");
+		 
+			 
 	
-		web_add_auto_header("sec-ch-ua", 
-			"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"");
+		 
+			 
 	
-		web_add_auto_header("sec-ch-ua-mobile", 
-			"?0");
+		 
+			 
 	
-		web_add_auto_header("Sec-Fetch-Site", 
-			"none");
+		 
+			 
 	
-		web_add_auto_header("Sec-Fetch-Dest", 
-			"document");
+		 
+			 
 	
-		web_add_auto_header("Sec-Fetch-Mode", 
-			"navigate");
+		 
+			 
 	
-		web_add_auto_header("Sec-Fetch-User", 
-			"?1");
+		 
+			 
 	
-		web_add_auto_header("Upgrade-Insecure-Requests", 
-			"1");
+		 
+			 
 	
-		lr_think_time(13);
+		lr_think_time(5);
 		web_reg_find("Text=Web Tours","LAST");
 		web_reg_save_param_ex("ParamName=userSession", 
 			        "LB=name\=\"userSession\" value\=\"",
@@ -2639,7 +2643,8 @@ void welcome_page() {
 }
 
 void login() {
-	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+	
+			(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 	
 			web_add_auto_header("Sec-Fetch-Dest", 
 				"frame");
@@ -2652,7 +2657,7 @@ void login() {
 			web_add_auto_header("Sec-Fetch-Site", 
 			"same-origin");
 	
-			lr_think_time(6);
+			lr_think_time(5);
 			
 			web_reg_find("Text=Welcome","LAST");
 			
@@ -2707,7 +2712,7 @@ void find_flight() {
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	lr_think_time(4);
+	lr_think_time(5);
 
  
 	web_reg_save_param_attrib(
@@ -2764,7 +2769,7 @@ void reserve_flight() {
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	lr_think_time(7);
+	lr_think_time(5);
 
 	web_submit_data("reservations.pl_3",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",
@@ -2834,7 +2839,7 @@ void go_to_sign_up_page() {
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	lr_think_time(17);
+	lr_think_time(5);
 }
 
  
@@ -2909,7 +2914,7 @@ void go_to_itinerary_page() {
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 	
-	lr_think_time(72);
+	lr_think_time(5);
 	
 	web_reg_save_param_regexp(
 		"ParamName=flightNumber_original",
@@ -2932,9 +2937,10 @@ void go_to_itinerary_page() {
 void delete_flight() {
 	web_add_header("Origin", 
 		"http://127.0.0.1:1080");
+
 	
 
-	lr_think_time(72);
+	lr_think_time(5);
 
 	web_reg_save_param_regexp(
 		"ParamName=flightNumber",
@@ -2944,7 +2950,7 @@ void delete_flight() {
 		"SEARCH_FILTERS",
 		"LAST");
 
-	web_reg_find("Text=Flight #1 ",
+	web_reg_find("Text=Flights List",
 		"LAST");
 	
 	web_submit_form("itinerary.pl", 
@@ -2958,6 +2964,21 @@ void delete_flight() {
 
 }
 
+
+void submit_registration() {
+	
+	lr_think_time(5);
+	web_reg_find("Text=User has returned to the home page","LAST");
+		web_url("button_next.gif", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/login.pl", 
+		"Snapshot=t11.inf", 
+		"Mode=HTML", 
+		"LAST");
+}
 
 void go_to_itinerary_page_url() {
 	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
@@ -3007,45 +3028,49 @@ vuser_init()
 Action()
 {
 	
-	lr_start_transaction("Welcome_page");
+	lr_start_transaction("S4_DeleteFlight");
+
+		lr_start_transaction("Welcome_page");
 
 		welcome_page();
 
-	lr_end_transaction("Welcome_page", 2);
-
+		lr_end_transaction("Welcome_page", 2);
 	
-	lr_start_transaction("Login");
-
-		login();
-
-	lr_end_transaction("Login", 2);
-
-	
-	lr_start_transaction("Go_to_itinerary_page");
-
-		go_to_itinerary_page();
-
-	lr_end_transaction("Go_to_itinerary_page", 2);
-
-
-	lr_start_transaction("Delete_flight");
-	
-		delete_flight();
 		
+		lr_start_transaction("Login");
+	
+			login();
+	
+		lr_end_transaction("Login", 2);
+	
 		
-	if(strcmp(lr_eval_string("{flightNumber_original_count}"),lr_eval_string("{flightNumber_count}"))>0) {
-		lr_end_transaction("Delete_flight",0);
-	} else {
-		lr_end_transaction("Delete_flight",1);
-	};
+		lr_start_transaction("Go_to_itinerary_page");
+	
+			go_to_itinerary_page();
+	
+		lr_end_transaction("Go_to_itinerary_page", 2);
+	
+	
+		lr_start_transaction("Delete_flight");
+			
+			delete_flight();
+				
+			if(strcmp(lr_eval_string("{flightNumber_original_count}"),lr_eval_string("{flightNumber_count}"))>0) {
+				lr_end_transaction("Delete_flight",0);
+			} else {
+				lr_fail_trans_with_error("Failed to delete flight");
+			};
+		
 
+		lr_start_transaction("Sign_off");
 	
-	lr_start_transaction("Sign_off");
+			sign_off();
+		
+		lr_end_transaction("Sign_off", 2);
+		
 
-		sign_off();
-	
-	lr_end_transaction("Sign_off", 2);
-	
+	lr_end_transaction("S4_DeleteFlight", 2);
+
 	return 0;
 }
 # 5 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s4_deleteflight\\\\combined_S4_DeleteFlight.c" 2

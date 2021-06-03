@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="S2_FlightReservation__*delimiter*__Welcome_page__*delimiter*__Login__*delimiter*__Go_to_flights__*delimiter*__Find_flight__*delimiter*__Reserve_flight__*delimiter*__Sign_off"
+Order="S2_FlightReservation__*delimiter*__Welcome_page__*delimiter*__Login__*delimiter*__Go_to_flights__*delimiter*__Find_flight__*delimiter*__Reserve_flight"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -64,4 +64,3 @@ Login=
 Go_to_flights=
 Find_flight=
 Reserve_flight=
-Sign_off=

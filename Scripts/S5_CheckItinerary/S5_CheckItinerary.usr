@@ -51,9 +51,9 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="S5_CheckItinerary__*delimiter*__Welcome_page__*delimiter*__Login__*delimiter*__Go_to_itinerary_page__*delimiter*__Sign_off"
+Order="S5_CheckItinerary__*delimiter*__Welcome_page__*delimiter*__Login__*delimiter*__Go_to_flights__*delimiter*__Find_flight__*delimiter*__Go_to_itinerary_page__*delimiter*__Sign_off"
 [StateManagement]
-LastReplayStatus=1
+LastReplayStatus=3
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
@@ -61,5 +61,7 @@ ActiveRunName=result1
 S5_CheckItinerary=
 Welcome_page=
 Login=
+Go_to_flights=
+Find_flight=
 Go_to_itinerary_page=
 Sign_off=

@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "Welcome_page",
+        "rawStartTime": 1622641846913,
+        "rawEndTime": 1622641847087
+    },
+    {
+        "transactionName": "Go_to_sign_up_page",
+        "rawStartTime": 1622641847104,
+        "rawEndTime": 1622641847263
+    },
+    {
+        "transactionName": "Fill_sign_up_values",
+        "rawStartTime": 1622641847280,
+        "rawEndTime": 1622641847407
+    },
+    {
+        "transactionName": "Submit_registration",
+        "rawStartTime": 1622641847424,
+        "rawEndTime": 1622641847583
+    },
+    {
+        "transactionName": "Sign_off",
+        "rawStartTime": 1622641847615,
+        "rawEndTime": 1622641847804
+    },
+    {
+        "transactionName": "S3_UserRegistration",
+        "rawStartTime": 1622641846899,
+        "rawEndTime": 1622641847820
+    }
+]

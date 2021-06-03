@@ -1,5 +1,5 @@
-EventId=230
-RecordingNumber=1
+EventId=788
+RecordingNumber=2
 
 ActionInfo
 ActionName=Action
@@ -7,5 +7,12 @@ ActionId=1
 ActionFileSize=303202
 ActionDeleted=0
 RecordingNumber=1
+EndActionInfo
+
+ActionName=asda
+ActionId=2
+ActionFileSize=606638
+ActionDeleted=0
+RecordingNumber=2
 EndActionInfo
 
