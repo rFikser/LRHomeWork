@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\fikser\Desktop\HomeWork_IBS\Scripts\S1_Login
+-IC:\Users\fikser\Desktop\IBS HOME WORK\LRHomeWork\Scripts\S1_Login
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\fikser\desktop\homework_ibs\scripts\s1_login\\logfile.log
-c:\users\fikser\desktop\homework_ibs\scripts\s1_login\\combined_S1_Login.c
-c:\users\fikser\desktop\homework_ibs\scripts\s1_login\\pre_cci.c
+-ec:\users\fikser\desktop\ibs home work\lrhomework\scripts\s1_login\\logfile.log
+c:\users\fikser\desktop\ibs home work\lrhomework\scripts\s1_login\\combined_S1_Login.c
+c:\users\fikser\desktop\ibs home work\lrhomework\scripts\s1_login\\pre_cci.c

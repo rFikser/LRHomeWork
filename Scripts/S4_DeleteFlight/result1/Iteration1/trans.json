@@ -1,32 +1,32 @@
 [
     {
         "transactionName": "Welcome_page",
-        "rawStartTime": 1622731421273,
-        "rawEndTime": 1622731421593
+        "rawStartTime": 1623657032985,
+        "rawEndTime": 1623657033573
     },
     {
         "transactionName": "Login",
-        "rawStartTime": 1622731421608,
-        "rawEndTime": 1622731421815
+        "rawStartTime": 1623657033589,
+        "rawEndTime": 1623657033794
     },
     {
         "transactionName": "Go_to_itinerary_page",
-        "rawStartTime": 1622731421831,
-        "rawEndTime": 1622731422133
+        "rawStartTime": 1623657033811,
+        "rawEndTime": 1623657034831
     },
     {
         "transactionName": "Delete_flight",
-        "rawStartTime": 1622731422149,
-        "rawEndTime": 1622731422465
+        "rawStartTime": 1623657034847,
+        "rawEndTime": 1623657035872
     },
     {
         "transactionName": "Sign_off",
-        "rawStartTime": 1622731422497,
-        "rawEndTime": 1622731422639
+        "rawStartTime": 1623657035887,
+        "rawEndTime": 1623657036028
     },
     {
         "transactionName": "S4_DeleteFlight",
-        "rawStartTime": 1622731421257,
-        "rawEndTime": 1622731422655
+        "rawStartTime": 1623657032969,
+        "rawEndTime": 1623657036043
     }
 ]

@@ -21,7 +21,8 @@ LastCodeGenerationVer=12.55.0.911
 DisableRegenerate=0
 Encoding=ANSI
 Description=
-ScriptLocale=ru-RU
+ScriptLocale=en-US
+DFERebrandFlag=Done
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c

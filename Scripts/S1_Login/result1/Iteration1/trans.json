@@ -1,32 +1,27 @@
 [
     {
         "transactionName": "Welcome_page",
-        "rawStartTime": 1622636297521,
-        "rawEndTime": 1622636297921
+        "rawStartTime": 1623052509780,
+        "rawEndTime": 1623052510597
     },
     {
         "transactionName": "Login",
-        "rawStartTime": 1622636297937,
-        "rawEndTime": 1622636298176
-    },
-    {
-        "transactionName": "Go_to_flights",
-        "rawStartTime": 1622636298193,
-        "rawEndTime": 1622636298495
+        "rawStartTime": 1623052510614,
+        "rawEndTime": 1623052511002
     },
     {
         "transactionName": "Go_to_itinerary_page",
-        "rawStartTime": 1622636298511,
-        "rawEndTime": 1622636298793
+        "rawStartTime": 1623052511019,
+        "rawEndTime": 1623052511456
     },
     {
         "transactionName": "Sign_off",
-        "rawStartTime": 1622636298810,
-        "rawEndTime": 1622636299063
+        "rawStartTime": 1623052511472,
+        "rawEndTime": 1623052511721
     },
     {
         "transactionName": "S1_Go_to_flights",
-        "rawStartTime": 1622636297490,
-        "rawEndTime": 1622636299078
+        "rawStartTime": 1623052509748,
+        "rawEndTime": 1623052511737
     }
 ]

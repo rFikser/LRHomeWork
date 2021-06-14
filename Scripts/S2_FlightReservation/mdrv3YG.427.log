@@ -1,0 +1,2123 @@
+..\\Data\\global_lib.h(110):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(110):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110513ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=16)
+..\\Data\\global_lib.h(110):     268\r\n
+..\\Data\\global_lib.h(110): t=110514ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=16)
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110514ms: 616-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=16)
+..\\Data\\global_lib.h(110):     <!-- \n
+..\\Data\\global_lib.h(110):      User has returned to the search page.  Since user has already logged on,\n
+..\\Data\\global_lib.h(110):      we can give them the menu in the navbar.\n
+..\\Data\\global_lib.h(110):      --->\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     <html>\n
+..\\Data\\global_lib.h(110):     <title>Web Tours</title>\n
+..\\Data\\global_lib.h(110):        <!-- Frame Set -->\n
+..\\Data\\global_lib.h(110):        <frameset cols="160,*" border="1" frameborder="1">\n
+..\\Data\\global_lib.h(110):           <!-- Navigation Frame -->\n
+..\\Data\\global_lib.h(110):           <frame src="nav.pl?page=menu&in=flights" name="navbar" \n
+..\\Data\\global_lib.h(110):                 marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>\n
+..\\Data\\global_lib.h(110):           <!-- Reservation Frame -->\n
+..\\Data\\global_lib.h(110):           <frame src="reservations.pl?page=welcome" name="info" \n
+..\\Data\\global_lib.h(110):                 marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>\n
+..\\Data\\global_lib.h(110):        </frameset>\n
+..\\Data\\global_lib.h(110):     </html>\n
+..\\Data\\global_lib.h(110): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+..\\Data\\global_lib.h(110): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+..\\Data\\global_lib.h(110): t=110514ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=16)
+..\\Data\\global_lib.h(110):     0\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110515ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=110515ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=110515ms: 619-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=17)
+..\\Data\\global_lib.h(110):     GET /cgi-bin/nav.pl?page=menu&in=flights HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/welcome.pl?page=search\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527768; MTUserInfo=firstName&ivan11&address2&&username&ivan11&hash&17&
+..\\Data\\global_lib.h(110):     lastName&ivan11%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110515ms: Already connected [2] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=110515ms: 620-byte request headers for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=18)
+..\\Data\\global_lib.h(110):     GET /cgi-bin/reservations.pl?page=welcome HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/welcome.pl?page=search\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527768; MTUserInfo=firstName&ivan11&address2&&username&ivan11&hash&17&
+..\\Data\\global_lib.h(110):     lastName&ivan11%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110568ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=17)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:13 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Expires: Fri, 11 Jun 2021 19:56:13 GMT\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=99\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(110):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110569ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=17)
+..\\Data\\global_lib.h(110):     5ca\r\n
+..\\Data\\global_lib.h(110): t=110569ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=17)
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110569ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=17)
+..\\Data\\global_lib.h(110):     <!DOCTYPE html\n
+..\\Data\\global_lib.h(110):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\Data\\global_lib.h(110):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\Data\\global_lib.h(110):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\Data\\global_lib.h(110):     <head>\n
+..\\Data\\global_lib.h(110):     <title>Web Tours Navigation Bar</title>\n
+..\\Data\\global_lib.h(110):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\Data\\global_lib.h(110):     </head>\n
+..\\Data\\global_lib.h(110):     <body bgcolor="#E0E7F1">\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     <style>\n
+..\\Data\\global_lib.h(110):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\Data\\global_lib.h(110):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\Data\\global_lib.h(110):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\Data\\global_lib.h(110):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\Data\\global_lib.h(110):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\Data\\global_lib.h(110):     N: none}\n
+..\\Data\\global_lib.h(110):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\Data\\global_lib.h(110):     CORATION: underline}\n
+..\\Data\\global_lib.h(110):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\Data\\global_lib.h(110):     </style>\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     <BR><BR><center>\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+..\\Data\\global_lib.h(110):     RC="/WebTours/images/in_flights.gif" \n
+..\\Data\\global_lib.h(110):     ALT="Search Flights Button"/></A>\n
+..\\Data\\global_lib.h(110):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+..\\Data\\global_lib.h(110):     WebTours/images/itinerary.gif" \n
+..\\Data\\global_lib.h(110):     ALT="Itinerary Button"/></A>\n
+..\\Data\\global_lib.h(110):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+..\\Data\\global_lib.h(110):     ours/images/home.gif" \n
+..\\Data\\global_lib.h(110):     ALT="Home Button"/></A>\n
+..\\Data\\global_lib.h(110):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+..\\Data\\global_lib.h(110):     es/signoff.gif" \n
+..\\Data\\global_lib.h(110):     ALT="SignOff Button"/></A></center>\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     </body>\n
+..\\Data\\global_lib.h(110):     </html>\n
+..\\Data\\global_lib.h(110): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(110): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Data\\global_lib.h(110): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(110): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Data\\global_lib.h(110): t=110570ms: Already connected [3] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=110570ms: 613-byte request headers for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=20)
+..\\Data\\global_lib.h(110):     GET /WebTours/images/home.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527768; MTUserInfo=firstName&ivan11&address2&&username&ivan11&hash&17&
+..\\Data\\global_lib.h(110):     lastName&ivan11%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110571ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=110572ms: 619-byte request headers for "http://localhost:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=19)
+..\\Data\\global_lib.h(110):     GET /WebTours/images/in_flights.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527768; MTUserInfo=firstName&ivan11&address2&&username&ivan11&hash&17&
+..\\Data\\global_lib.h(110):     lastName&ivan11%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110572ms: 297-byte response headers for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=20)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:13 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Last-Modified: Sun, 06 Jun 2021 20:13:36 GMT\r\n
+..\\Data\\global_lib.h(110):     ETag: "100000001ebce-2b0-5c41e8f50cc43"\r\n
+..\\Data\\global_lib.h(110):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(110):     Content-Length: 688\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=99\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110573ms: 688-byte response body for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=20)
+..\\Data\\global_lib.h(110): t=110573ms: Request done "http://localhost:1080/WebTours/images/home.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=110573ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=17)
+..\\Data\\global_lib.h(110):     0\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110573ms: Request done "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=110573ms: 297-byte response headers for "http://localhost:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=19)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:13 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Last-Modified: Sun, 06 Jun 2021 20:13:36 GMT\r\n
+..\\Data\\global_lib.h(110):     ETag: "100000001ebd0-2d6-5c41e8f5154fb"\r\n
+..\\Data\\global_lib.h(110):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(110):     Content-Length: 726\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=94\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110574ms: 726-byte response body for "http://localhost:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=19)
+..\\Data\\global_lib.h(110): t=110574ms: Request done "http://localhost:1080/WebTours/images/in_flights.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=110583ms: 255-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=18)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:13 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Expires: Fri, 11 Jun 2021 19:56:13 GMT\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=98\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(110):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110584ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=18)
+..\\Data\\global_lib.h(110):     f84\r\n
+..\\Data\\global_lib.h(110): t=110584ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=18)
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110584ms: 3972-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=18)
+..\\Data\\global_lib.h(110):     <!DOCTYPE html\n
+..\\Data\\global_lib.h(110):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\Data\\global_lib.h(110):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\Data\\global_lib.h(110):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\Data\\global_lib.h(110):     <head>\n
+..\\Data\\global_lib.h(110):     <title>Flight Selections</title>\n
+..\\Data\\global_lib.h(110):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\Data\\global_lib.h(110):     </head>\n
+..\\Data\\global_lib.h(110):     <body bgcolor="#E0E7F1">\n
+..\\Data\\global_lib.h(110):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+..\\Data\\global_lib.h(110):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+..\\Data\\global_lib.h(110):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+..\\Data\\global_lib.h(110):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><bl
+..\\Data\\global_lib.h(110):     ockquote>\n
+..\\Data\\global_lib.h(110):     <form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded" o
+..\\Data\\global_lib.h(110):     nsubmit="" name="DestForm">\n
+..\\Data\\global_lib.h(110):     <input type="hidden" name="advanceDiscount" value="0"  /><table border="0" cellspacing="5"
+..\\Data\\global_lib.h(110):     ><tr><td align="left">Departure City :</td> <td><select name="depart" >\n
+..\\Data\\global_lib.h(110):     <option selected="selected" value="Denver">Denver</option>\n
+..\\Data\\global_lib.h(110):     <option value="Frankfurt">Frankfurt</option>\n
+..\\Data\\global_lib.h(110):     <option value="London">London</option>\n
+..\\Data\\global_lib.h(110):     <option value="Los Angeles">Los Angeles</option>\n
+..\\Data\\global_lib.h(110):     <option value="Paris">Paris</option>\n
+..\\Data\\global_lib.h(110):     <option value="Portland">Portland</option>\n
+..\\Data\\global_lib.h(110):     <option value="San Francisco">San Francisco</option>\n
+..\\Data\\global_lib.h(110):     <option value="Seattle">Seattle</option>\n
+..\\Data\\global_lib.h(110):     <option value="Sydney">Sydney</option>\n
+..\\Data\\global_lib.h(110):     <option value="Zurich">Zurich</option>\n
+..\\Data\\global_lib.h(110):     </select></td> <td align="left">Departure Date :</td> <td><input type="text" name="departD
+..\\Data\\global_lib.h(110):     ate" value="06/13/2021" size="10" maxlength="10" /> \n
+..\\Data\\global_lib.h(110):     <!-- Departure Date Applet -->\n
+..\\Data\\global_lib.h(110):     <APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Heigh
+..\\Data\\global_lib.h(110):     t=28 BORDER=0>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=CalenderTitle  VALUE="Select Departure Date">\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=HtmlFormIndex  VALUE=0>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=HtmlEditIndex  VALUE=2>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=AutoClose      VALUE=1>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=Label          VALUE="...">\n
+..\\Data\\global_lib.h(110):     </APPLET>\n
+..\\Data\\global_lib.h(110):     </td></tr> <tr><td align="left">Arrival City :</td> <td><select name="arrive" >\n
+..\\Data\\global_lib.h(110):     <option selected="selected" value="Denver">Denver</option>\n
+..\\Data\\global_lib.h(110):     <option value="Frankfurt">Frankfurt</option>\n
+..\\Data\\global_lib.h(110):     <option value="London">London</option>\n
+..\\Data\\global_lib.h(110):     <option value="Los Angeles">Los Angeles</option>\n
+..\\Data\\global_lib.h(110):     <option value="Paris">Paris</option>\n
+..\\Data\\global_lib.h(110):     <option value="Portland">Portland</option>\n
+..\\Data\\global_lib.h(110):     <option value="San Francisco">San Francisco</option>\n
+..\\Data\\global_lib.h(110):     <option value="Seattle">Seattle</option>\n
+..\\Data\\global_lib.h(110):     <option value="Sydney">Sydney</option>\n
+..\\Data\\global_lib.h(110):     <option value="Zurich">Zurich</option>\n
+..\\Data\\global_lib.h(110):     </select></td> <td align="left">Return Date :</td> <td><input type="text" name="returnDate
+..\\Data\\global_lib.h(110):     " value="06/14/2021" size="10" maxlength="10" /> \n
+..\\Data\\global_lib.h(110):     <!-- Return Date Applet -->\n
+..\\Data\\global_lib.h(110):     <APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Heigh
+..\\Data\\global_lib.h(110):     t=28 BORDER=0>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=CalenderTitle  VALUE="Select Return Date">\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=HtmlFormIndex  VALUE=0>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=HtmlEditIndex  VALUE=4>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=AutoClose      VALUE=1>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=Label          VALUE="...">\n
+..\\Data\\global_lib.h(110):     </APPLET>\n
+..\\Data\\global_lib.h(110):     </td></tr> <tr><td align="left">No. of Passengers : </td> <td><input type="text" name="num
+..\\Data\\global_lib.h(110):     Passengers" value="1" size="3" maxlength="8" /></td> <td colspan="2"><label><input type="c
+..\\Data\\global_lib.h(110):     heckbox" name="roundtrip" value="on" />Roundtrip ticket</label></td></tr> <tr><td>Seating 
+..\\Data\\global_lib.h(110):     Preference</td> <td /> <td>Type of Seat</td></tr> <tr><td><label><input type="radio" name=
+..\\Data\\global_lib.h(110):     "seatPref" value="Aisle" />Aisle</label><br /> <label><input type="radio" name="seatPref" 
+..\\Data\\global_lib.h(110):     value="Window" />Window</label><br /> <label><input type="radio" name="seatPref" value="No
+..\\Data\\global_lib.h(110):     ne" checked="checked" />None</label><br /></td> <td /> <td><label><input type="radio" name
+..\\Data\\global_lib.h(110):     ="seatType" value="First" />First</label><br /> <label><input type="radio" name="seatType"
+..\\Data\\global_lib.h(110):      value="Business" />Business</label><br /> <label><input type="radio" name="seatType" valu
+..\\Data\\global_lib.h(110):     e="Coach" checked="checked" />Coach</label><br /></td></tr> <tr><td height="10" /></tr> <t
+..\\Data\\global_lib.h(110):     r><td align="center" colspan="4"><input type="image" name="findFlights" src="/WebTours/ima
+..\\Data\\global_lib.h(110):     ges/bu
+..\\Data\\global_lib.h(110): t=110586ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=18)
+..\\Data\\global_lib.h(110):     112\r\n
+..\\Data\\global_lib.h(110): t=110586ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=18)
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110586ms: 274-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=18)
+..\\Data\\global_lib.h(110):     tton_next.gif" border="0" /></td></tr></table><div><input type="hidden" name=".cgifields" 
+..\\Data\\global_lib.h(110):     value="roundtrip"  /><input type="hidden" name=".cgifields" value="seatType"  /><input typ
+..\\Data\\global_lib.h(110):     e="hidden" name=".cgifields" value="seatPref"  /></div></form>\n
+..\\Data\\global_lib.h(110):     </blockquote>\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     </body>\n
+..\\Data\\global_lib.h(110):     </html>\n
+..\\Data\\global_lib.h(110): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(110): t=110587ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=110587ms: 621-byte request headers for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=21)
+..\\Data\\global_lib.h(110):     GET /WebTours/images/button_next.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/reservations.pl?page=welcome\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527768; MTUserInfo=firstName&ivan11&address2&&username&ivan11&hash&17&
+..\\Data\\global_lib.h(110):     lastName&ivan11%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110588ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=18)
+..\\Data\\global_lib.h(110):     0\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110588ms: Request done "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=110588ms: 297-byte response headers for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=21)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:13 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Last-Modified: Sun, 06 Jun 2021 20:13:35 GMT\r\n
+..\\Data\\global_lib.h(110):     ETag: "100000001ebc7-2f6-5c41e8f4e9c6d"\r\n
+..\\Data\\global_lib.h(110):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(110):     Content-Length: 758\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=93\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=110588ms: 758-byte response body for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=21)
+..\\Data\\global_lib.h(110): t=110588ms: Request done "http://localhost:1080/WebTours/images/button_next.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): Registered web_reg_find successful for "Text=Flight Selections" (count=1)  	[MsgId: MMSG-26364]
+..\\Data\\global_lib.h(110): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(25): Notify: Transaction "Go_to_flights" ended with a "Pass" status (Duration: 0.1243 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(28): Notify: Transaction "Find_flight" started.	[MsgId: MMSG-16999]
+..\\Data\\global_lib.h(124): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(124): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(124): "Origin: http://localhost:1080" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\Data\\global_lib.h(124): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(127): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(127): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(127): "Sec-Fetch-User: ?1" header registered (superseding previous registration) for adding to requests from all following Action functions  	[MsgId: MMSG-26504]
+..\\Data\\global_lib.h(127): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(130): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(130): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(130): "Upgrade-Insecure-Requests: 1" header registered (superseding previous registration) for adding to requests from all following Action functions  	[MsgId: MMSG-26504]
+..\\Data\\global_lib.h(130): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(133): lr_think_time: 5.00 seconds.	[MsgId: MMSG-15948]
+..\\Data\\global_lib.h(136): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(136): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Data\\global_lib.h(145): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(145): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Data\\global_lib.h(146): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(146): Notify: Parameter Substitution: parameter "departCity" =  "Paris"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(146): Notify: Parameter Substitution: parameter "departDate" =  "06/14/2021"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(146): Notify: Next row for parameter arriveCity = 5 [table  = arriveCity].	[MsgId: MMSG-13876]
+..\\Data\\global_lib.h(146): Notify: Parameter Substitution: parameter "arriveCity" =  "Portland"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(146): Notify: Parameter Substitution: parameter "returnDate" =  "08/11/2021"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(146): Notify: Parameter Substitution: parameter "seatPreference" =  "Window"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(146): Notify: Parameter Substitution: parameter "seatType" =  "First"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(146): t=111747ms: Closed connection [0] to localhost:1080 after completing 8 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=111748ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=111748ms: Connected socket [0] from 127.0.0.1:28810 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=111748ms: 713-byte request headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=94)
+..\\Data\\global_lib.h(146):     POST /cgi-bin/reservations.pl HTTP/1.1\r\n
+..\\Data\\global_lib.h(146):     Content-Type: application/x-www-form-urlencoded\r\n
+..\\Data\\global_lib.h(146):     Referer: http://localhost:1080/cgi-bin/reservations.pl?page=welcome\r\n
+..\\Data\\global_lib.h(146):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(146):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(146):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(146):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(146):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(146):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(146):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(146):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(146):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(146):     Accept: */*\r\n
+..\\Data\\global_lib.h(146):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(146):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(146):     Cookie: MSO=SID&1623527764; MTUserInfo=firstName&ivan4&address2&&username&ivan4&hash&116&l
+..\\Data\\global_lib.h(146):     astName&ivan4%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(146):     Content-Length: 269\r\n
+..\\Data\\global_lib.h(146):     \r\n
+..\\Data\\global_lib.h(146): t=111749ms: 269-byte request body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=94)
+..\\Data\\global_lib.h(146):     advanceDiscount=0&depart=Paris&departDate=06%2F14%2F2021&arrive=Portland&returnDate=08%2F1
+..\\Data\\global_lib.h(146):     1%2F2021&numPassengers=1&seatPref=Window&seatType=First&findFlights.x=31&findFlights.y=5&.
+..\\Data\\global_lib.h(146):     cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref&departCity=&departCity=Zurich
+..\\Data\\global_lib.h(146): t=111749ms: Inactive socket [4] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=111749ms: Closed connection [4] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=111781ms: Inactive socket [1] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=111782ms: Closed connection [1] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=111801ms: Inactive socket [2] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=111801ms: Closed connection [2] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=111816ms: 256-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=94)
+..\\Data\\global_lib.h(146):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(146):     Date: Sat, 12 Jun 2021 19:56:14 GMT\r\n
+..\\Data\\global_lib.h(146):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(146):     Expires: Fri, 11 Jun 2021 19:56:14 GMT\r\n
+..\\Data\\global_lib.h(146):     Keep-Alive: timeout=5, max=100\r\n
+..\\Data\\global_lib.h(146):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(146):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(146):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(146):     \r\n
+..\\Data\\global_lib.h(146): t=111817ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=94)
+..\\Data\\global_lib.h(146):     98e\r\n
+..\\Data\\global_lib.h(146): t=111817ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=94)
+..\\Data\\global_lib.h(146):     \r\n
+..\\Data\\global_lib.h(146): t=111817ms: 2446-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=94)
+..\\Data\\global_lib.h(146):     <!DOCTYPE html\n
+..\\Data\\global_lib.h(146):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\Data\\global_lib.h(146):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\Data\\global_lib.h(146):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\Data\\global_lib.h(146):     <head>\n
+..\\Data\\global_lib.h(146):     <title>Flight Selections</title>\n
+..\\Data\\global_lib.h(146):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\Data\\global_lib.h(146):     </head>\n
+..\\Data\\global_lib.h(146):     <body bgcolor="#E0E7F1">\n
+..\\Data\\global_lib.h(146):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+..\\Data\\global_lib.h(146):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+..\\Data\\global_lib.h(146):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+..\\Data\\global_lib.h(146):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><bl
+..\\Data\\global_lib.h(146):     ockquote>\n
+..\\Data\\global_lib.h(146):     <form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded">\n
+..\\Data\\global_lib.h(146):     \n
+..\\Data\\global_lib.h(146):     <center>\n
+..\\Data\\global_lib.h(146):     <!-- From Paris (4) To Portland (5) -->\n
+..\\Data\\global_lib.h(146):     <table cellspacing="2" border="0" width="50%">\n
+..\\Data\\global_lib.h(146):     <blockquote>Flight departing from <B>Paris</B> to <B>Portland</B> on <B>06/14/2021</B><BR/
+..\\Data\\global_lib.h(146):     ><BR/><tr bgcolor="#5E7884"><td align="center"><font color="white"><B>Flight</B></font>\n
+..\\Data\\global_lib.h(146):           \t\t<td align="center"><font color="white"><B>Departure time</B>\n
+..\\Data\\global_lib.h(146):           \t\t<td align="center"><font color="white"><B>Cost</B>\n
+..\\Data\\global_lib.h(146):     <tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="
+..\\Data\\global_lib.h(146):     450;1165;06/14/2021" checked="checked" >Blue Sky Air 450<td align="center">8am<td align="c
+..\\Data\\global_lib.h(146):     enter">$ 1165</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="
+..\\Data\\global_lib.h(146):     outboundFlight" value="451;1038;06/14/2021">Blue Sky Air 451<td align="center">1pm<td alig
+..\\Data\\global_lib.h(146):     n="center">$ 1038</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" na
+..\\Data\\global_lib.h(146):     me="outboundFlight" value="452;1101;06/14/2021">Blue Sky Air 452<td align="center">5pm<td 
+..\\Data\\global_lib.h(146):     align="center">$ 1101</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio
+..\\Data\\global_lib.h(146):     " name="outboundFlight" value="453;953;06/14/2021">Blue Sky Air 453<td align="center">11pm
+..\\Data\\global_lib.h(146):     <td align="center">$ 953</TD></TR></table>\n
+..\\Data\\global_lib.h(146):     \n
+..\\Data\\global_lib.h(146):     <input type="hidden" name="numPassengers" value="1"  /><input type="hidden" name="advanceD
+..\\Data\\global_lib.h(146):     iscount" value="0"  /><input type="hidden" name="seatType" value="First"  /><input type="h
+..\\Data\\global_lib.h(146):     idden" name="seatPref" value="Window"  />\n
+..\\Data\\global_lib.h(146):     <P><center><table width=80% cellspacing=1><tr><td align=center>\n
+..\\Data\\global_lib.h(146):     <input type="image" name="reserveFlights" src="/WebTours/images/button_next.gif" border="0
+..\\Data\\global_lib.h(146):     " />\n
+..\\Data\\global_lib.h(146):     <td>&nbsp;<td align=center></table></center></form></center>\n
+..\\Data\\global_lib.h(146):     </blockquote>\n
+..\\Data\\global_lib.h(146):     \n
+..\\Data\\global_lib.h(146):     </body>\n
+..\\Data\\global_lib.h(146):     </html>
+..\\Data\\global_lib.h(146): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Data\\global_lib.h(146): t=111820ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=94)
+..\\Data\\global_lib.h(146):     0\r\n
+..\\Data\\global_lib.h(146):     \r\n
+..\\Data\\global_lib.h(146): t=111820ms: Request done "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): Notify: Saving Parameter "outboundFlight = 450;1165;06/14/2021".	[MsgId: MMSG-13798]
+..\\Data\\global_lib.h(146): Registered web_reg_find successful for "Text=Find Flight" (count=1)  	[MsgId: MMSG-26364]
+..\\Data\\global_lib.h(146): web_submit_data("reservations.pl") was successful, 2446 body bytes, 256 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(32): Notify: Transaction "Find_flight" ended with a "Pass" status (Duration: 5.0860 Think Time: 5.0115 Wasted Time: 0.0005).	[MsgId: MMSG-16870]
+Action.c(35): Notify: Transaction "Reserve_flight" started.	[MsgId: MMSG-16999]
+..\\Data\\global_lib.h(174): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(174): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Data\\global_lib.h(175): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(175): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
+..\\Data\\global_lib.h(175): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(177): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(177): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+..\\Data\\global_lib.h(177): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(179): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(179): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+..\\Data\\global_lib.h(179): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(181): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(181): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(181): "Origin: http://localhost:1080" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\Data\\global_lib.h(181): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(184): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(184): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(184): "Sec-Fetch-User: ?1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\Data\\global_lib.h(184): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(187): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(187): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(187): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\Data\\global_lib.h(187): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(190): lr_think_time: 5.00 seconds.	[MsgId: MMSG-15948]
+..\\Data\\global_lib.h(80): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(80): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Data\\global_lib.h(82): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(82): Notify: Parameter Substitution: parameter "userSession" =  "131512.982584042zHztzQQpAtVzzzzHtAfiipVQtcf"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(82): Notify: Parameter Substitution: parameter "login" =  "ivan2"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(82): Notify: Next row for parameter password = 2 [table  = password].	[MsgId: MMSG-13876]
+..\\Data\\global_lib.h(82): Notify: Parameter Substitution: parameter "password" =  "ivan2"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(82): t=112154ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112155ms: 528-byte request headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=33)
+..\\Data\\global_lib.h(82):     POST /cgi-bin/login.pl HTTP/1.1\r\n
+..\\Data\\global_lib.h(82):     Content-Type: application/x-www-form-urlencoded\r\n
+..\\Data\\global_lib.h(82):     Referer: http://localhost:1080/cgi-bin/nav.pl?in=home\r\n
+..\\Data\\global_lib.h(82):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(82):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(82):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(82):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(82):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(82):     Accept: */*\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Cookie: MSO=SID&1623527770\r\n
+..\\Data\\global_lib.h(82):     Content-Length: 124\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112155ms: 124-byte request body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=33)
+..\\Data\\global_lib.h(82):     userSession=131512.982584042zHztzQQpAtVzzzzHtAfiipVQtcf&username=ivan2&password=ivan2&logi
+..\\Data\\global_lib.h(82):     n.x=57&login.y=13&JSFormSubmit=off
+..\\Data\\global_lib.h(82): t=112155ms: Inactive socket [1] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112155ms: Closed connection [1] to localhost:1080 after completing 3 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112156ms: Inactive socket [2] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112156ms: Closed connection [2] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112156ms: Inactive socket [3] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112156ms: Closed connection [3] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112203ms: 362-byte response headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=33)
+..\\Data\\global_lib.h(82):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(82):     Date: Sat, 12 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(82):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(82):     Expires: 5s\r\n
+..\\Data\\global_lib.h(82):     Set-Cookie: MTUserInfo=firstName&ivan2&address2&&username&ivan2&hash&114&lastName&ivan2%0A
+..\\Data\\global_lib.h(82):     &address1&&creditCard&&expDate&%0A; path=/\r\n
+..\\Data\\global_lib.h(82):     Keep-Alive: timeout=5, max=97\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(82):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112203ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=33)
+..\\Data\\global_lib.h(82):     1e1\r\n
+..\\Data\\global_lib.h(82): t=112204ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=33)
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112204ms: 481-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=33)
+..\\Data\\global_lib.h(82):     <!--\n
+..\\Data\\global_lib.h(82):     User password was correct - added a cookie with the user's default\n
+..\\Data\\global_lib.h(82):     information.  Set the user up to make reservations...\n
+..\\Data\\global_lib.h(82):     \n
+..\\Data\\global_lib.h(82):     --->\n
+..\\Data\\global_lib.h(82):     \n
+..\\Data\\global_lib.h(82):     <html>\n
+..\\Data\\global_lib.h(82):     <title>Web Tours</title>\n
+..\\Data\\global_lib.h(82):     <frameset cols="160,*" border=1 frameborder=1>\n
+..\\Data\\global_lib.h(82):     <frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" nores
+..\\Data\\global_lib.h(82):     ize="noresize" scrolling="auto"/>\n
+..\\Data\\global_lib.h(82):     <frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="no
+..\\Data\\global_lib.h(82):     resize" scrolling="auto"/>\n
+..\\Data\\global_lib.h(82):     </frameset>\n
+..\\Data\\global_lib.h(82):     \n
+..\\Data\\global_lib.h(82):     </body>\n
+..\\Data\\global_lib.h(82):     </html>
+..\\Data\\global_lib.h(82): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Data\\global_lib.h(82): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Data\\global_lib.h(82): t=112205ms: Connecting [1] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112205ms: Connecting [2] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112205ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=33)
+..\\Data\\global_lib.h(82):     0\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112206ms: Request done "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112206ms: Connected socket [1] from 127.0.0.1:28812 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112206ms: 581-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=34)
+..\\Data\\global_lib.h(82):     GET /cgi-bin/nav.pl?page=menu&in=home HTTP/1.1\r\n
+..\\Data\\global_lib.h(82):     Referer: http://localhost:1080/cgi-bin/login.pl\r\n
+..\\Data\\global_lib.h(82):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(82):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(82):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(82):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(82):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(82):     Accept: */*\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Cookie: MSO=SID&1623527770; MTUserInfo=firstName&ivan2&address2&&username&ivan2&hash&114&l
+..\\Data\\global_lib.h(82):     astName&ivan2%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112206ms: Connected socket [2] from 127.0.0.1:28813 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112206ms: 576-byte request headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=35)
+..\\Data\\global_lib.h(82):     GET /cgi-bin/login.pl?intro=true HTTP/1.1\r\n
+..\\Data\\global_lib.h(82):     Referer: http://localhost:1080/cgi-bin/login.pl\r\n
+..\\Data\\global_lib.h(82):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(82):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(82):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(82):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(82):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(82):     Accept: */*\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Cookie: MSO=SID&1623527770; MTUserInfo=firstName&ivan2&address2&&username&ivan2&hash&114&l
+..\\Data\\global_lib.h(82):     astName&ivan2%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112269ms: 256-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=34)
+..\\Data\\global_lib.h(82):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(82):     Date: Sat, 12 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(82):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(82):     Expires: Fri, 11 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(82):     Keep-Alive: timeout=5, max=100\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(82):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112269ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=34)
+..\\Data\\global_lib.h(82):     5ca\r\n
+..\\Data\\global_lib.h(82): t=112269ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=34)
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112269ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=34)
+..\\Data\\global_lib.h(82):     <!DOCTYPE html\n
+..\\Data\\global_lib.h(82):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\Data\\global_lib.h(82):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\Data\\global_lib.h(82):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\Data\\global_lib.h(82):     <head>\n
+..\\Data\\global_lib.h(82):     <title>Web Tours Navigation Bar</title>\n
+..\\Data\\global_lib.h(82):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\Data\\global_lib.h(82):     </head>\n
+..\\Data\\global_lib.h(82):     <body bgcolor="#E0E7F1">\n
+..\\Data\\global_lib.h(82):     \n
+..\\Data\\global_lib.h(82):     <style>\n
+..\\Data\\global_lib.h(82):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\Data\\global_lib.h(82):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\Data\\global_lib.h(82):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\Data\\global_lib.h(82):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\Data\\global_lib.h(82):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\Data\\global_lib.h(82):     N: none}\n
+..\\Data\\global_lib.h(82):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\Data\\global_lib.h(82):     CORATION: underline}\n
+..\\Data\\global_lib.h(82):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\Data\\global_lib.h(82):     </style>\n
+..\\Data\\global_lib.h(82):     \n
+..\\Data\\global_lib.h(82):     <BR><BR><center>\n
+..\\Data\\global_lib.h(82):     \n
+..\\Data\\global_lib.h(82):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+..\\Data\\global_lib.h(82):     RC="/WebTours/images/flights.gif" \n
+..\\Data\\global_lib.h(82):     ALT="Search Flights Button"/></A>\n
+..\\Data\\global_lib.h(82):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+..\\Data\\global_lib.h(82):     WebTours/images/itinerary.gif" \n
+..\\Data\\global_lib.h(82):     ALT="Itinerary Button"/></A>\n
+..\\Data\\global_lib.h(82):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+..\\Data\\global_lib.h(82):     ours/images/in_home.gif" \n
+..\\Data\\global_lib.h(82):     ALT="Home Button"/></A>\n
+..\\Data\\global_lib.h(82):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+..\\Data\\global_lib.h(82):     es/signoff.gif" \n
+..\\Data\\global_lib.h(82):     ALT="SignOff Button"/></A></center>\n
+..\\Data\\global_lib.h(82):     \n
+..\\Data\\global_lib.h(82):     </body>\n
+..\\Data\\global_lib.h(82):     </html>\n
+..\\Data\\global_lib.h(82): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(82): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(82): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(82): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(82): t=112271ms: Connecting [3] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112271ms: Connecting [4] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112272ms: Connecting [5] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112272ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112272ms: 592-byte request headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=36)
+..\\Data\\global_lib.h(82):     GET /WebTours/images/flights.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(82):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\Data\\global_lib.h(82):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(82):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(82):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(82):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(82):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(82):     Accept: */*\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Cookie: MSO=SID&1623527770; MTUserInfo=firstName&ivan2&address2&&username&ivan2&hash&114&l
+..\\Data\\global_lib.h(82):     astName&ivan2%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112273ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=34)
+..\\Data\\global_lib.h(82):     0\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112273ms: Request done "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112273ms: Connected socket [3] from 127.0.0.1:28814 to 127.0.0.1:1080 in 2 ms  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112273ms: 594-byte request headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=37)
+..\\Data\\global_lib.h(82):     GET /WebTours/images/itinerary.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(82):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\Data\\global_lib.h(82):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(82):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(82):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(82):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(82):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(82):     Accept: */*\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Cookie: MSO=SID&1623527770; MTUserInfo=firstName&ivan2&address2&&username&ivan2&hash&114&l
+..\\Data\\global_lib.h(82):     astName&ivan2%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112274ms: 297-byte response headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=36)
+..\\Data\\global_lib.h(82):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(82):     Date: Sat, 12 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(82):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(82):     Last-Modified: Sun, 06 Jun 2021 20:13:35 GMT\r\n
+..\\Data\\global_lib.h(82):     ETag: "100000001ebca-2d6-5c41e8f4f9f73"\r\n
+..\\Data\\global_lib.h(82):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(82):     Content-Length: 726\r\n
+..\\Data\\global_lib.h(82):     Keep-Alive: timeout=5, max=96\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112274ms: 726-byte response body for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=36)
+..\\Data\\global_lib.h(82): t=112274ms: Request done "http://localhost:1080/WebTours/images/flights.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112274ms: Connected socket [4] from 127.0.0.1:28815 to 127.0.0.1:1080 in 3 ms  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112274ms: 592-byte request headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=38)
+..\\Data\\global_lib.h(82):     GET /WebTours/images/in_home.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(82):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\Data\\global_lib.h(82):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(82):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(82):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(82):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(82):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(82):     Accept: */*\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Cookie: MSO=SID&1623527770; MTUserInfo=firstName&ivan2&address2&&username&ivan2&hash&114&l
+..\\Data\\global_lib.h(82):     astName&ivan2%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112275ms: 298-byte response headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=37)
+..\\Data\\global_lib.h(82):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(82):     Date: Sat, 12 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(82):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(82):     Last-Modified: Sun, 06 Jun 2021 20:13:36 GMT\r\n
+..\\Data\\global_lib.h(82):     ETag: "100000001ebd4-2dd-5c41e8f5270bd"\r\n
+..\\Data\\global_lib.h(82):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(82):     Content-Length: 733\r\n
+..\\Data\\global_lib.h(82):     Keep-Alive: timeout=5, max=100\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112275ms: 733-byte response body for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=37)
+..\\Data\\global_lib.h(82): t=112275ms: Request done "http://localhost:1080/WebTours/images/itinerary.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112275ms: Connected socket [5] from 127.0.0.1:28816 to 127.0.0.1:1080 in 3 ms  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112275ms: 592-byte request headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=39)
+..\\Data\\global_lib.h(82):     GET /WebTours/images/signoff.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(82):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\Data\\global_lib.h(82):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(82):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(82):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(82):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(82):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(82):     Accept: */*\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Cookie: MSO=SID&1623527770; MTUserInfo=firstName&ivan2&address2&&username&ivan2&hash&114&l
+..\\Data\\global_lib.h(82):     astName&ivan2%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112276ms: 298-byte response headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=38)
+..\\Data\\global_lib.h(82):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(82):     Date: Sat, 12 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(82):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(82):     Last-Modified: Sun, 06 Jun 2021 20:13:36 GMT\r\n
+..\\Data\\global_lib.h(82):     ETag: "100000001ebd1-2b0-5c41e8f5195f8"\r\n
+..\\Data\\global_lib.h(82):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(82):     Content-Length: 688\r\n
+..\\Data\\global_lib.h(82):     Keep-Alive: timeout=5, max=100\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112277ms: 688-byte response body for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=38)
+..\\Data\\global_lib.h(82): t=112277ms: Request done "http://localhost:1080/WebTours/images/in_home.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112277ms: 298-byte response headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=39)
+..\\Data\\global_lib.h(82):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(82):     Date: Sat, 12 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(82):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(82):     Last-Modified: Sun, 06 Jun 2021 20:13:36 GMT\r\n
+..\\Data\\global_lib.h(82):     ETag: "100000001ebda-2ef-5c41e8f54d227"\r\n
+..\\Data\\global_lib.h(82):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(82):     Content-Length: 751\r\n
+..\\Data\\global_lib.h(82):     Keep-Alive: timeout=5, max=100\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112277ms: 751-byte response body for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=39)
+..\\Data\\global_lib.h(82): t=112277ms: Request done "http://localhost:1080/WebTours/images/signoff.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=112278ms: 229-byte response headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=35)
+..\\Data\\global_lib.h(82):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(82):     Date: Sat, 12 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(82):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(82):     Expires: 5s\r\n
+..\\Data\\global_lib.h(82):     Keep-Alive: timeout=5, max=100\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(82):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112278ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=35)
+..\\Data\\global_lib.h(82):     397\r\n
+..\\Data\\global_lib.h(82): t=112278ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=35)
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112278ms: 919-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=35)
+..\\Data\\global_lib.h(82):     <!DOCTYPE html\n
+..\\Data\\global_lib.h(82):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\Data\\global_lib.h(82):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\Data\\global_lib.h(82):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\Data\\global_lib.h(82):     <head>\n
+..\\Data\\global_lib.h(82):     <title>Welcome to Web Tours</title>\n
+..\\Data\\global_lib.h(82):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\Data\\global_lib.h(82):     </head>\n
+..\\Data\\global_lib.h(82):     <body bgcolor="#E0E7F1">\n
+..\\Data\\global_lib.h(82):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+..\\Data\\global_lib.h(82):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+..\\Data\\global_lib.h(82):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+..\\Data\\global_lib.h(82):     black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>ivan2</b>, to the Web Tours
+..\\Data\\global_lib.h(82):      reservation pages.<BR/>Using the menu to the left, you can search for new flights to book
+..\\Data\\global_lib.h(82):     , \n
+..\\Data\\global_lib.h(82):     or review/edit the flights already booked.  Don't forget to sign off when\n
+..\\Data\\global_lib.h(82):     you're done!\n
+..\\Data\\global_lib.h(82):     </blockquote>\n
+..\\Data\\global_lib.h(82):     </body>\n
+..\\Data\\global_lib.h(82):     </html>
+..\\Data\\global_lib.h(82): t=112281ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=35)
+..\\Data\\global_lib.h(82):     0\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=112281ms: Request done "http://localhost:1080/cgi-bin/login.pl?intro=true"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): Registered web_reg_find successful for "Text=Welcome" (count=2)  	[MsgId: MMSG-26364]
+..\\Data\\global_lib.h(82): web_submit_data("login.pl") was successful, 5780 body bytes, 2038 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(18): Notify: Transaction "Login" ended with a "Pass" status (Duration: 5.1361 Think Time: 5.0071 Wasted Time: 0.0000).	[MsgId: MMSG-16870]
+Action.c(21): Notify: Transaction "Go_to_flights" started.	[MsgId: MMSG-16999]
+..\\Data\\global_lib.h(102): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(102): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(102): "Sec-Fetch-User: ?1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\Data\\global_lib.h(102): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(105): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(105): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(105): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\Data\\global_lib.h(105): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(108): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(108): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Data\\global_lib.h(110): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(110): t=112282ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=112282ms: 614-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=40)
+..\\Data\\global_lib.h(110):     GET /cgi-bin/welcome.pl?page=search HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527770; MTUserInfo=firstName&ivan2&address2&&username&ivan2&hash&114&l
+..\\Data\\global_lib.h(110):     astName&ivan2%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112331ms: 215-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=40)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=95\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(110):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112331ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=40)
+..\\Data\\global_lib.h(110):     268\r\n
+..\\Data\\global_lib.h(110): t=112331ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=40)
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112331ms: 616-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=40)
+..\\Data\\global_lib.h(110):     <!-- \n
+..\\Data\\global_lib.h(110):      User has returned to the search page.  Since user has already logged on,\n
+..\\Data\\global_lib.h(110):      we can give them the menu in the navbar.\n
+..\\Data\\global_lib.h(110):      --->\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     <html>\n
+..\\Data\\global_lib.h(110):     <title>Web Tours</title>\n
+..\\Data\\global_lib.h(110):        <!-- Frame Set -->\n
+..\\Data\\global_lib.h(110):        <frameset cols="160,*" border="1" frameborder="1">\n
+..\\Data\\global_lib.h(110):           <!-- Navigation Frame -->\n
+..\\Data\\global_lib.h(110):           <frame src="nav.pl?page=menu&in=flights" name="navbar" \n
+..\\Data\\global_lib.h(110):                 marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>\n
+..\\Data\\global_lib.h(110):           <!-- Reservation Frame -->\n
+..\\Data\\global_lib.h(110):           <frame src="reservations.pl?page=welcome" name="info" \n
+..\\Data\\global_lib.h(110):                 marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>\n
+..\\Data\\global_lib.h(110):        </frameset>\n
+..\\Data\\global_lib.h(110):     </html>\n
+..\\Data\\global_lib.h(110): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+..\\Data\\global_lib.h(110): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+..\\Data\\global_lib.h(110): t=112332ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=112332ms: 617-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=41)
+..\\Data\\global_lib.h(110):     GET /cgi-bin/nav.pl?page=menu&in=flights HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/welcome.pl?page=search\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527770; MTUserInfo=firstName&ivan2&address2&&username&ivan2&hash&114&l
+..\\Data\\global_lib.h(110):     astName&ivan2%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112332ms: Already connected [2] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=112332ms: 618-byte request headers for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=42)
+..\\Data\\global_lib.h(110):     GET /cgi-bin/reservations.pl?page=welcome HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/welcome.pl?page=search\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527770; MTUserInfo=firstName&ivan2&address2&&username&ivan2&hash&114&l
+..\\Data\\global_lib.h(110):     astName&ivan2%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112333ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=40)
+..\\Data\\global_lib.h(110):     0\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112334ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=112382ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=41)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Expires: Fri, 11 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=99\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(110):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112383ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=41)
+..\\Data\\global_lib.h(110):     5ca\r\n
+..\\Data\\global_lib.h(110): t=112383ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=41)
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112383ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=41)
+..\\Data\\global_lib.h(110):     <!DOCTYPE html\n
+..\\Data\\global_lib.h(110):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\Data\\global_lib.h(110):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\Data\\global_lib.h(110):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\Data\\global_lib.h(110):     <head>\n
+..\\Data\\global_lib.h(110):     <title>Web Tours Navigation Bar</title>\n
+..\\Data\\global_lib.h(110):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\Data\\global_lib.h(110):     </head>\n
+..\\Data\\global_lib.h(110):     <body bgcolor="#E0E7F1">\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     <style>\n
+..\\Data\\global_lib.h(110):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\Data\\global_lib.h(110):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\Data\\global_lib.h(110):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\Data\\global_lib.h(110):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\Data\\global_lib.h(110):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\Data\\global_lib.h(110):     N: none}\n
+..\\Data\\global_lib.h(110):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\Data\\global_lib.h(110):     CORATION: underline}\n
+..\\Data\\global_lib.h(110):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\Data\\global_lib.h(110):     </style>\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     <BR><BR><center>\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+..\\Data\\global_lib.h(110):     RC="/WebTours/images/in_flights.gif" \n
+..\\Data\\global_lib.h(110):     ALT="Search Flights Button"/></A>\n
+..\\Data\\global_lib.h(110):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+..\\Data\\global_lib.h(110):     WebTours/images/itinerary.gif" \n
+..\\Data\\global_lib.h(110):     ALT="Itinerary Button"/></A>\n
+..\\Data\\global_lib.h(110):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+..\\Data\\global_lib.h(110):     ours/images/home.gif" \n
+..\\Data\\global_lib.h(110):     ALT="Home Button"/></A>\n
+..\\Data\\global_lib.h(110):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+..\\Data\\global_lib.h(110):     es/signoff.gif" \n
+..\\Data\\global_lib.h(110):     ALT="SignOff Button"/></A></center>\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     </body>\n
+..\\Data\\global_lib.h(110):     </html>\n
+..\\Data\\global_lib.h(110): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(110): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Data\\global_lib.h(110): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(110): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Data\\global_lib.h(110): t=112384ms: Already connected [3] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=112384ms: 611-byte request headers for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=44)
+..\\Data\\global_lib.h(110):     GET /WebTours/images/home.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527770; MTUserInfo=firstName&ivan2&address2&&username&ivan2&hash&114&l
+..\\Data\\global_lib.h(110):     astName&ivan2%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112385ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=112385ms: 617-byte request headers for "http://localhost:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=43)
+..\\Data\\global_lib.h(110):     GET /WebTours/images/in_flights.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527770; MTUserInfo=firstName&ivan2&address2&&username&ivan2&hash&114&l
+..\\Data\\global_lib.h(110):     astName&ivan2%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112386ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=41)
+..\\Data\\global_lib.h(110):     0\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112386ms: Request done "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=112386ms: 297-byte response headers for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=44)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Last-Modified: Sun, 06 Jun 2021 20:13:36 GMT\r\n
+..\\Data\\global_lib.h(110):     ETag: "100000001ebce-2b0-5c41e8f50cc43"\r\n
+..\\Data\\global_lib.h(110):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(110):     Content-Length: 688\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=99\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112386ms: 688-byte response body for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=44)
+..\\Data\\global_lib.h(110): t=112387ms: Request done "http://localhost:1080/WebTours/images/home.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=112392ms: 297-byte response headers for "http://localhost:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=43)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Last-Modified: Sun, 06 Jun 2021 20:13:36 GMT\r\n
+..\\Data\\global_lib.h(110):     ETag: "100000001ebd0-2d6-5c41e8f5154fb"\r\n
+..\\Data\\global_lib.h(110):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(110):     Content-Length: 726\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=94\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112393ms: 726-byte response body for "http://localhost:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=43)
+..\\Data\\global_lib.h(110): t=112393ms: Request done "http://localhost:1080/WebTours/images/in_flights.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=112402ms: 255-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=42)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Expires: Fri, 11 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=99\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(110):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112403ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=42)
+..\\Data\\global_lib.h(110):     f84\r\n
+..\\Data\\global_lib.h(110): t=112403ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=42)
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112403ms: 3972-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=42)
+..\\Data\\global_lib.h(110):     <!DOCTYPE html\n
+..\\Data\\global_lib.h(110):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\Data\\global_lib.h(110):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\Data\\global_lib.h(110):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\Data\\global_lib.h(110):     <head>\n
+..\\Data\\global_lib.h(110):     <title>Flight Selections</title>\n
+..\\Data\\global_lib.h(110):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\Data\\global_lib.h(110):     </head>\n
+..\\Data\\global_lib.h(110):     <body bgcolor="#E0E7F1">\n
+..\\Data\\global_lib.h(110):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+..\\Data\\global_lib.h(110):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+..\\Data\\global_lib.h(110):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+..\\Data\\global_lib.h(110):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><bl
+..\\Data\\global_lib.h(110):     ockquote>\n
+..\\Data\\global_lib.h(110):     <form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded" o
+..\\Data\\global_lib.h(110):     nsubmit="" name="DestForm">\n
+..\\Data\\global_lib.h(110):     <input type="hidden" name="advanceDiscount" value="0"  /><table border="0" cellspacing="5"
+..\\Data\\global_lib.h(110):     ><tr><td align="left">Departure City :</td> <td><select name="depart" >\n
+..\\Data\\global_lib.h(110):     <option selected="selected" value="Denver">Denver</option>\n
+..\\Data\\global_lib.h(110):     <option value="Frankfurt">Frankfurt</option>\n
+..\\Data\\global_lib.h(110):     <option value="London">London</option>\n
+..\\Data\\global_lib.h(110):     <option value="Los Angeles">Los Angeles</option>\n
+..\\Data\\global_lib.h(110):     <option value="Paris">Paris</option>\n
+..\\Data\\global_lib.h(110):     <option value="Portland">Portland</option>\n
+..\\Data\\global_lib.h(110):     <option value="San Francisco">San Francisco</option>\n
+..\\Data\\global_lib.h(110):     <option value="Seattle">Seattle</option>\n
+..\\Data\\global_lib.h(110):     <option value="Sydney">Sydney</option>\n
+..\\Data\\global_lib.h(110):     <option value="Zurich">Zurich</option>\n
+..\\Data\\global_lib.h(110):     </select></td> <td align="left">Departure Date :</td> <td><input type="text" name="departD
+..\\Data\\global_lib.h(110):     ate" value="06/13/2021" size="10" maxlength="10" /> \n
+..\\Data\\global_lib.h(110):     <!-- Departure Date Applet -->\n
+..\\Data\\global_lib.h(110):     <APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Heigh
+..\\Data\\global_lib.h(110):     t=28 BORDER=0>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=CalenderTitle  VALUE="Select Departure Date">\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=HtmlFormIndex  VALUE=0>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=HtmlEditIndex  VALUE=2>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=AutoClose      VALUE=1>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=Label          VALUE="...">\n
+..\\Data\\global_lib.h(110):     </APPLET>\n
+..\\Data\\global_lib.h(110):     </td></tr> <tr><td align="left">Arrival City :</td> <td><select name="arrive" >\n
+..\\Data\\global_lib.h(110):     <option selected="selected" value="Denver">Denver</option>\n
+..\\Data\\global_lib.h(110):     <option value="Frankfurt">Frankfurt</option>\n
+..\\Data\\global_lib.h(110):     <option value="London">London</option>\n
+..\\Data\\global_lib.h(110):     <option value="Los Angeles">Los Angeles</option>\n
+..\\Data\\global_lib.h(110):     <option value="Paris">Paris</option>\n
+..\\Data\\global_lib.h(110):     <option value="Portland">Portland</option>\n
+..\\Data\\global_lib.h(110):     <option value="San Francisco">San Francisco</option>\n
+..\\Data\\global_lib.h(110):     <option value="Seattle">Seattle</option>\n
+..\\Data\\global_lib.h(110):     <option value="Sydney">Sydney</option>\n
+..\\Data\\global_lib.h(110):     <option value="Zurich">Zurich</option>\n
+..\\Data\\global_lib.h(110):     </select></td> <td align="left">Return Date :</td> <td><input type="text" name="returnDate
+..\\Data\\global_lib.h(110):     " value="06/14/2021" size="10" maxlength="10" /> \n
+..\\Data\\global_lib.h(110):     <!-- Return Date Applet -->\n
+..\\Data\\global_lib.h(110):     <APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Heigh
+..\\Data\\global_lib.h(110):     t=28 BORDER=0>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=CalenderTitle  VALUE="Select Return Date">\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=HtmlFormIndex  VALUE=0>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=HtmlEditIndex  VALUE=4>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=AutoClose      VALUE=1>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=Label          VALUE="...">\n
+..\\Data\\global_lib.h(110):     </APPLET>\n
+..\\Data\\global_lib.h(110):     </td></tr> <tr><td align="left">No. of Passengers : </td> <td><input type="text" name="num
+..\\Data\\global_lib.h(110):     Passengers" value="1" size="3" maxlength="8" /></td> <td colspan="2"><label><input type="c
+..\\Data\\global_lib.h(110):     heckbox" name="roundtrip" value="on" />Roundtrip ticket</label></td></tr> <tr><td>Seating 
+..\\Data\\global_lib.h(110):     Preference</td> <td /> <td>Type of Seat</td></tr> <tr><td><label><input type="radio" name=
+..\\Data\\global_lib.h(110):     "seatPref" value="Aisle" />Aisle</label><br /> <label><input type="radio" name="seatPref" 
+..\\Data\\global_lib.h(110):     value="Window" />Window</label><br /> <label><input type="radio" name="seatPref" value="No
+..\\Data\\global_lib.h(110):     ne" checked="checked" />None</label><br /></td> <td /> <td><label><input type="radio" name
+..\\Data\\global_lib.h(110):     ="seatType" value="First" />First</label><br /> <label><input type="radio" name="seatType"
+..\\Data\\global_lib.h(110):      value="Business" />Business</label><br /> <label><input type="radio" name="seatType" valu
+..\\Data\\global_lib.h(110):     e="Coach" checked="checked" />Coach</label><br /></td></tr> <tr><td height="10" /></tr> <t
+..\\Data\\global_lib.h(110):     r><td align="center" colspan="4"><input type="image" name="findFlights" src="/WebTours/ima
+..\\Data\\global_lib.h(110):     ges/bu
+..\\Data\\global_lib.h(110): t=112405ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=42)
+..\\Data\\global_lib.h(110):     112\r\n
+..\\Data\\global_lib.h(110): t=112405ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=42)
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112405ms: 274-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=42)
+..\\Data\\global_lib.h(110):     tton_next.gif" border="0" /></td></tr></table><div><input type="hidden" name=".cgifields" 
+..\\Data\\global_lib.h(110):     value="roundtrip"  /><input type="hidden" name=".cgifields" value="seatType"  /><input typ
+..\\Data\\global_lib.h(110):     e="hidden" name=".cgifields" value="seatPref"  /></div></form>\n
+..\\Data\\global_lib.h(110):     </blockquote>\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     </body>\n
+..\\Data\\global_lib.h(110):     </html>\n
+..\\Data\\global_lib.h(110): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(110): t=112405ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=112405ms: 619-byte request headers for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=45)
+..\\Data\\global_lib.h(110):     GET /WebTours/images/button_next.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/reservations.pl?page=welcome\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527770; MTUserInfo=firstName&ivan2&address2&&username&ivan2&hash&114&l
+..\\Data\\global_lib.h(110):     astName&ivan2%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112406ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=42)
+..\\Data\\global_lib.h(110):     0\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112406ms: Request done "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=112406ms: 297-byte response headers for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=45)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:15 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Last-Modified: Sun, 06 Jun 2021 20:13:35 GMT\r\n
+..\\Data\\global_lib.h(110):     ETag: "100000001ebc7-2f6-5c41e8f4e9c6d"\r\n
+..\\Data\\global_lib.h(110):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(110):     Content-Length: 758\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=93\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=112407ms: 758-byte response body for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=45)
+..\\Data\\global_lib.h(110): t=112407ms: Request done "http://localhost:1080/WebTours/images/button_next.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): Registered web_reg_find successful for "Text=Flight Selections" (count=1)  	[MsgId: MMSG-26364]
+..\\Data\\global_lib.h(110): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(25): Notify: Transaction "Go_to_flights" ended with a "Pass" status (Duration: 0.1257 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(28): Notify: Transaction "Find_flight" started.	[MsgId: MMSG-16999]
+..\\Data\\global_lib.h(124): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(124): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(124): "Origin: http://localhost:1080" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\Data\\global_lib.h(124): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(127): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(127): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(127): "Sec-Fetch-User: ?1" header registered (superseding previous registration) for adding to requests from all following Action functions  	[MsgId: MMSG-26504]
+..\\Data\\global_lib.h(127): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(130): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(130): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(130): "Upgrade-Insecure-Requests: 1" header registered (superseding previous registration) for adding to requests from all following Action functions  	[MsgId: MMSG-26504]
+..\\Data\\global_lib.h(130): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(133): lr_think_time: 5.00 seconds.	[MsgId: MMSG-15948]
+..\\Data\\global_lib.h(80): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(80): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Data\\global_lib.h(82): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(82): Notify: Parameter Substitution: parameter "userSession" =  "131512.982746051zHztzQQpAftAfiipVQtD"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(82): Notify: Parameter Substitution: parameter "login" =  "ivan3"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(82): Notify: Next row for parameter password = 3 [table  = password].	[MsgId: MMSG-13876]
+..\\Data\\global_lib.h(82): Notify: Parameter Substitution: parameter "password" =  "ivan3"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(82): t=113973ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=113973ms: 528-byte request headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=57)
+..\\Data\\global_lib.h(82):     POST /cgi-bin/login.pl HTTP/1.1\r\n
+..\\Data\\global_lib.h(82):     Content-Type: application/x-www-form-urlencoded\r\n
+..\\Data\\global_lib.h(82):     Referer: http://localhost:1080/cgi-bin/nav.pl?in=home\r\n
+..\\Data\\global_lib.h(82):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(82):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(82):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(82):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(82):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(82):     Accept: */*\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Cookie: MSO=SID&1623527772\r\n
+..\\Data\\global_lib.h(82):     Content-Length: 117\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=113973ms: 117-byte request body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=57)
+..\\Data\\global_lib.h(82):     userSession=131512.982746051zHztzQQpAftAfiipVQtD&username=ivan3&password=ivan3&login.x=57&
+..\\Data\\global_lib.h(82):     login.y=13&JSFormSubmit=off
+..\\Data\\global_lib.h(82): t=113974ms: Inactive socket [1] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=113974ms: Closed connection [1] to localhost:1080 after completing 3 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=113974ms: Inactive socket [3] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=113974ms: Closed connection [3] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=113992ms: Inactive socket [2] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=113992ms: Closed connection [2] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114045ms: 362-byte response headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=57)
+..\\Data\\global_lib.h(82):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(82):     Date: Sat, 12 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(82):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(82):     Expires: 5s\r\n
+..\\Data\\global_lib.h(82):     Set-Cookie: MTUserInfo=firstName&ivan3&address2&&username&ivan3&hash&115&lastName&ivan3%0A
+..\\Data\\global_lib.h(82):     &address1&&creditCard&&expDate&%0A; path=/\r\n
+..\\Data\\global_lib.h(82):     Keep-Alive: timeout=5, max=97\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(82):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114045ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=57)
+..\\Data\\global_lib.h(82):     1e1\r\n
+..\\Data\\global_lib.h(82): t=114045ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=57)
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114045ms: 481-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=57)
+..\\Data\\global_lib.h(82):     <!--\n
+..\\Data\\global_lib.h(82):     User password was correct - added a cookie with the user's default\n
+..\\Data\\global_lib.h(82):     information.  Set the user up to make reservations...\n
+..\\Data\\global_lib.h(82):     \n
+..\\Data\\global_lib.h(82):     --->\n
+..\\Data\\global_lib.h(82):     \n
+..\\Data\\global_lib.h(82):     <html>\n
+..\\Data\\global_lib.h(82):     <title>Web Tours</title>\n
+..\\Data\\global_lib.h(82):     <frameset cols="160,*" border=1 frameborder=1>\n
+..\\Data\\global_lib.h(82):     <frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" nores
+..\\Data\\global_lib.h(82):     ize="noresize" scrolling="auto"/>\n
+..\\Data\\global_lib.h(82):     <frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="no
+..\\Data\\global_lib.h(82):     resize" scrolling="auto"/>\n
+..\\Data\\global_lib.h(82):     </frameset>\n
+..\\Data\\global_lib.h(82):     \n
+..\\Data\\global_lib.h(82):     </body>\n
+..\\Data\\global_lib.h(82):     </html>
+..\\Data\\global_lib.h(82): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Data\\global_lib.h(82): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Data\\global_lib.h(82): t=114046ms: Connecting [1] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114047ms: Connecting [2] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114047ms: Connected socket [1] from 127.0.0.1:28817 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114047ms: 581-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=58)
+..\\Data\\global_lib.h(82):     GET /cgi-bin/nav.pl?page=menu&in=home HTTP/1.1\r\n
+..\\Data\\global_lib.h(82):     Referer: http://localhost:1080/cgi-bin/login.pl\r\n
+..\\Data\\global_lib.h(82):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(82):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(82):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(82):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(82):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(82):     Accept: */*\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Cookie: MSO=SID&1623527772; MTUserInfo=firstName&ivan3&address2&&username&ivan3&hash&115&l
+..\\Data\\global_lib.h(82):     astName&ivan3%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114048ms: Connected socket [2] from 127.0.0.1:28819 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114048ms: 576-byte request headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=59)
+..\\Data\\global_lib.h(82):     GET /cgi-bin/login.pl?intro=true HTTP/1.1\r\n
+..\\Data\\global_lib.h(82):     Referer: http://localhost:1080/cgi-bin/login.pl\r\n
+..\\Data\\global_lib.h(82):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(82):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(82):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(82):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(82):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(82):     Accept: */*\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Cookie: MSO=SID&1623527772; MTUserInfo=firstName&ivan3&address2&&username&ivan3&hash&115&l
+..\\Data\\global_lib.h(82):     astName&ivan3%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114049ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=57)
+..\\Data\\global_lib.h(82):     0\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114049ms: Request done "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114107ms: 229-byte response headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=59)
+..\\Data\\global_lib.h(82):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(82):     Date: Sat, 12 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(82):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(82):     Expires: 5s\r\n
+..\\Data\\global_lib.h(82):     Keep-Alive: timeout=5, max=100\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(82):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114107ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=59)
+..\\Data\\global_lib.h(82):     397\r\n
+..\\Data\\global_lib.h(82): t=114107ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=59)
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114107ms: 919-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=59)
+..\\Data\\global_lib.h(82):     <!DOCTYPE html\n
+..\\Data\\global_lib.h(82):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\Data\\global_lib.h(82):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\Data\\global_lib.h(82):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\Data\\global_lib.h(82):     <head>\n
+..\\Data\\global_lib.h(82):     <title>Welcome to Web Tours</title>\n
+..\\Data\\global_lib.h(82):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\Data\\global_lib.h(82):     </head>\n
+..\\Data\\global_lib.h(82):     <body bgcolor="#E0E7F1">\n
+..\\Data\\global_lib.h(82):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+..\\Data\\global_lib.h(82):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+..\\Data\\global_lib.h(82):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+..\\Data\\global_lib.h(82):     black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>ivan3</b>, to the Web Tours
+..\\Data\\global_lib.h(82):      reservation pages.<BR/>Using the menu to the left, you can search for new flights to book
+..\\Data\\global_lib.h(82):     , \n
+..\\Data\\global_lib.h(82):     or review/edit the flights already booked.  Don't forget to sign off when\n
+..\\Data\\global_lib.h(82):     you're done!\n
+..\\Data\\global_lib.h(82):     </blockquote>\n
+..\\Data\\global_lib.h(82):     </body>\n
+..\\Data\\global_lib.h(82):     </html>
+..\\Data\\global_lib.h(82): t=114110ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=59)
+..\\Data\\global_lib.h(82):     0\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114110ms: Request done "http://localhost:1080/cgi-bin/login.pl?intro=true"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114118ms: 256-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=58)
+..\\Data\\global_lib.h(82):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(82):     Date: Sat, 12 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(82):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(82):     Expires: Fri, 11 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(82):     Keep-Alive: timeout=5, max=100\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(82):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114119ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=58)
+..\\Data\\global_lib.h(82):     5ca\r\n
+..\\Data\\global_lib.h(82): t=114119ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=58)
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114119ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=58)
+..\\Data\\global_lib.h(82):     <!DOCTYPE html\n
+..\\Data\\global_lib.h(82):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\Data\\global_lib.h(82):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\Data\\global_lib.h(82):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\Data\\global_lib.h(82):     <head>\n
+..\\Data\\global_lib.h(82):     <title>Web Tours Navigation Bar</title>\n
+..\\Data\\global_lib.h(82):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\Data\\global_lib.h(82):     </head>\n
+..\\Data\\global_lib.h(82):     <body bgcolor="#E0E7F1">\n
+..\\Data\\global_lib.h(82):     \n
+..\\Data\\global_lib.h(82):     <style>\n
+..\\Data\\global_lib.h(82):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\Data\\global_lib.h(82):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\Data\\global_lib.h(82):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\Data\\global_lib.h(82):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\Data\\global_lib.h(82):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\Data\\global_lib.h(82):     N: none}\n
+..\\Data\\global_lib.h(82):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\Data\\global_lib.h(82):     CORATION: underline}\n
+..\\Data\\global_lib.h(82):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\Data\\global_lib.h(82):     </style>\n
+..\\Data\\global_lib.h(82):     \n
+..\\Data\\global_lib.h(82):     <BR><BR><center>\n
+..\\Data\\global_lib.h(82):     \n
+..\\Data\\global_lib.h(82):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+..\\Data\\global_lib.h(82):     RC="/WebTours/images/flights.gif" \n
+..\\Data\\global_lib.h(82):     ALT="Search Flights Button"/></A>\n
+..\\Data\\global_lib.h(82):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+..\\Data\\global_lib.h(82):     WebTours/images/itinerary.gif" \n
+..\\Data\\global_lib.h(82):     ALT="Itinerary Button"/></A>\n
+..\\Data\\global_lib.h(82):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+..\\Data\\global_lib.h(82):     ours/images/in_home.gif" \n
+..\\Data\\global_lib.h(82):     ALT="Home Button"/></A>\n
+..\\Data\\global_lib.h(82):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+..\\Data\\global_lib.h(82):     es/signoff.gif" \n
+..\\Data\\global_lib.h(82):     ALT="SignOff Button"/></A></center>\n
+..\\Data\\global_lib.h(82):     \n
+..\\Data\\global_lib.h(82):     </body>\n
+..\\Data\\global_lib.h(82):     </html>\n
+..\\Data\\global_lib.h(82): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(82): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(82): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(82): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(82): t=114120ms: Already connected [2] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114120ms: 594-byte request headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=61)
+..\\Data\\global_lib.h(82):     GET /WebTours/images/itinerary.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(82):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\Data\\global_lib.h(82):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(82):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(82):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(82):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(82):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(82):     Accept: */*\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Cookie: MSO=SID&1623527772; MTUserInfo=firstName&ivan3&address2&&username&ivan3&hash&115&l
+..\\Data\\global_lib.h(82):     astName&ivan3%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114121ms: Connecting [3] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114121ms: Connecting [4] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114121ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114121ms: 592-byte request headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=60)
+..\\Data\\global_lib.h(82):     GET /WebTours/images/flights.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(82):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\Data\\global_lib.h(82):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(82):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(82):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(82):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(82):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(82):     Accept: */*\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Cookie: MSO=SID&1623527772; MTUserInfo=firstName&ivan3&address2&&username&ivan3&hash&115&l
+..\\Data\\global_lib.h(82):     astName&ivan3%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114122ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=58)
+..\\Data\\global_lib.h(82):     0\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114122ms: Request done "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114122ms: Connected socket [3] from 127.0.0.1:28820 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114122ms: 592-byte request headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=62)
+..\\Data\\global_lib.h(82):     GET /WebTours/images/in_home.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(82):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\Data\\global_lib.h(82):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(82):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(82):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(82):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(82):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(82):     Accept: */*\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Cookie: MSO=SID&1623527772; MTUserInfo=firstName&ivan3&address2&&username&ivan3&hash&115&l
+..\\Data\\global_lib.h(82):     astName&ivan3%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114122ms: Connected socket [4] from 127.0.0.1:28821 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114122ms: 592-byte request headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=63)
+..\\Data\\global_lib.h(82):     GET /WebTours/images/signoff.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(82):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\Data\\global_lib.h(82):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(82):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(82):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(82):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(82):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(82):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(82):     Accept: */*\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(82):     Cookie: MSO=SID&1623527772; MTUserInfo=firstName&ivan3&address2&&username&ivan3&hash&115&l
+..\\Data\\global_lib.h(82):     astName&ivan3%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114123ms: 297-byte response headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=60)
+..\\Data\\global_lib.h(82):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(82):     Date: Sat, 12 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(82):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(82):     Last-Modified: Sun, 06 Jun 2021 20:13:35 GMT\r\n
+..\\Data\\global_lib.h(82):     ETag: "100000001ebca-2d6-5c41e8f4f9f73"\r\n
+..\\Data\\global_lib.h(82):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(82):     Content-Length: 726\r\n
+..\\Data\\global_lib.h(82):     Keep-Alive: timeout=5, max=96\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114123ms: 726-byte response body for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=60)
+..\\Data\\global_lib.h(82): t=114123ms: Request done "http://localhost:1080/WebTours/images/flights.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114123ms: 298-byte response headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=62)
+..\\Data\\global_lib.h(82):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(82):     Date: Sat, 12 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(82):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(82):     Last-Modified: Sun, 06 Jun 2021 20:13:36 GMT\r\n
+..\\Data\\global_lib.h(82):     ETag: "100000001ebd1-2b0-5c41e8f5195f8"\r\n
+..\\Data\\global_lib.h(82):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(82):     Content-Length: 688\r\n
+..\\Data\\global_lib.h(82):     Keep-Alive: timeout=5, max=100\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114124ms: 688-byte response body for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=62)
+..\\Data\\global_lib.h(82): t=114124ms: Request done "http://localhost:1080/WebTours/images/in_home.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114124ms: 298-byte response headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=63)
+..\\Data\\global_lib.h(82):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(82):     Date: Sat, 12 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(82):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(82):     Last-Modified: Sun, 06 Jun 2021 20:13:36 GMT\r\n
+..\\Data\\global_lib.h(82):     ETag: "100000001ebda-2ef-5c41e8f54d227"\r\n
+..\\Data\\global_lib.h(82):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(82):     Content-Length: 751\r\n
+..\\Data\\global_lib.h(82):     Keep-Alive: timeout=5, max=100\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114124ms: 751-byte response body for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=63)
+..\\Data\\global_lib.h(82): t=114124ms: Request done "http://localhost:1080/WebTours/images/signoff.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): t=114163ms: 297-byte response headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=61)
+..\\Data\\global_lib.h(82):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(82):     Date: Sat, 12 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(82):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(82):     Last-Modified: Sun, 06 Jun 2021 20:13:36 GMT\r\n
+..\\Data\\global_lib.h(82):     ETag: "100000001ebd4-2dd-5c41e8f5270bd"\r\n
+..\\Data\\global_lib.h(82):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(82):     Content-Length: 733\r\n
+..\\Data\\global_lib.h(82):     Keep-Alive: timeout=5, max=99\r\n
+..\\Data\\global_lib.h(82):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(82):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(82):     \r\n
+..\\Data\\global_lib.h(82): t=114163ms: 733-byte response body for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=61)
+..\\Data\\global_lib.h(82): t=114163ms: Request done "http://localhost:1080/WebTours/images/itinerary.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(82): Registered web_reg_find successful for "Text=Welcome" (count=2)  	[MsgId: MMSG-26364]
+..\\Data\\global_lib.h(82): web_submit_data("login.pl") was successful, 5780 body bytes, 2037 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(18): Notify: Transaction "Login" ended with a "Pass" status (Duration: 5.2044 Think Time: 5.0111 Wasted Time: 0.0000).	[MsgId: MMSG-16870]
+Action.c(21): Notify: Transaction "Go_to_flights" started.	[MsgId: MMSG-16999]
+..\\Data\\global_lib.h(102): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(102): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(102): "Sec-Fetch-User: ?1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\Data\\global_lib.h(102): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(105): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(105): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(105): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\Data\\global_lib.h(105): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(108): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(108): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Data\\global_lib.h(110): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(110): t=114164ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=114164ms: 614-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=64)
+..\\Data\\global_lib.h(110):     GET /cgi-bin/welcome.pl?page=search HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527772; MTUserInfo=firstName&ivan3&address2&&username&ivan3&hash&115&l
+..\\Data\\global_lib.h(110):     astName&ivan3%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114204ms: 215-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=64)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=95\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(110):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114205ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=64)
+..\\Data\\global_lib.h(110):     268\r\n
+..\\Data\\global_lib.h(110): t=114205ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=64)
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114205ms: 616-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=64)
+..\\Data\\global_lib.h(110):     <!-- \n
+..\\Data\\global_lib.h(110):      User has returned to the search page.  Since user has already logged on,\n
+..\\Data\\global_lib.h(110):      we can give them the menu in the navbar.\n
+..\\Data\\global_lib.h(110):      --->\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     <html>\n
+..\\Data\\global_lib.h(110):     <title>Web Tours</title>\n
+..\\Data\\global_lib.h(110):        <!-- Frame Set -->\n
+..\\Data\\global_lib.h(110):        <frameset cols="160,*" border="1" frameborder="1">\n
+..\\Data\\global_lib.h(110):           <!-- Navigation Frame -->\n
+..\\Data\\global_lib.h(110):           <frame src="nav.pl?page=menu&in=flights" name="navbar" \n
+..\\Data\\global_lib.h(110):                 marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>\n
+..\\Data\\global_lib.h(110):           <!-- Reservation Frame -->\n
+..\\Data\\global_lib.h(110):           <frame src="reservations.pl?page=welcome" name="info" \n
+..\\Data\\global_lib.h(110):                 marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>\n
+..\\Data\\global_lib.h(110):        </frameset>\n
+..\\Data\\global_lib.h(110):     </html>\n
+..\\Data\\global_lib.h(110): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+..\\Data\\global_lib.h(110): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+..\\Data\\global_lib.h(110): t=114206ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=114206ms: 617-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=65)
+..\\Data\\global_lib.h(110):     GET /cgi-bin/nav.pl?page=menu&in=flights HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/welcome.pl?page=search\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527772; MTUserInfo=firstName&ivan3&address2&&username&ivan3&hash&115&l
+..\\Data\\global_lib.h(110):     astName&ivan3%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114206ms: Already connected [2] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=114206ms: 618-byte request headers for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=66)
+..\\Data\\global_lib.h(110):     GET /cgi-bin/reservations.pl?page=welcome HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/welcome.pl?page=search\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527772; MTUserInfo=firstName&ivan3&address2&&username&ivan3&hash&115&l
+..\\Data\\global_lib.h(110):     astName&ivan3%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114207ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=64)
+..\\Data\\global_lib.h(110):     0\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114207ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=114259ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=65)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Expires: Fri, 11 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=99\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(110):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114259ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=65)
+..\\Data\\global_lib.h(110):     5ca\r\n
+..\\Data\\global_lib.h(110): t=114259ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=65)
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114259ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=65)
+..\\Data\\global_lib.h(110):     <!DOCTYPE html\n
+..\\Data\\global_lib.h(110):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\Data\\global_lib.h(110):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\Data\\global_lib.h(110):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\Data\\global_lib.h(110):     <head>\n
+..\\Data\\global_lib.h(110):     <title>Web Tours Navigation Bar</title>\n
+..\\Data\\global_lib.h(110):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\Data\\global_lib.h(110):     </head>\n
+..\\Data\\global_lib.h(110):     <body bgcolor="#E0E7F1">\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     <style>\n
+..\\Data\\global_lib.h(110):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\Data\\global_lib.h(110):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\Data\\global_lib.h(110):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\Data\\global_lib.h(110):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\Data\\global_lib.h(110):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\Data\\global_lib.h(110):     N: none}\n
+..\\Data\\global_lib.h(110):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\Data\\global_lib.h(110):     CORATION: underline}\n
+..\\Data\\global_lib.h(110):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\Data\\global_lib.h(110):     </style>\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     <BR><BR><center>\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+..\\Data\\global_lib.h(110):     RC="/WebTours/images/in_flights.gif" \n
+..\\Data\\global_lib.h(110):     ALT="Search Flights Button"/></A>\n
+..\\Data\\global_lib.h(110):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+..\\Data\\global_lib.h(110):     WebTours/images/itinerary.gif" \n
+..\\Data\\global_lib.h(110):     ALT="Itinerary Button"/></A>\n
+..\\Data\\global_lib.h(110):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+..\\Data\\global_lib.h(110):     ours/images/home.gif" \n
+..\\Data\\global_lib.h(110):     ALT="Home Button"/></A>\n
+..\\Data\\global_lib.h(110):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+..\\Data\\global_lib.h(110):     es/signoff.gif" \n
+..\\Data\\global_lib.h(110):     ALT="SignOff Button"/></A></center>\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     </body>\n
+..\\Data\\global_lib.h(110):     </html>\n
+..\\Data\\global_lib.h(110): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(110): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Data\\global_lib.h(110): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(110): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Data\\global_lib.h(110): t=114261ms: Already connected [3] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=114261ms: 611-byte request headers for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=68)
+..\\Data\\global_lib.h(110):     GET /WebTours/images/home.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527772; MTUserInfo=firstName&ivan3&address2&&username&ivan3&hash&115&l
+..\\Data\\global_lib.h(110):     astName&ivan3%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114262ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=114262ms: 617-byte request headers for "http://localhost:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=67)
+..\\Data\\global_lib.h(110):     GET /WebTours/images/in_flights.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527772; MTUserInfo=firstName&ivan3&address2&&username&ivan3&hash&115&l
+..\\Data\\global_lib.h(110):     astName&ivan3%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114263ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=65)
+..\\Data\\global_lib.h(110):     0\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114263ms: Request done "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=114263ms: 297-byte response headers for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=68)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Last-Modified: Sun, 06 Jun 2021 20:13:36 GMT\r\n
+..\\Data\\global_lib.h(110):     ETag: "100000001ebce-2b0-5c41e8f50cc43"\r\n
+..\\Data\\global_lib.h(110):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(110):     Content-Length: 688\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=99\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114263ms: 688-byte response body for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=68)
+..\\Data\\global_lib.h(110): t=114263ms: Request done "http://localhost:1080/WebTours/images/home.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=114263ms: 297-byte response headers for "http://localhost:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=67)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Last-Modified: Sun, 06 Jun 2021 20:13:36 GMT\r\n
+..\\Data\\global_lib.h(110):     ETag: "100000001ebd0-2d6-5c41e8f5154fb"\r\n
+..\\Data\\global_lib.h(110):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(110):     Content-Length: 726\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=94\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114264ms: 726-byte response body for "http://localhost:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=67)
+..\\Data\\global_lib.h(110): t=114264ms: Request done "http://localhost:1080/WebTours/images/in_flights.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=114274ms: 255-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=66)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Expires: Fri, 11 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=98\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(110):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114274ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=66)
+..\\Data\\global_lib.h(110):     f84\r\n
+..\\Data\\global_lib.h(110): t=114274ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=66)
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114274ms: 3972-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=66)
+..\\Data\\global_lib.h(110):     <!DOCTYPE html\n
+..\\Data\\global_lib.h(110):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\Data\\global_lib.h(110):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\Data\\global_lib.h(110):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\Data\\global_lib.h(110):     <head>\n
+..\\Data\\global_lib.h(110):     <title>Flight Selections</title>\n
+..\\Data\\global_lib.h(110):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\Data\\global_lib.h(110):     </head>\n
+..\\Data\\global_lib.h(110):     <body bgcolor="#E0E7F1">\n
+..\\Data\\global_lib.h(110):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+..\\Data\\global_lib.h(110):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+..\\Data\\global_lib.h(110):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+..\\Data\\global_lib.h(110):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><bl
+..\\Data\\global_lib.h(110):     ockquote>\n
+..\\Data\\global_lib.h(110):     <form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded" o
+..\\Data\\global_lib.h(110):     nsubmit="" name="DestForm">\n
+..\\Data\\global_lib.h(110):     <input type="hidden" name="advanceDiscount" value="0"  /><table border="0" cellspacing="5"
+..\\Data\\global_lib.h(110):     ><tr><td align="left">Departure City :</td> <td><select name="depart" >\n
+..\\Data\\global_lib.h(110):     <option selected="selected" value="Denver">Denver</option>\n
+..\\Data\\global_lib.h(110):     <option value="Frankfurt">Frankfurt</option>\n
+..\\Data\\global_lib.h(110):     <option value="London">London</option>\n
+..\\Data\\global_lib.h(110):     <option value="Los Angeles">Los Angeles</option>\n
+..\\Data\\global_lib.h(110):     <option value="Paris">Paris</option>\n
+..\\Data\\global_lib.h(110):     <option value="Portland">Portland</option>\n
+..\\Data\\global_lib.h(110):     <option value="San Francisco">San Francisco</option>\n
+..\\Data\\global_lib.h(110):     <option value="Seattle">Seattle</option>\n
+..\\Data\\global_lib.h(110):     <option value="Sydney">Sydney</option>\n
+..\\Data\\global_lib.h(110):     <option value="Zurich">Zurich</option>\n
+..\\Data\\global_lib.h(110):     </select></td> <td align="left">Departure Date :</td> <td><input type="text" name="departD
+..\\Data\\global_lib.h(110):     ate" value="06/13/2021" size="10" maxlength="10" /> \n
+..\\Data\\global_lib.h(110):     <!-- Departure Date Applet -->\n
+..\\Data\\global_lib.h(110):     <APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Heigh
+..\\Data\\global_lib.h(110):     t=28 BORDER=0>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=CalenderTitle  VALUE="Select Departure Date">\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=HtmlFormIndex  VALUE=0>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=HtmlEditIndex  VALUE=2>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=AutoClose      VALUE=1>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=Label          VALUE="...">\n
+..\\Data\\global_lib.h(110):     </APPLET>\n
+..\\Data\\global_lib.h(110):     </td></tr> <tr><td align="left">Arrival City :</td> <td><select name="arrive" >\n
+..\\Data\\global_lib.h(110):     <option selected="selected" value="Denver">Denver</option>\n
+..\\Data\\global_lib.h(110):     <option value="Frankfurt">Frankfurt</option>\n
+..\\Data\\global_lib.h(110):     <option value="London">London</option>\n
+..\\Data\\global_lib.h(110):     <option value="Los Angeles">Los Angeles</option>\n
+..\\Data\\global_lib.h(110):     <option value="Paris">Paris</option>\n
+..\\Data\\global_lib.h(110):     <option value="Portland">Portland</option>\n
+..\\Data\\global_lib.h(110):     <option value="San Francisco">San Francisco</option>\n
+..\\Data\\global_lib.h(110):     <option value="Seattle">Seattle</option>\n
+..\\Data\\global_lib.h(110):     <option value="Sydney">Sydney</option>\n
+..\\Data\\global_lib.h(110):     <option value="Zurich">Zurich</option>\n
+..\\Data\\global_lib.h(110):     </select></td> <td align="left">Return Date :</td> <td><input type="text" name="returnDate
+..\\Data\\global_lib.h(110):     " value="06/14/2021" size="10" maxlength="10" /> \n
+..\\Data\\global_lib.h(110):     <!-- Return Date Applet -->\n
+..\\Data\\global_lib.h(110):     <APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Heigh
+..\\Data\\global_lib.h(110):     t=28 BORDER=0>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=CalenderTitle  VALUE="Select Return Date">\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=HtmlFormIndex  VALUE=0>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=HtmlEditIndex  VALUE=4>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=AutoClose      VALUE=1>\n
+..\\Data\\global_lib.h(110):        <PARAM NAME=Label          VALUE="...">\n
+..\\Data\\global_lib.h(110):     </APPLET>\n
+..\\Data\\global_lib.h(110):     </td></tr> <tr><td align="left">No. of Passengers : </td> <td><input type="text" name="num
+..\\Data\\global_lib.h(110):     Passengers" value="1" size="3" maxlength="8" /></td> <td colspan="2"><label><input type="c
+..\\Data\\global_lib.h(110):     heckbox" name="roundtrip" value="on" />Roundtrip ticket</label></td></tr> <tr><td>Seating 
+..\\Data\\global_lib.h(110):     Preference</td> <td /> <td>Type of Seat</td></tr> <tr><td><label><input type="radio" name=
+..\\Data\\global_lib.h(110):     "seatPref" value="Aisle" />Aisle</label><br /> <label><input type="radio" name="seatPref" 
+..\\Data\\global_lib.h(110):     value="Window" />Window</label><br /> <label><input type="radio" name="seatPref" value="No
+..\\Data\\global_lib.h(110):     ne" checked="checked" />None</label><br /></td> <td /> <td><label><input type="radio" name
+..\\Data\\global_lib.h(110):     ="seatType" value="First" />First</label><br /> <label><input type="radio" name="seatType"
+..\\Data\\global_lib.h(110):      value="Business" />Business</label><br /> <label><input type="radio" name="seatType" valu
+..\\Data\\global_lib.h(110):     e="Coach" checked="checked" />Coach</label><br /></td></tr> <tr><td height="10" /></tr> <t
+..\\Data\\global_lib.h(110):     r><td align="center" colspan="4"><input type="image" name="findFlights" src="/WebTours/ima
+..\\Data\\global_lib.h(110):     ges/bu
+..\\Data\\global_lib.h(110): t=114276ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=66)
+..\\Data\\global_lib.h(110):     112\r\n
+..\\Data\\global_lib.h(110): t=114276ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=66)
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114276ms: 274-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=66)
+..\\Data\\global_lib.h(110):     tton_next.gif" border="0" /></td></tr></table><div><input type="hidden" name=".cgifields" 
+..\\Data\\global_lib.h(110):     value="roundtrip"  /><input type="hidden" name=".cgifields" value="seatType"  /><input typ
+..\\Data\\global_lib.h(110):     e="hidden" name=".cgifields" value="seatPref"  /></div></form>\n
+..\\Data\\global_lib.h(110):     </blockquote>\n
+..\\Data\\global_lib.h(110):     \n
+..\\Data\\global_lib.h(110):     </body>\n
+..\\Data\\global_lib.h(110):     </html>\n
+..\\Data\\global_lib.h(110): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(110): t=114277ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=114277ms: 619-byte request headers for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=69)
+..\\Data\\global_lib.h(110):     GET /WebTours/images/button_next.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(110):     Referer: http://localhost:1080/cgi-bin/reservations.pl?page=welcome\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(110):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(110):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(110):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(110):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(110):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(110):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(110):     Accept: */*\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(110):     Cookie: MSO=SID&1623527772; MTUserInfo=firstName&ivan3&address2&&username&ivan3&hash&115&l
+..\\Data\\global_lib.h(110):     astName&ivan3%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114277ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=66)
+..\\Data\\global_lib.h(110):     0\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114277ms: Request done "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): t=114278ms: 297-byte response headers for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=69)
+..\\Data\\global_lib.h(110):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(110):     Date: Sat, 12 Jun 2021 19:56:17 GMT\r\n
+..\\Data\\global_lib.h(110):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(110):     Last-Modified: Sun, 06 Jun 2021 20:13:35 GMT\r\n
+..\\Data\\global_lib.h(110):     ETag: "100000001ebc7-2f6-5c41e8f4e9c6d"\r\n
+..\\Data\\global_lib.h(110):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(110):     Content-Length: 758\r\n
+..\\Data\\global_lib.h(110):     Keep-Alive: timeout=5, max=93\r\n
+..\\Data\\global_lib.h(110):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(110):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(110):     \r\n
+..\\Data\\global_lib.h(110): t=114278ms: 758-byte response body for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=69)
+..\\Data\\global_lib.h(110): t=114278ms: Request done "http://localhost:1080/WebTours/images/button_next.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(110): Registered web_reg_find successful for "Text=Flight Selections" (count=1)  	[MsgId: MMSG-26364]
+..\\Data\\global_lib.h(110): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(25): Notify: Transaction "Go_to_flights" ended with a "Pass" status (Duration: 0.1151 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(28): Notify: Transaction "Find_flight" started.	[MsgId: MMSG-16999]
+..\\Data\\global_lib.h(124): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(124): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(124): "Origin: http://localhost:1080" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\Data\\global_lib.h(124): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(127): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(127): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(127): "Sec-Fetch-User: ?1" header registered (superseding previous registration) for adding to requests from all following Action functions  	[MsgId: MMSG-26504]
+..\\Data\\global_lib.h(127): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(130): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(130): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(130): "Upgrade-Insecure-Requests: 1" header registered (superseding previous registration) for adding to requests from all following Action functions  	[MsgId: MMSG-26504]
+..\\Data\\global_lib.h(130): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(133): lr_think_time: 5.00 seconds.	[MsgId: MMSG-15948]
+..\\Data\\global_lib.h(136): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(136): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Data\\global_lib.h(145): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(145): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Data\\global_lib.h(146): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(146): Notify: Parameter Substitution: parameter "departCity" =  "Denver"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(146): Notify: Parameter Substitution: parameter "departDate" =  "06/14/2021"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(146): Notify: Next row for parameter arriveCity = 1 [table  = arriveCity].	[MsgId: MMSG-13876]
+..\\Data\\global_lib.h(146): Notify: Parameter Substitution: parameter "arriveCity" =  "Zurich"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(146): Notify: Parameter Substitution: parameter "returnDate" =  "08/11/2021"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(146): Notify: Parameter Substitution: parameter "seatPreference" =  "Window"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(146): Notify: Parameter Substitution: parameter "seatType" =  "First"	[MsgId: MMSG-13992]
+..\\Data\\global_lib.h(146): t=115593ms: Closed connection [0] to localhost:1080 after completing 8 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=115593ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=115594ms: Connected socket [0] from 127.0.0.1:28826 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=115594ms: 715-byte request headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=22)
+..\\Data\\global_lib.h(146):     POST /cgi-bin/reservations.pl HTTP/1.1\r\n
+..\\Data\\global_lib.h(146):     Content-Type: application/x-www-form-urlencoded\r\n
+..\\Data\\global_lib.h(146):     Referer: http://localhost:1080/cgi-bin/reservations.pl?page=welcome\r\n
+..\\Data\\global_lib.h(146):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(146):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(146):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(146):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(146):     Origin: http://localhost:1080\r\n
+..\\Data\\global_lib.h(146):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(146):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(146):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(146):     Accept-Language: en-US,en;q=0.9\r\n
+..\\Data\\global_lib.h(146):     Accept: */*\r\n
+..\\Data\\global_lib.h(146):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(146):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(146):     Cookie: MSO=SID&1623527768; MTUserInfo=firstName&ivan11&address2&&username&ivan11&hash&17&
+..\\Data\\global_lib.h(146):     lastName&ivan11%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(146):     Content-Length: 268\r\n
+..\\Data\\global_lib.h(146):     \r\n
+..\\Data\\global_lib.h(146): t=115595ms: 268-byte request body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=22)
+..\\Data\\global_lib.h(146):     advanceDiscount=0&depart=Denver&departDate=06%2F14%2F2021&arrive=Zurich&returnDate=08%2F11
+..\\Data\\global_lib.h(146):     %2F2021&numPassengers=1&seatPref=Window&seatType=First&findFlights.x=31&findFlights.y=5&.c
+..\\Data\\global_lib.h(146):     gifields=roundtrip&.cgifields=seatType&.cgifields=seatPref&departCity=&departCity=Zurich
+..\\Data\\global_lib.h(146): t=115595ms: Inactive socket [3] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=115595ms: Closed connection [3] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=115595ms: Inactive socket [4] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=115595ms: Closed connection [4] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=115632ms: Inactive socket [1] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=115632ms: Closed connection [1] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=115651ms: Inactive socket [2] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=115652ms: Closed connection [2] to localhost:1080 after completing 3 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): t=115700ms: 256-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=22)
+..\\Data\\global_lib.h(146):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(146):     Date: Sat, 12 Jun 2021 19:56:18 GMT\r\n
+..\\Data\\global_lib.h(146):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(146):     Expires: Fri, 11 Jun 2021 19:56:18 GMT\r\n
+..\\Data\\global_lib.h(146):     Keep-Alive: timeout=5, max=100\r\n
+..\\Data\\global_lib.h(146):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(146):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(146):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(146):     \r\n
+..\\Data\\global_lib.h(146): t=115700ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=22)
+..\\Data\\global_lib.h(146):     986\r\n
+..\\Data\\global_lib.h(146): t=115700ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=22)
+..\\Data\\global_lib.h(146):     \r\n
+..\\Data\\global_lib.h(146): t=115701ms: 2438-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=22)
+..\\Data\\global_lib.h(146):     <!DOCTYPE html\n
+..\\Data\\global_lib.h(146):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\Data\\global_lib.h(146):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\Data\\global_lib.h(146):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\Data\\global_lib.h(146):     <head>\n
+..\\Data\\global_lib.h(146):     <title>Flight Selections</title>\n
+..\\Data\\global_lib.h(146):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\Data\\global_lib.h(146):     </head>\n
+..\\Data\\global_lib.h(146):     <body bgcolor="#E0E7F1">\n
+..\\Data\\global_lib.h(146):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+..\\Data\\global_lib.h(146):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+..\\Data\\global_lib.h(146):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+..\\Data\\global_lib.h(146):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><bl
+..\\Data\\global_lib.h(146):     ockquote>\n
+..\\Data\\global_lib.h(146):     <form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded">\n
+..\\Data\\global_lib.h(146):     \n
+..\\Data\\global_lib.h(146):     <center>\n
+..\\Data\\global_lib.h(146):     <!-- From Denver (0) To Zurich (9) -->\n
+..\\Data\\global_lib.h(146):     <table cellspacing="2" border="0" width="50%">\n
+..\\Data\\global_lib.h(146):     <blockquote>Flight departing from <B>Denver</B> to <B>Zurich</B> on <B>06/14/2021</B><BR/>
+..\\Data\\global_lib.h(146):     <BR/><tr bgcolor="#5E7884"><td align="center"><font color="white"><B>Flight</B></font>\n
+..\\Data\\global_lib.h(146):           \t\t<td align="center"><font color="white"><B>Departure time</B>\n
+..\\Data\\global_lib.h(146):           \t\t<td align="center"><font color="white"><B>Cost</B>\n
+..\\Data\\global_lib.h(146):     <tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="
+..\\Data\\global_lib.h(146):     090;789;06/14/2021" checked="checked" >Blue Sky Air 090<td align="center">8am<td align="ce
+..\\Data\\global_lib.h(146):     nter">$ 789</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="ou
+..\\Data\\global_lib.h(146):     tboundFlight" value="091;703;06/14/2021">Blue Sky Air 091<td align="center">1pm<td align="
+..\\Data\\global_lib.h(146):     center">$ 703</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="
+..\\Data\\global_lib.h(146):     outboundFlight" value="092;746;06/14/2021">Blue Sky Air 092<td align="center">5pm<td align
+..\\Data\\global_lib.h(146):     ="center">$ 746</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name
+..\\Data\\global_lib.h(146):     ="outboundFlight" value="093;646;06/14/2021">Blue Sky Air 093<td align="center">11pm<td al
+..\\Data\\global_lib.h(146):     ign="center">$ 646</TD></TR></table>\n
+..\\Data\\global_lib.h(146):     \n
+..\\Data\\global_lib.h(146):     <input type="hidden" name="numPassengers" value="1"  /><input type="hidden" name="advanceD
+..\\Data\\global_lib.h(146):     iscount" value="0"  /><input type="hidden" name="seatType" value="First"  /><input type="h
+..\\Data\\global_lib.h(146):     idden" name="seatPref" value="Window"  />\n
+..\\Data\\global_lib.h(146):     <P><center><table width=80% cellspacing=1><tr><td align=center>\n
+..\\Data\\global_lib.h(146):     <input type="image" name="reserveFlights" src="/WebTours/images/button_next.gif" border="0
+..\\Data\\global_lib.h(146):     " />\n
+..\\Data\\global_lib.h(146):     <td>&nbsp;<td align=center></table></center></form></center>\n
+..\\Data\\global_lib.h(146):     </blockquote>\n
+..\\Data\\global_lib.h(146):     \n
+..\\Data\\global_lib.h(146):     </body>\n
+..\\Data\\global_lib.h(146):     </html>
+..\\Data\\global_lib.h(146): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Data\\global_lib.h(146): t=115704ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=22)
+..\\Data\\global_lib.h(146):     0\r\n
+..\\Data\\global_lib.h(146):     \r\n
+..\\Data\\global_lib.h(146): t=115704ms: Request done "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(146): Notify: Saving Parameter "outboundFlight = 090;789;06/14/2021".	[MsgId: MMSG-13798]
+..\\Data\\global_lib.h(146): Registered web_reg_find successful for "Text=Find Flight" (count=1)  	[MsgId: MMSG-26364]
+..\\Data\\global_lib.h(146): web_submit_data("reservations.pl") was successful, 2438 body bytes, 256 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(32): Notify: Transaction "Find_flight" ended with a "Pass" status (Duration: 5.1161 Think Time: 5.0020 Wasted Time: 0.0008).	[MsgId: MMSG-16870]
+Action.c(35): Notify: Transaction "Reserve_flight" started.	[MsgId: MMSG-16999]
+..\\Data\\global_lib.h(174): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(174): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Data\\global_lib.h(175): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(175): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
+..\\Data\\global_lib.h(175): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(177): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(177): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+..\\Data\\global_lib.h(177): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(179): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(179): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+..\\Data\\global_lib.h(179): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(181): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(181): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(181): "Origin: http://localhost:1080" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\Data\\global_lib.h(181): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(184): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(184): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(184): "Sec-Fetch-User: ?1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\Data\\global_lib.h(184): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(187): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(187): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+..\\Data\\global_lib.h(187): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\Data\\global_lib.h(187): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Data\\global_lib.h(190): lr_think_time: 5.00 seconds.	[MsgId: MMSG-15948]
+..\\Data\\global_lib.h(190): Notify: Transaction "Reserve_flight" ended with a "Stop" status (Duration: 4.9201).	[MsgId: MMSG-16873]
+..\\Data\\global_lib.h(190): Notify: Transaction "S2_FlightReservation" ended with a "Stop" status (Duration: 20.3953 Think Time: 15.0329 Wasted Time: 0.0011).	[MsgId: MMSG-16870]
+..\\Data\\global_lib.h(133): Notify: Transaction "Find_flight" ended with a "Stop" status (Duration: 2.4624).	[MsgId: MMSG-16873]
+..\\Data\\global_lib.h(190): Notify: Transaction "Reserve_flight" ended with a "Stop" status (Duration: 1.0360).	[MsgId: MMSG-16873]
+..\\Data\\global_lib.h(133): Notify: Transaction "S2_FlightReservation" ended with a "Stop" status (Duration: 12.9074 Think Time: 10.0181 Wasted Time: 0.0005).	[MsgId: MMSG-16870]
+..\\Data\\global_lib.h(190): Notify: Transaction "S2_FlightReservation" ended with a "Stop" status (Duration: 16.5926 Think Time: 15.0169 Wasted Time: 0.0015).	[MsgId: MMSG-16870]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Ending Vuser...	[MsgId: MMSG-15966]
+Ending Vuser...	[MsgId: MMSG-15966]
+..\\Data\\global_lib.h(133): t=116742ms: Closed connection [0] to localhost:1080 after completing 8 request(s)  	[MsgId: MMSG-26000]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+..\\Data\\global_lib.h(133): t=116742ms: Closed connection [1] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+..\\Data\\global_lib.h(133): Notify: Transaction "Find_flight" ended with a "Stop" status (Duration: 4.3356).	[MsgId: MMSG-16873]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+..\\Data\\global_lib.h(133): Notify: Transaction "S2_FlightReservation" ended with a "Stop" status (Duration: 14.7486 Think Time: 10.0138 Wasted Time: 0.0006).	[MsgId: MMSG-16870]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\Data\\global_lib.h(190): t=116743ms: Closed connection [0] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+..\\Data\\global_lib.h(190): t=116744ms: Closed connection [0] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(133): t=116744ms: Closed connection [0] to localhost:1080 after completing 8 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(133): t=116744ms: Closed connection [1] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(190): t=116744ms: Closed connection [3] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(133): t=116744ms: Closed connection [2] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(190): t=116744ms: Closed connection [5] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(133): t=116744ms: Closed connection [3] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(133): t=116744ms: Closed connection [4] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(133): t=116745ms: Closed connection [5] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(133): t=116742ms: Closed connection [2] to localhost:1080 after completing 3 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(133): t=116746ms: Closed connection [3] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(133): t=116746ms: Closed connection [4] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=6, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=6, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 3 (thread 11200), ended OK."	[MsgId: MMSG-10695]
+HTML-Mode memory management statistics: Reusable=6, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 8152), ended OK."	[MsgId: MMSG-10695]
+HTML-Mode memory management statistics: Reusable=6, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 1 (thread 8328), ended OK."	[MsgId: MMSG-10695]
+Vuser 2 (thread 11756), ended OK."	[MsgId: MMSG-10695]

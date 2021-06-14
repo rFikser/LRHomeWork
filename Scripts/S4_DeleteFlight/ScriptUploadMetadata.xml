@@ -16,6 +16,7 @@
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="combined_S4_DeleteFlight.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="109895948440.idx" Filter="1" />
     <FileEntry Name="196809086440.idx" Filter="1" />
     <FileEntry Name="19680908644_0iu.223.idx" Filter="1" />
     <FileEntry Name="19680908644_0jV.549.idx" Filter="1" />
@@ -206,18 +207,37 @@
     <FileEntry Name="login.dat" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv1O6.545.log" Filter="1" />
+    <FileEntry Name="mdrv2TV.869.log" Filter="1" />
+    <FileEntry Name="mdrv2u0.491.log" Filter="1" />
+    <FileEntry Name="mdrv41h.1.log" Filter="1" />
     <FileEntry Name="mdrv43D.903.log" Filter="1" />
     <FileEntry Name="mdrv48E.567.log" Filter="1" />
+    <FileEntry Name="mdrv6bX.175.log" Filter="1" />
+    <FileEntry Name="mdrv7pI.453.log" Filter="1" />
+    <FileEntry Name="mdrv8pb.257.log" Filter="1" />
     <FileEntry Name="mdrvBWD.43.log" Filter="1" />
+    <FileEntry Name="mdrvCje.131.log" Filter="1" />
     <FileEntry Name="mdrvdfA.473.log" Filter="1" />
     <FileEntry Name="mdrvFio.727.log" Filter="1" />
+    <FileEntry Name="mdrvfSC.271.log" Filter="1" />
     <FileEntry Name="mdrvGHh.533.log" Filter="1" />
+    <FileEntry Name="mdrvGJa.863.log" Filter="1" />
+    <FileEntry Name="mdrvgRO.831.log" Filter="1" />
+    <FileEntry Name="mdrviOi.201.log" Filter="1" />
     <FileEntry Name="mdrvJ4k.179.log" Filter="1" />
+    <FileEntry Name="mdrvjhK.429.log" Filter="1" />
+    <FileEntry Name="mdrvKU3.741.log" Filter="1" />
+    <FileEntry Name="mdrvn0j.923.log" Filter="1" />
     <FileEntry Name="mdrvNk3.581.log" Filter="1" />
     <FileEntry Name="mdrvp7X.343.log" Filter="1" />
+    <FileEntry Name="mdrvpDJ.487.log" Filter="1" />
     <FileEntry Name="mdrvQ3d.221.log" Filter="1" />
     <FileEntry Name="mdrvQFP.75.log" Filter="1" />
+    <FileEntry Name="mdrvSaa.449.log" Filter="1" />
+    <FileEntry Name="mdrvScD.207.log" Filter="1" />
     <FileEntry Name="mdrvtH7.597.log" Filter="1" />
+    <FileEntry Name="mdrvVKn.285.log" Filter="1" />
+    <FileEntry Name="mdrvx6s.859.log" Filter="1" />
     <FileEntry Name="mdrvXRt.939.log" Filter="1" />
     <FileEntry Name="mdrvXXg.475.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />

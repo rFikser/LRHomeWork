@@ -1,0 +1,1156 @@
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="99" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="1679326010-761714-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 2287 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 180 leaves Frankfurt  for Sydney.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="100" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="16793928-7696-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 60 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 360 leaves Los Angeles  for San Francisco.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="101" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="167952622-77755-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 819 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 720 leaves Seattle  for London.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="102" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="167935956-78524-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 819 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 270 leaves London  for Seattle.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="103" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="1679425969-792397-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 1165 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 450 leaves Paris  for Portland.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="104" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="167949263-80008-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 113 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 630 leaves San Francisco  for Los Angeles.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="105" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="1679559324-807828-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:
+..\\Data\\global_lib.h(407): t=1417340ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=1102)
+..\\Data\\global_lib.h(407):     \r\n
+..\\Data\\global_lib.h(407):     1000\r\n
+..\\Data\\global_lib.h(407): t=1417340ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=1102)
+..\\Data\\global_lib.h(407):     \r\n
+..\\Data\\global_lib.h(407):     1000\r\n
+..\\Data\\global_lib.h(407): t=1417340ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=1102)
+..\\Data\\global_lib.h(407):     \r\n
+..\\Data\\global_lib.h(407):     1000\r\n
+..\\Data\\global_lib.h(407): t=1417340ms: 12263-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=1102)
+..\\Data\\global_lib.h(407):     </b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 1768 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 810 leaves Sydney  for Frankfurt.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="106" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="1679559324-815520-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 1768 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 810 leaves Sydney  for Frankfurt.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="107" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="1679559324-823212-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 1768 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 810 leaves Sydney  for Frankfurt.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="108" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="167939263-83085-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 113 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 360 leaves Los Angeles  for San Francisco.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="109" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="167952622-83909-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 819 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 720 leaves Seattle  for London.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="110" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="1679559304-846247-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 1219 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 810 leaves Sydney  for Frankfurt.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="111" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="1679559343-854022-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 2287 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 810 leaves Sydney  for Frankfurt.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="112" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="167935946-86197-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 565 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 270 leaves London  for Seattle.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="113" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="167942615-86970-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 621 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 450 leaves Paris  for Portland.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="114" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="16793928-8773-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 60 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 360 leaves Los Angeles  for San Francisco.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="115" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="167959281-88508-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 610 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 900 leaves Zurich  for Denver.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <!-- Flight #1 -->\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+..\\Data\\global_lib.h(407):     <b>\n
+..\\Data\\global_lib.h(407):     <label><input type="checkbox" name="116" value="on" /></label></font></b>\n
+..\\Data\\global_lib.h(407):     <input type="hidden" name="flightID" value="16793929-8929-ii"  />\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign="top">\n
+..\\Data\\global_lib.h(407):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>\n
+..\\Data\\global_lib.h(407):           <center><table border="0" width="85%"><tr><td>\n
+..\\Data\\global_lib.h(407):           <li><i>ivan9 ivan9\n
+..\\Data\\global_lib.h(407):           <li><i></i>\n
+..\\Data\\global_lib.h(407):           </td></tr></table></center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+..\\Data\\global_lib.h(407):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+..\\Data\\global_lib.h(407):           <center>\n
+..\\Data\\global_lib.h(407):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+..\\Data\\global_lib.h(407):               ivan9 ivan9\n
+..\\Data\\global_lib.h(407):     <br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               Moscow<br/>\n
+..\\Data\\global_lib.h(407):               <br/>\n
+..\\Data\\global_lib.h(407):               Total Charge: $ 87 <BR/> (CC: x-4534)\n
+..\\Data\\global_lib.h(407):           </td> </tr> </table>\n
+..\\Data\\global_lib.h(407):           </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="3">\n
+..\\Data\\global_lib.h(407):       <b>
+..\\Data\\global_lib.h(407): t=1417349ms: 297-byte response headers for "http://localhost:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=1103)
+..\\Data\\global_lib.h(407):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(407):     Date: Mon, 07 Jun 2021 15:31:36 GMT\r\n
+..\\Data\\global_lib.h(407):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(407):     Last-Modified: Sun, 06 Jun 2021 20:13:36 GMT\r\n
+..\\Data\\global_lib.h(407):     ETag: "100000001ebd2-2dd-5c41e8f51d478"\r\n
+..\\Data\\global_lib.h(407):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(407):     Content-Length: 733\r\n
+..\\Data\\global_lib.h(407):     Keep-Alive: timeout=5, max=94\r\n
+..\\Data\\global_lib.h(407):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(407):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(407):     \r\n
+..\\Data\\global_lib.h(407): t=1417349ms: 733-byte response body for "http://localhost:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=1103)
+..\\Data\\global_lib.h(407): t=1417349ms: Request done "http://localhost:1080/WebTours/images/in_itinerary.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(407): t=1417349ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=1102)
+..\\Data\\global_lib.h(407):     \r\n
+..\\Data\\global_lib.h(407):     1000\r\n
+..\\Data\\global_lib.h(407): t=1417349ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=1102)
+..\\Data\\global_lib.h(407):     \r\n
+..\\Data\\global_lib.h(407):     9d6\r\n
+..\\Data\\global_lib.h(407): t=1417349ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=1102)
+..\\Data\\global_lib.h(407):     \r\n
+..\\Data\\global_lib.h(407):     0\r\n
+..\\Data\\global_lib.h(407):     \r\n
+..\\Data\\global_lib.h(407): t=1417349ms: 6862-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=1102)
+..\\Data\\global_lib.h(407):     Flight Details:</b><BR/>  <center>\n
+..\\Data\\global_lib.h(407):       06/09/2021\n
+..\\Data\\global_lib.h(407):      :  8am : Flight 360 leaves Los Angeles  for San Francisco.<br>  </center>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TR bgcolor="#EFF2F7">\n
+..\\Data\\global_lib.h(407):       <TD COLSPAN="4">\n
+..\\Data\\global_lib.h(407):       <hr/>\n
+..\\Data\\global_lib.h(407):       </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     <TR>\n
+..\\Data\\global_lib.h(407):        <TD align="center" COLSPAN="4">\n
+..\\Data\\global_lib.h(407):        <b>A total of 116 scheduled flights.</font></b>\n
+..\\Data\\global_lib.h(407):        </TD>\n
+..\\Data\\global_lib.h(407):     </TR>\n
+..\\Data\\global_lib.h(407):     </TABLE>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <TABLE WIDTH="87%" BORDER="0" CELLSPACING="0">\n
+..\\Data\\global_lib.h(407):     <TR>\n
+..\\Data\\global_lib.h(407):     <TD align="left" width="50%" >\n
+..\\Data\\global_lib.h(407):     <input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" bord
+..\\Data\\global_lib.h(407):     er="0" /></TD>\n
+..\\Data\\global_lib.h(407):     <TD align="right" width="50%" >\n
+..\\Data\\global_lib.h(407):     <input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gi
+..\\Data\\global_lib.h(407):     f" border="0" /></TD>\n
+..\\Data\\global_lib.h(407):     </TABLE>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     <div><input type="hidden" name=".cgifields" value="33"  /><input type="hidden" name=".cgif
+..\\Data\\global_lib.h(407):     ields" value="32"  /><input type="hidden" name=".cgifields" value="90"  /><input type="hid
+..\\Data\\global_lib.h(407):     den" name=".cgifields" value="63"  /><input type="hidden" name=".cgifields" value="21"  />
+..\\Data\\global_lib.h(407):     <input type="hidden" name=".cgifields" value="71"  /><input type="hidden" name=".cgifields
+..\\Data\\global_lib.h(407):     " value="102"  /><input type="hidden" name=".cgifields" value="7"  /><input type="hidden" 
+..\\Data\\global_lib.h(407):     name=".cgifields" value="80"  /><input type="hidden" name=".cgifields" value="26"  /><inpu
+..\\Data\\global_lib.h(407):     t type="hidden" name=".cgifields" value="99"  /><input type="hidden" name=".cgifields" val
+..\\Data\\global_lib.h(407):     ue="18"  /><input type="hidden" name=".cgifields" value="72"  /><input type="hidden" name=
+..\\Data\\global_lib.h(407):     ".cgifields" value="16"  /><input type="hidden" name=".cgifields" value="44"  /><input typ
+..\\Data\\global_lib.h(407):     e="hidden" name=".cgifields" value="55"  /><input type="hidden" name=".cgifields" value="8
+..\\Data\\global_lib.h(407):     4"  /><input type="hidden" name=".cgifields" value="74"  /><input type="hidden" name=".cgi
+..\\Data\\global_lib.h(407):     fields" value="27"  /><input type="hidden" name=".cgifields" value="95"  /><input type="hi
+..\\Data\\global_lib.h(407):     dden" name=".cgifields" value="57"  /><input type="hidden" name=".cgifields" value="61"  /
+..\\Data\\global_lib.h(407):     ><input type="hidden" name=".cgifields" value="108"  /><input type="hidden" name=".cgifiel
+..\\Data\\global_lib.h(407):     ds" value="115"  /><input type="hidden" name=".cgifields" value="20"  /><input type="hidde
+..\\Data\\global_lib.h(407):     n" name=".cgifields" value="109"  /><input type="hidden" name=".cgifields" value="92"  /><
+..\\Data\\global_lib.h(407):     input type="hidden" name=".cgifields" value="103"  /><input type="hidden" name=".cgifields
+..\\Data\\global_lib.h(407):     " value="89"  /><input type="hidden" name=".cgifields" value="10"  /><input type="hidden" 
+..\\Data\\global_lib.h(407):     name=".cgifields" value="31"  /><input type="hidden" name=".cgifields" value="113"  /><inp
+..\\Data\\global_lib.h(407):     ut type="hidden" name=".cgifields" value="35"  /><input type="hidden" name=".cgifields" va
+..\\Data\\global_lib.h(407):     lue="11"  /><input type="hidden" name=".cgifields" value="91"  /><input type="hidden" name
+..\\Data\\global_lib.h(407):     =".cgifields" value="78"  /><input type="hidden" name=".cgifields" value="107"  /><input t
+..\\Data\\global_lib.h(407):     ype="hidden" name=".cgifields" value="48"  /><input type="hidden" name=".cgifields" value=
+..\\Data\\global_lib.h(407):     "87"  /><input type="hidden" name=".cgifields" value="93"  /><input type="hidden" name=".c
+..\\Data\\global_lib.h(407):     gifields" value="77"  /><input type="hidden" name=".cgifields" value="106"  /><input type=
+..\\Data\\global_lib.h(407):     "hidden" name=".cgifields" value="65"  /><input type="hidden" name=".cgifields" value="29"
+..\\Data\\global_lib.h(407):       /><input type="hidden" name=".cgifields" value="50"  /><input type="hidden" name=".cgifi
+..\\Data\\global_lib.h(407):     elds" value="39"  /><input type="hidden" name=".cgifields" value="64"  /><input type="hidd
+..\\Data\\global_lib.h(407):     en" name=".cgifields" value="97"  /><input type="hidden" name=".cgifields" value="114"  />
+..\\Data\\global_lib.h(407):     <input type="hidden" name=".cgifields" value="58"  /><input type="hidden" name=".cgifields
+..\\Data\\global_lib.h(407):     " value="41"  /><input type="hidden" name=".cgifields" value="12"  /><input type="hidden" 
+..\\Data\\global_lib.h(407):     name=".cgifields" value="15"  /><input type="hidden" name=".cgifields" value="81"  /><inpu
+..\\Data\\global_lib.h(407):     t type="hidden" name=".cgifields" value="52"  /><input type="hidden" name=".cgifields" val
+..\\Data\\global_lib.h(407):     ue="60"  /><input type="hidden" name=".cgifields" value="56"  /><input type="hidden" name=
+..\\Data\\global_lib.h(407):     ".cgifields" value="101"  /><input type="hidden" name=".cgifields" value="73"  /><input ty
+..\\Data\\global_lib.h(407):     pe="hidden" name=".cgifields" value="66"  /><input type="hidden" name=".cgifields" value="
+..\\Data\\global_lib.h(407):     45"  /><input type="hidden" name=".cgifields" value="86"  /><input type="hidden" name=".cg
+..\\Data\\global_lib.h(407):     ifields" value="76"  /><input type="hidden" name=".cgifields" value="19"  /><input type="h
+..\\Data\\global_lib.h(407):     idden" name=".cgifields" value="62"  /><input type="hidden" name=".cgifields" value="54"  
+..\\Data\\global_lib.h(407):     /><input type="hidden" name=".cgifields" value="67"  /><input type="hidden" name=".cgifiel
+..\\Data\\global_lib.h(407):     ds" value="70"  /><input type="hidden" name=".cgifields" value="68"  /><input type="hidden
+..\\Data\\global_lib.h(407):     " name=".cgifields" value="2"  /><input type="hidden" name=".cgifields" value="17"  /><inp
+..\\Data\\global_lib.h(407):     ut type="hidden" name=".cgifields" value="1"  /><input type="hidden" name=".cgifields" val
+..\\Data\\global_lib.h(407):     ue="116"  /><input type="hidden" name=".cgifields" value="88"  /><input type="hidden" name
+..\\Data\\global_lib.h(407):     =".cgifields" value="30"  /><input type="hidden" name=".cgifields" value="100"  /><input t
+..\\Data\\global_lib.h(407):     ype="hidden" name=".cgifields" value="110"  /><input type="hidden" name=".cgifields" value
+..\\Data\\global_lib.h(407):     ="82"  /><input type="hidden" name=".cgifields" value="25"  /><input type="hidden" name=".
+..\\Data\\global_lib.h(407):     cgifields" value="28"  /><input type="hidden" name=".cgifields" value="83"  /><input type=
+..\\Data\\global_lib.h(407):     "hidden" name=".cgifields" value="75"  /><input type="hidden" name=".cgifields" value="40"
+..\\Data\\global_lib.h(407):       /><input type="hidden" name=".cgifields" value="14"  /><input type="hidden" name=".cgifi
+..\\Data\\global_lib.h(407):     elds" value="112"  /><input type="hidden" name=".cgifields" value="69"  /><input type="hid
+..\\Data\\global_lib.h(407):     den" name=".cgifields" value="59"  /><input type="hidden" name=".cgifields" value="49"  />
+..\\Data\\global_lib.h(407):     <input type="hidden" name=".cgifields" value="24"  /><input type="hidden" name=".cgifields
+..\\Data\\global_lib.h(407):     " value="104"  /><input type="hidden" name=".cgifields" value="53"  /><input type="hidden"
+..\\Data\\global_lib.h(407):      name=".cgifields" value="79"  /><input type="hidden" name=".cgifields" value="22"  /><inp
+..\\Data\\global_lib.h(407):     ut type="hidden" name=".cgifields" value="42"  /><input type="hidden" name=".cgifields" va
+..\\Data\\global_lib.h(407):     lue="46"  /><input type="hidden" name=".cgifields" value="23"  /><input type="hidden" name
+..\\Data\\global_lib.h(407):     =".cgifields" value="13"  /><input type="hidden" name=".cgifields" value="105"  /><input t
+..\\Data\\global_lib.h(407):     ype="hidden" name=".cgifields" value="96"  /><input type="hidden" name=".cgifields" value=
+..\\Data\\global_lib.h(407):     "6"  /><input type="hidden" name=".cgifields" value="85"  /><input type="hidden" name=".cg
+..\\Data\\global_lib.h(407):     ifields" value="3"  /><input type="hidden" name=".cgifields" value="36"  /><input type="hi
+..\\Data\\global_lib.h(407):     dden" name=".cgifields" value="94"  /><input type="hidden" name=".cgifields" value="111"  
+..\\Data\\global_lib.h(407):     /><input type="hidden" name=".cgifields" value="9"  /><input type="hidden" name=".cgifield
+..\\Data\\global_lib.h(407):     s" value="51"  /><input type="hidden" name=".cgifields" value="47"  /><input type="hidden"
+..\\Data\\global_lib.h(407):      name=".cgifields" value="8"  /><input type="hidden" name=".cgifields" value="38"  /><inpu
+..\\Data\\global_lib.h(407):     t type="hidden" name=".cgifields" value="98"  /><input type="hidden" name=".cgifields" val
+..\\Data\\global_lib.h(407):     ue="4"  /><input type="hidden" name=".cgifields" value="34"  /><input type="hidden" name="
+..\\Data\\global_lib.h(407):     .cgifields" value="37"  /><input type="hidden" name=".cgifields" value="43"  /><input type
+..\\Data\\global_lib.h(407):     ="hidden" name=".cgifields" value="5"  /></div></form>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     </center>\n
+..\\Data\\global_lib.h(407):     \n
+..\\Data\\global_lib.h(407):     </body>\n
+..\\Data\\global_lib.h(407):     </html>
+..\\Data\\global_lib.h(407): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(407): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+..\\Data\\global_lib.h(407): t=1417351ms: Request done "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(407): t=1417351ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(407): t=1417351ms: 569-byte request headers for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=1105)
+..\\Data\\global_lib.h(407):     GET /WebTours/images/cancelreservation.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(407):     Referer: http://localhost:1080/cgi-bin/itinerary.pl\r\n
+..\\Data\\global_lib.h(407):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(407):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(407):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(407):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+..\\Data\\global_lib.h(407):     \r\n
+..\\Data\\global_lib.h(407):     Accept-Encoding: gzip, deflate\r\n
+..\\Data\\global_lib.h(407):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+..\\Data\\global_lib.h(407):     Accept: */*\r\n
+..\\Data\\global_lib.h(407):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(407):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(407):     Cookie: MSO=SID&1623079890; MTUserInfo=firstName&ivan9&address2&&username&ivan9&hash&121&l
+..\\Data\\global_lib.h(407):     astName&ivan9%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(407):     \r\n
+..\\Data\\global_lib.h(407): t=1417352ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(407): t=1417352ms: 573-byte request headers for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=1106)
+..\\Data\\global_lib.h(407):     GET /WebTours/images/cancelallreservations.gif HTTP/1.1\r\n
+..\\Data\\global_lib.h(407):     Referer: http://localhost:1080/cgi-bin/itinerary.pl\r\n
+..\\Data\\global_lib.h(407):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(407):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(407):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(407):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+..\\Data\\global_lib.h(407):     \r\n
+..\\Data\\global_lib.h(407):     Accept-Encoding: gzip, deflate\r\n
+..\\Data\\global_lib.h(407):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+..\\Data\\global_lib.h(407):     Accept: */*\r\n
+..\\Data\\global_lib.h(407):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(407):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(407):     Cookie: MSO=SID&1623079890; MTUserInfo=firstName&ivan9&address2&&username&ivan9&hash&121&l
+..\\Data\\global_lib.h(407):     astName&ivan9%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(407):     \r\n
+..\\Data\\global_lib.h(407): t=1417352ms: 297-byte response headers for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=1105)
+..\\Data\\global_lib.h(407):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(407):     Date: Mon, 07 Jun 2021 15:31:36 GMT\r\n
+..\\Data\\global_lib.h(407):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(407):     Last-Modified: Sun, 06 Jun 2021 20:13:35 GMT\r\n
+..\\Data\\global_lib.h(407):     ETag: "100000001ebc9-33f-5c41e8f4f5bd7"\r\n
+..\\Data\\global_lib.h(407):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(407):     Content-Length: 831\r\n
+..\\Data\\global_lib.h(407):     Keep-Alive: timeout=5, max=93\r\n
+..\\Data\\global_lib.h(407):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(407):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(407):     \r\n
+..\\Data\\global_lib.h(407): t=1417353ms: 831-byte response body for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=1105)
+..\\Data\\global_lib.h(407): t=1417353ms: Request done "http://localhost:1080/WebTours/images/cancelreservation.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(407): t=1417353ms: 297-byte response headers for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=1106)
+..\\Data\\global_lib.h(407):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(407):     Date: Mon, 07 Jun 2021 15:31:36 GMT\r\n
+..\\Data\\global_lib.h(407):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(407):     Last-Modified: Sun, 06 Jun 2021 20:13:35 GMT\r\n
+..\\Data\\global_lib.h(407):     ETag: "100000001ebc8-2e6-5c41e8f4f05e4"\r\n
+..\\Data\\global_lib.h(407):     Accept-Ranges: bytes\r\n
+..\\Data\\global_lib.h(407):     Content-Length: 742\r\n
+..\\Data\\global_lib.h(407):     Keep-Alive: timeout=5, max=98\r\n
+..\\Data\\global_lib.h(407):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(407):     Content-Type: image/gif\r\n
+..\\Data\\global_lib.h(407):     \r\n
+..\\Data\\global_lib.h(407): t=1417354ms: 742-byte response body for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=1106)
+..\\Data\\global_lib.h(407): t=1417354ms: Request done "http://localhost:1080/WebTours/images/cancelallreservations.gif"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(407): web_url("Itinerary Button") was successful, 138533 body bytes, 1913 header bytes, 291 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(38): Notify: Transaction "Go_to_itinerary_page" ended with a "Pass" status (Duration: 0.2136).	[MsgId: MMSG-16873]
+Action.c(41): Notify: Transaction "Sign_off" started.	[MsgId: MMSG-16999]
+..\\Data\\global_lib.h(226): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(226): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Data\\global_lib.h(228): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Data\\global_lib.h(228): t=1417354ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(228): t=1417354ms: 575-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=1107)
+..\\Data\\global_lib.h(228):     GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1\r\n
+..\\Data\\global_lib.h(228):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+..\\Data\\global_lib.h(228):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(228):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(228):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(228):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228):     Accept-Encoding: gzip, deflate\r\n
+..\\Data\\global_lib.h(228):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+..\\Data\\global_lib.h(228):     Accept: */*\r\n
+..\\Data\\global_lib.h(228):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(228):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(228):     Cookie: MSO=SID&1623079890; MTUserInfo=firstName&ivan9&address2&&username&ivan9&hash&121&l
+..\\Data\\global_lib.h(228):     astName&ivan9%0A&address1&&creditCard&&expDate&%0A\r\n
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228): t=1417397ms: 327-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=1107)
+..\\Data\\global_lib.h(228):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(228):     Date: Mon, 07 Jun 2021 15:31:36 GMT\r\n
+..\\Data\\global_lib.h(228):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(228):     Set-Cookie: MSO=SID&1623079896; path=/\r\n
+..\\Data\\global_lib.h(228):     Set-Cookie: MTUserInfo=; path=/; expires=Sun, 06-Jun-2021 15:31:36 GMT\r\n
+..\\Data\\global_lib.h(228):     Keep-Alive: timeout=5, max=92\r\n
+..\\Data\\global_lib.h(228):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(228):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(228):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228): t=1417397ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=1107)
+..\\Data\\global_lib.h(228):     2ae\r\n
+..\\Data\\global_lib.h(228): t=1417398ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=1107)
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228): t=1417398ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=1107)
+..\\Data\\global_lib.h(228):     <!-- \n
+..\\Data\\global_lib.h(228):      A Session ID has been created and loaded into a cookie called MSO.\n
+..\\Data\\global_lib.h(228):      Also, the server options have been loaded into the cookie called\n
+..\\Data\\global_lib.h(228):      MSO as well.  The server options can be set via the Admin page.\n
+..\\Data\\global_lib.h(228):      --->\n
+..\\Data\\global_lib.h(228):     \n
+..\\Data\\global_lib.h(228):     <html>\n
+..\\Data\\global_lib.h(228):     <title>Web Tours</title>\n
+..\\Data\\global_lib.h(228):        <!-- Frame Set -->\n
+..\\Data\\global_lib.h(228):        <frameset cols="160,*" border="1" frameborder="1">\n
+..\\Data\\global_lib.h(228):           <!-- Navigation Frame -->\n
+..\\Data\\global_lib.h(228):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+..\\Data\\global_lib.h(228):                 noresize="noresize" scrolling="auto"/>\n
+..\\Data\\global_lib.h(228):           <!-- Home Frame -->\n
+..\\Data\\global_lib.h(228):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+..\\Data\\global_lib.h(228):                 noresize="noresize" scrolling="auto"/>\n
+..\\Data\\global_lib.h(228):        </frameset>\n
+..\\Data\\global_lib.h(228):     </html>\n
+..\\Data\\global_lib.h(228):     \n
+..\\Data\\global_lib.h(228):     </body>\n
+..\\Data\\global_lib.h(228):     </html>
+..\\Data\\global_lib.h(228): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Data\\global_lib.h(228): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Data\\global_lib.h(228): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Data\\global_lib.h(228): t=1417398ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=1109)
+..\\Data\\global_lib.h(228):     <HTML>\n
+..\\Data\\global_lib.h(228):     <HEAD>\n
+..\\Data\\global_lib.h(228):     \t<title>Web Tours</title>\n
+..\\Data\\global_lib.h(228):     </HEAD>\n
+..\\Data\\global_lib.h(228):     <style>\n
+..\\Data\\global_lib.h(228):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\Data\\global_lib.h(228):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+..\\Data\\global_lib.h(228):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\Data\\global_lib.h(228):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\Data\\global_lib.h(228):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\Data\\global_lib.h(228):     N: none}\n
+..\\Data\\global_lib.h(228):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\Data\\global_lib.h(228):     CORATION: underline}\n
+..\\Data\\global_lib.h(228):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\Data\\global_lib.h(228):     </style>\n
+..\\Data\\global_lib.h(228):     <body bgcolor="#e0e7f1">\n
+..\\Data\\global_lib.h(228):     <BR/>\n
+..\\Data\\global_lib.h(228):     <BR/>\n
+..\\Data\\global_lib.h(228):     <BR/>\n
+..\\Data\\global_lib.h(228):     <br/>\n
+..\\Data\\global_lib.h(228):     <table border="0">\n
+..\\Data\\global_lib.h(228):     <tr><td></td></tr>\n
+..\\Data\\global_lib.h(228):     <TR><TD></TD></TR>\n
+..\\Data\\global_lib.h(228):     <TR><TD>\n
+..\\Data\\global_lib.h(228):     <blockquote>\n
+..\\Data\\global_lib.h(228):     <H1><b>Web Tours</b></H1>\n
+..\\Data\\global_lib.h(228):     Welcome to the Web Tours site.\n
+..\\Data\\global_lib.h(228):     <br/>\n
+..\\Data\\global_lib.h(228):     To make reservations,please enter your account information to the left.\n
+..\\Data\\global_lib.h(228):     <br/>\n
+..\\Data\\global_lib.h(228):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+..\\Data\\global_lib.h(228):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+..\\Data\\global_lib.h(228):     <br/>\n
+..\\Data\\global_lib.h(228):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+..\\Data\\global_lib.h(228):     tration</b></A> link.\n
+..\\Data\\global_lib.h(228):     <br/><br/><br/><br/><br/><br/>\n
+..\\Data\\global_lib.h(228):     <br/><small>\n
+..\\Data\\global_lib.h(228):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+..\\Data\\global_lib.h(228):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+..\\Data\\global_lib.h(228):     </small>\n
+..\\Data\\global_lib.h(228):     </blockquote></TD>\n
+..\\Data\\global_lib.h(228):     <TD></TD></TR>\n
+..\\Data\\global_lib.h(228):     </table>\n
+..\\Data\\global_lib.h(228):     </body>\n
+..\\Data\\global_lib.h(228):     </HTML>\n
+..\\Data\\global_lib.h(228): t=1417399ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(228): t=1417399ms: 448-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=1108)
+..\\Data\\global_lib.h(228):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
+..\\Data\\global_lib.h(228):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1\r\n
+..\\Data\\global_lib.h(228):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(228):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(228):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(228):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228):     Accept-Encoding: gzip, deflate\r\n
+..\\Data\\global_lib.h(228):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+..\\Data\\global_lib.h(228):     Accept: */*\r\n
+..\\Data\\global_lib.h(228):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(228):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(228):     Cookie: MSO=SID&1623079896\r\n
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228): t=1417400ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=1107)
+..\\Data\\global_lib.h(228):     0\r\n
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228): t=1417400ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(228): t=1417444ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=1108)
+..\\Data\\global_lib.h(228):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(228):     Date: Mon, 07 Jun 2021 15:31:36 GMT\r\n
+..\\Data\\global_lib.h(228):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(228):     Expires: Sun, 06 Jun 2021 15:31:36 GMT\r\n
+..\\Data\\global_lib.h(228):     Keep-Alive: timeout=5, max=97\r\n
+..\\Data\\global_lib.h(228):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(228):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(228):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228): t=1417444ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=1108)
+..\\Data\\global_lib.h(228):     5c9\r\n
+..\\Data\\global_lib.h(228): t=1417444ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=1108)
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228): t=1417444ms: 1481-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=1108)
+..\\Data\\global_lib.h(228):     <!DOCTYPE html\n
+..\\Data\\global_lib.h(228):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\Data\\global_lib.h(228):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\Data\\global_lib.h(228):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\Data\\global_lib.h(228):     <head>\n
+..\\Data\\global_lib.h(228):     <title>Web Tours Navigation Bar</title>\n
+..\\Data\\global_lib.h(228):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\Data\\global_lib.h(228):     </head>\n
+..\\Data\\global_lib.h(228):     <body bgcolor="#E0E7F1">\n
+..\\Data\\global_lib.h(228):     <style>\n
+..\\Data\\global_lib.h(228):     blockquote {font-family: tahoma; font-size : 10pt}\n
+..\\Data\\global_lib.h(228):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\Data\\global_lib.h(228):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\Data\\global_lib.h(228):     small {font-family: tahoma; font-size : 8pt}\n
+..\\Data\\global_lib.h(228):     </style>\n
+..\\Data\\global_lib.h(228):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+..\\Data\\global_lib.h(228):     <input type="hidden" name="userSession" value="131476.702794654zHzciDcpQtAfHzpQQHt"/>\n
+..\\Data\\global_lib.h(228):     <table border="0"><tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td>&nbsp;</td></tr>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td>&nbsp;</td></tr>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td><small>&nbsp;Username</small></td></tr>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td><small>&nbsp;Password</small></td>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td>&nbsp;</td></tr>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+..\\Data\\global_lib.h(228):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+..\\Data\\global_lib.h(228):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+..\\Data\\global_lib.h(228):     </form>\n
+..\\Data\\global_lib.h(228):     \n
+..\\Data\\global_lib.h(228):     </body>\n
+..\\Data\\global_lib.h(228):     </html>\n
+..\\Data\\global_lib.h(228): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Data\\global_lib.h(228): t=1417444ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=1108)
+..\\Data\\global_lib.h(228):     0\r\n
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228): t=1417444ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(228): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+..\\Data\\global_lib.h(228): web_url("SignOff Button") was successful, 2167 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(45): Notify: Transaction "Sign_off" ended with a "Pass" status (Duration: 0.0902).	[MsgId: MMSG-16873]
+Action.c(48): Notify: Transaction "S5_CheckItinerary" ended with a "Pass" status (Duration: 10.6458 Think Time: 10.0206).	[MsgId: MMSG-16872]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=1417444ms: Closed connection [0] to localhost:1080 after completing 9 request(s)  	[MsgId: MMSG-26000]
+t=1417444ms: Closed connection [1] to localhost:1080 after completing 4 request(s)  	[MsgId: MMSG-26000]
+t=1417444ms: Closed connection [2] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+t=1417444ms: Closed connection [3] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+t=1417444ms: Closed connection [4] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=1417444ms: Closed connection [5] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=23, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 4680), ended OK."	[MsgId: MMSG-10695]

@@ -1,0 +1,114 @@
+..\\Data\\global_lib.h(228):     <br/>\n
+..\\Data\\global_lib.h(228):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+..\\Data\\global_lib.h(228):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+..\\Data\\global_lib.h(228):     <br/>\n
+..\\Data\\global_lib.h(228):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+..\\Data\\global_lib.h(228):     tration</b></A> link.\n
+..\\Data\\global_lib.h(228):     <br/><br/><br/><br/><br/><br/>\n
+..\\Data\\global_lib.h(228):     <br/><small>\n
+..\\Data\\global_lib.h(228):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+..\\Data\\global_lib.h(228):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+..\\Data\\global_lib.h(228):     </small>\n
+..\\Data\\global_lib.h(228):     </blockquote></TD>\n
+..\\Data\\global_lib.h(228):     <TD></TD></TR>\n
+..\\Data\\global_lib.h(228):     </table>\n
+..\\Data\\global_lib.h(228):     </body>\n
+..\\Data\\global_lib.h(228):     </HTML>\n
+..\\Data\\global_lib.h(228): t=1486297ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=173)
+..\\Data\\global_lib.h(228):     0\r\n
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228): t=1486297ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(228): t=1486297ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(228): t=1486297ms: 497-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=174)
+..\\Data\\global_lib.h(228):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
+..\\Data\\global_lib.h(228):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1\r\n
+..\\Data\\global_lib.h(228):     Sec-Fetch-Dest: frame\r\n
+..\\Data\\global_lib.h(228):     Sec-Fetch-Site: same-origin\r\n
+..\\Data\\global_lib.h(228):     Sec-Fetch-User: ?1\r\n
+..\\Data\\global_lib.h(228):     Upgrade-Insecure-Requests: 1\r\n
+..\\Data\\global_lib.h(228):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\Data\\global_lib.h(228):     o) Chrome/90.0.4430.212 Safari/537.36\r\n
+..\\Data\\global_lib.h(228):     Accept-Encoding: gzip, deflate, br\r\n
+..\\Data\\global_lib.h(228):     Accept-Language: en-US,en;q=0.9,ru;q=0.8\r\n
+..\\Data\\global_lib.h(228):     Accept: */*\r\n
+..\\Data\\global_lib.h(228):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(228):     Host: localhost:1080\r\n
+..\\Data\\global_lib.h(228):     Cookie: MSO=SID&1623079995\r\n
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228): t=1486358ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=174)
+..\\Data\\global_lib.h(228):     HTTP/1.1 200 OK\r\n
+..\\Data\\global_lib.h(228):     Date: Mon, 07 Jun 2021 15:33:15 GMT\r\n
+..\\Data\\global_lib.h(228):     Server: Apache/2.2.21 (Win32)\r\n
+..\\Data\\global_lib.h(228):     Expires: Sun, 06 Jun 2021 15:33:15 GMT\r\n
+..\\Data\\global_lib.h(228):     Keep-Alive: timeout=5, max=98\r\n
+..\\Data\\global_lib.h(228):     Connection: Keep-Alive\r\n
+..\\Data\\global_lib.h(228):     Transfer-Encoding: chunked\r\n
+..\\Data\\global_lib.h(228):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228): t=1486358ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=174)
+..\\Data\\global_lib.h(228):     5ce\r\n
+..\\Data\\global_lib.h(228): t=1486359ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=174)
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228): t=1486359ms: 1486-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=174)
+..\\Data\\global_lib.h(228):     <!DOCTYPE html\n
+..\\Data\\global_lib.h(228):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\Data\\global_lib.h(228):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\Data\\global_lib.h(228):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\Data\\global_lib.h(228):     <head>\n
+..\\Data\\global_lib.h(228):     <title>Web Tours Navigation Bar</title>\n
+..\\Data\\global_lib.h(228):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\Data\\global_lib.h(228):     </head>\n
+..\\Data\\global_lib.h(228):     <body bgcolor="#E0E7F1">\n
+..\\Data\\global_lib.h(228):     <style>\n
+..\\Data\\global_lib.h(228):     blockquote {font-family: tahoma; font-size : 10pt}\n
+..\\Data\\global_lib.h(228):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\Data\\global_lib.h(228):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\Data\\global_lib.h(228):     small {font-family: tahoma; font-size : 8pt}\n
+..\\Data\\global_lib.h(228):     </style>\n
+..\\Data\\global_lib.h(228):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+..\\Data\\global_lib.h(228):     <input type="hidden" name="userSession" value="131476.710814095zHzciDDpDVcftAfHzpQQQiHf"/>
+..\\Data\\global_lib.h(228):     \n
+..\\Data\\global_lib.h(228):     <table border="0"><tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td>&nbsp;</td></tr>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td>&nbsp;</td></tr>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td><small>&nbsp;Username</small></td></tr>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td><small>&nbsp;Password</small></td>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td>&nbsp;</td></tr>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td>\n
+..\\Data\\global_lib.h(228):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+..\\Data\\global_lib.h(228):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+..\\Data\\global_lib.h(228):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+..\\Data\\global_lib.h(228):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+..\\Data\\global_lib.h(228):     </form>\n
+..\\Data\\global_lib.h(228):     \n
+..\\Data\\global_lib.h(228):     </body>\n
+..\\Data\\global_lib.h(228):     </html>\n
+..\\Data\\global_lib.h(228): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Data\\global_lib.h(228): t=1486361ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=174)
+..\\Data\\global_lib.h(228):     0\r\n
+..\\Data\\global_lib.h(228):     \r\n
+..\\Data\\global_lib.h(228): t=1486361ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+..\\Data\\global_lib.h(228): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+..\\Data\\global_lib.h(228): web_url("SignOff Button") was successful, 2172 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(34): Notify: Transaction "Sign_off" ended with a "Pass" status (Duration: 0.1160).	[MsgId: MMSG-16873]
+Action.c(37): Notify: Transaction "S1_Go_to_flights" ended with a "Pass" status (Duration: 15.7393 Think Time: 15.0107 Wasted Time: 0.0040).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=1486363ms: Closed connection [0] to localhost:1080 after completing 4 request(s)  	[MsgId: MMSG-26000]
+t=1486363ms: Closed connection [1] to localhost:1080 after completing 3 request(s)  	[MsgId: MMSG-26000]
+t=1486363ms: Closed connection [2] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=1486363ms: Closed connection [3] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=23, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 4764), ended OK."	[MsgId: MMSG-10695]

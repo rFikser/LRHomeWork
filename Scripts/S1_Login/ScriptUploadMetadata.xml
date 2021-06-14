@@ -16,6 +16,7 @@
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="combined_S1_Login.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="148982900440.idx" Filter="1" />
     <FileEntry Name="165637451440.idx" Filter="1" />
     <FileEntry Name="16563745144_fKt.63.idx" Filter="1" />
     <FileEntry Name="16563745144_g6i.289.idx" Filter="1" />
@@ -30,21 +31,39 @@
     <FileEntry Name="226941284440.idx" Filter="1" />
     <FileEntry Name="228891968440.idx" Filter="1" />
     <FileEntry Name="233010580440.idx" Filter="1" />
+    <FileEntry Name="24557614440.idx" Filter="1" />
     <FileEntry Name="24925536440.idx" Filter="1" />
     <FileEntry Name="36676764440.idx" Filter="1" />
     <FileEntry Name="3667676444_JOD.3.idx" Filter="1" />
     <FileEntry Name="3667676444_SR2.737.idx" Filter="1" />
     <FileEntry Name="56721328440.idx" Filter="1" />
+    <FileEntry Name="58349956440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv5tu.983.log" Filter="1" />
+    <FileEntry Name="mdrv9PG.297.log" Filter="1" />
+    <FileEntry Name="mdrvANy.431.log" Filter="1" />
     <FileEntry Name="mdrvB33.853.log" Filter="1" />
+    <FileEntry Name="mdrvFEG.539.log" Filter="1" />
+    <FileEntry Name="mdrvgUS.691.log" Filter="1" />
+    <FileEntry Name="mdrvh0C.777.log" Filter="1" />
+    <FileEntry Name="mdrvKlq.265.log" Filter="1" />
+    <FileEntry Name="mdrvmI3.883.log" Filter="1" />
+    <FileEntry Name="mdrvnP4.971.log" Filter="1" />
+    <FileEntry Name="mdrvNq0.625.log" Filter="1" />
+    <FileEntry Name="mdrvqmy.657.log" Filter="1" />
+    <FileEntry Name="mdrvsCa.273.log" Filter="1" />
+    <FileEntry Name="mdrvY3K.929.log" Filter="1" />
+    <FileEntry Name="mdrvyfT.943.log" Filter="1" />
+    <FileEntry Name="mdrvzEE.749.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="S1_Login.c.pickle" Filter="1" />
     <FileEntry Name="S1_Login.ci" Filter="1" />

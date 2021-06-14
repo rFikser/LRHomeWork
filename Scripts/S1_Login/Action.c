@@ -1,5 +1,7 @@
 Action()
 {
+	web_set_max_html_param_len("4500");
+	
 	lr_start_transaction("S1_Go_to_flights");
 
 		web_set_sockets_option("SSL_VERSION", "2&3");

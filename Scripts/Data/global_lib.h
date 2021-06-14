@@ -342,7 +342,6 @@ void go_to_itinerary_page() {
 		SEARCH_FILTERS,
 		LAST);
 
-	
 	web_reg_find("Text=User wants the intineraries",
 		LAST);
 

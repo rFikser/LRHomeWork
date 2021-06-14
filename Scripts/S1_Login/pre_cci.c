@@ -1,4 +1,4 @@
-# 1 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s1_login\\\\combined_S1_Login.c"
+# 1 "c:\\users\\fikser\\desktop\\ibs home work\\lrhomework\\scripts\\s1_login\\\\combined_S1_Login.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s1_login\\\\combined_S1_Login.c" 2
+# 1 "c:\\users\\fikser\\desktop\\ibs home work\\lrhomework\\scripts\\s1_login\\\\combined_S1_Login.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s1_login\\\\combined_S1_Login.c" 2
+# 2 "c:\\users\\fikser\\desktop\\ibs home work\\lrhomework\\scripts\\s1_login\\\\combined_S1_Login.c" 2
 
 # 1 "globals.h" 1
 
@@ -2590,37 +2590,37 @@ void welcome_page() {
 	web_add_header("Sec-Fetch-Site", 
 			"cross-site");
 	
-		web_add_header("Sec-Fetch-Mode", 
-			"cors");
+		 
+			 
 	
-		web_add_header("Sec-Fetch-Dest", 
-			"empty");
+		 
+			 
 	
-		web_add_header("Origin", 
-			"chrome-extension://gamlckmepdclkglolaedeigblmmpmfhf");
+		 
+			 
 	
-		web_add_auto_header("sec-ch-ua", 
-			"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"");
+		 
+			 
 	
-		web_add_auto_header("sec-ch-ua-mobile", 
-			"?0");
+		 
+			 
 	
-		web_add_auto_header("Sec-Fetch-Site", 
-			"none");
+		 
+			 
 	
-		web_add_auto_header("Sec-Fetch-Dest", 
-			"document");
+		 
+			 
 	
-		web_add_auto_header("Sec-Fetch-Mode", 
-			"navigate");
+		 
+			 
 	
-		web_add_auto_header("Sec-Fetch-User", 
-			"?1");
+		 
+			 
 	
-		web_add_auto_header("Upgrade-Insecure-Requests", 
-			"1");
+		 
+			 
 	
-		lr_think_time(13);
+		lr_think_time(5);
 		web_reg_find("Text=Web Tours","LAST");
 		web_reg_save_param_ex("ParamName=userSession", 
 			        "LB=name\=\"userSession\" value\=\"",
@@ -2643,7 +2643,8 @@ void welcome_page() {
 }
 
 void login() {
-	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+	
+			(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 	
 			web_add_auto_header("Sec-Fetch-Dest", 
 				"frame");
@@ -2656,7 +2657,7 @@ void login() {
 			web_add_auto_header("Sec-Fetch-Site", 
 			"same-origin");
 	
-			lr_think_time(6);
+			lr_think_time(5);
 			
 			web_reg_find("Text=Welcome","LAST");
 			
@@ -2711,7 +2712,7 @@ void find_flight() {
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	lr_think_time(4);
+	lr_think_time(5);
 
  
 	web_reg_save_param_attrib(
@@ -2768,7 +2769,7 @@ void reserve_flight() {
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	lr_think_time(7);
+	lr_think_time(5);
 
 	web_submit_data("reservations.pl_3",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",
@@ -2838,7 +2839,7 @@ void go_to_sign_up_page() {
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	lr_think_time(17);
+	lr_think_time(5);
 }
 
  
@@ -2913,7 +2914,7 @@ void go_to_itinerary_page() {
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 	
-	lr_think_time(8);
+	lr_think_time(5);
 	
 	web_reg_save_param_regexp(
 		"ParamName=flightNumber_original",
@@ -2936,9 +2937,10 @@ void go_to_itinerary_page() {
 void delete_flight() {
 	web_add_header("Origin", 
 		"http://127.0.0.1:1080");
+
 	
 
-	lr_think_time(20);
+	lr_think_time(5);
 
 	web_reg_save_param_regexp(
 		"ParamName=flightNumber",
@@ -2948,7 +2950,7 @@ void delete_flight() {
 		"SEARCH_FILTERS",
 		"LAST");
 
-	web_reg_find("Text=Flight #1 ",
+	web_reg_find("Text=Flights List",
 		"LAST");
 	
 	web_submit_form("itinerary.pl", 
@@ -3003,18 +3005,20 @@ void go_to_itinerary_page_url() {
  
 
 
-# 3 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s1_login\\\\combined_S1_Login.c" 2
+# 3 "c:\\users\\fikser\\desktop\\ibs home work\\lrhomework\\scripts\\s1_login\\\\combined_S1_Login.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s1_login\\\\combined_S1_Login.c" 2
+# 4 "c:\\users\\fikser\\desktop\\ibs home work\\lrhomework\\scripts\\s1_login\\\\combined_S1_Login.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
+	web_set_max_html_param_len("4500");
+	
 	lr_start_transaction("S1_Go_to_flights");
 
 		web_set_sockets_option("SSL_VERSION", "2&3");
@@ -3033,18 +3037,9 @@ Action()
 		lr_end_transaction("Login", 2);
 		
 		
-		lr_start_transaction("Go_to_flights");
-		
-		if (atoi(lr_eval_string("{Go_to_flights}"))% 10 < 5) {
-			go_to_flights_page();
-		}
-		
-		lr_end_transaction("Go_to_flights", 2);
-		
-		
 		lr_start_transaction("Go_to_itinerary_page");
 
-		go_to_itinerary_page();
+			go_to_itinerary_page();
 
 		lr_end_transaction("Go_to_itinerary_page", 2);
 		
@@ -3061,12 +3056,12 @@ Action()
 	
 
 }
-# 5 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s1_login\\\\combined_S1_Login.c" 2
+# 5 "c:\\users\\fikser\\desktop\\ibs home work\\lrhomework\\scripts\\s1_login\\\\combined_S1_Login.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\fikser\\desktop\\homework_ibs\\scripts\\s1_login\\\\combined_S1_Login.c" 2
+# 6 "c:\\users\\fikser\\desktop\\ibs home work\\lrhomework\\scripts\\s1_login\\\\combined_S1_Login.c" 2
 

@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\fikser\Desktop\HomeWork_IBS\Scripts\S2_FlightReservation
+-IC:\Users\fikser\Desktop\IBS HOME WORK\LRHomeWork\Scripts\S2_FlightReservation
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\fikser\desktop\homework_ibs\scripts\s2_flightreservation\\logfile.log
-c:\users\fikser\desktop\homework_ibs\scripts\s2_flightreservation\\combined_FlightReservation.c
-c:\users\fikser\desktop\homework_ibs\scripts\s2_flightreservation\\pre_cci.c
+-ec:\users\fikser\desktop\ibs home work\lrhomework\scripts\s2_flightreservation\\logfile.log
+c:\users\fikser\desktop\ibs home work\lrhomework\scripts\s2_flightreservation\\combined_FlightReservation.c
+c:\users\fikser\desktop\ibs home work\lrhomework\scripts\s2_flightreservation\\pre_cci.c
